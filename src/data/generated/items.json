@@ -517,7 +517,7 @@
     "id": "xerion_excavator",
     "slug": "xerion_excavator",
     "name": "Xerion-Excavator",
-    "kind": "misc",
+    "kind": "tool",
     "since": "0.0.2",
     "tooltip": [],
     "recipes": [
@@ -1342,7 +1342,7 @@
     "id": "urubithian_maul",
     "slug": "urubithian_maul",
     "name": "Urubithian Maul",
-    "kind": "misc",
+    "kind": "weapon",
     "since": "0.0.2",
     "durability": 500,
     "tooltip": [],
