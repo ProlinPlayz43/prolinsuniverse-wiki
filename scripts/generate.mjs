@@ -268,10 +268,10 @@ const itemsRaw = [];
 // ---------------------------------------------------------------- blocks
 function groupBlock(id) {
   if (/_ore$/.test(id)) return 'ore';
-  if (/(^|_)(block)$/.test(id) || /^(raw_.*_block)$/.test(id)) return 'storage';
+  if (/spawner|portal|teleport|gemcutter|enchanting|bookshelf|duplicator|foxfire|bloodspewer|test_fluid/.test(id)) return 'functional';
+  if (/^(raw_)?(tynite|ruby|radonite|xenonite|urubithium|solaris|kyrion|noctyrite|riftsteel)_block$/.test(id)) return 'metal';
   if (/arterwood/.test(id)) return 'wood';
   if (/hemastone|uru_|calcite|cragcane|nest/.test(id)) return 'natural';
-  if (/spawner|portal|teleport|gemcutter|enchanting|bookshelf|duplicator|foxfire|bloodspewer|test_fluid/.test(id)) return 'functional';
   return 'other';
 }
 const blocksRaw = [];
@@ -722,7 +722,7 @@ const groups = {
   Biomes: biomesOut.map((b) => `biomes:${b.id}  (${b.name})`),
 };
 for (const k of ['weapon', 'tool', 'armor', 'material', 'food', 'misc']) groups[`Items: ${k}`] = items.filter((i) => i.kind === k).map((i) => `items:${i.id}  (${i.name})`);
-for (const k of ['ore', 'storage', 'natural', 'wood', 'functional', 'other']) groups[`Blocks: ${k}`] = blocks.filter((b) => b.group === k).map((b) => `blocks:${b.id}  (${b.name})`);
+for (const k of ['ore', 'metal', 'natural', 'wood', 'functional', 'other']) groups[`Blocks: ${k}`] = blocks.filter((b) => b.group === k).map((b) => `blocks:${b.id}  (${b.name})`);
 const skipped = [
   ...itemsRaw.filter((i) => i.kind === 'spawn_egg').map((i) => `items:${i.id}  (spawn egg, shown on the mob page instead)`),
   ...entitiesRaw.length ? [] : [],

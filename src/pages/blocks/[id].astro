@@ -9,7 +9,7 @@ export function getStaticPaths() {
 }
 const { block } = Astro.props;
 
-const GROUP: Record<string, string> = { ore: 'Ore', storage: 'Storage block', natural: 'Natural block', wood: 'Wood block', functional: 'Functional block', other: 'Block' };
+const GROUP: Record<string, string> = { ore: 'Ore', metal: 'Metal block', natural: 'Natural block', wood: 'Wood block', functional: 'Functional block', other: 'Block' };
 const description: string | undefined = (descriptions.blocks as Record<string, string>)[block.id];
 
 const rows = [
