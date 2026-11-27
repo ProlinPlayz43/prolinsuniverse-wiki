@@ -18,7 +18,9 @@ const img = imageFor(kind, id);
 ---
 
 {
-  img ? (
+  img && pixelated ? (
+    <img src={img.src} width={img.width} height={img.height} alt={alt} loading="lazy" class="wiki-img pixelated" />
+  ) : img ? (
     <Image src={img} alt={alt} width={width} class:list={['wiki-img', { pixelated }]} />
   ) : (
     <div class:list={['wiki-ph', { small }]} style={`aspect-ratio:${ratio}`} role="img" aria-label={`No image of ${alt} yet`} data-image-slot={`${kind}/${id}`}>
