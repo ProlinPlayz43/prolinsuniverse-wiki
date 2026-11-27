@@ -3,7 +3,7 @@
 Everything below is registered in the mod source and is documented on the wiki.
 To leave something OUT, add its id (e.g. `items:ruby`) to the `exclude` list in `src/data/manifests/0.0.2.json` and run `npm run gen` again.
 
-Status: **NOT YET APPROVED**
+Status: **APPROVED**
 
 ## Mobs (29)
 
