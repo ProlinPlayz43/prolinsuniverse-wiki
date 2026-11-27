@@ -78,9 +78,12 @@ const imageFiles = import.meta.glob('/src/assets/images/**/*.{png,jpg,jpeg,webp,
 }) as Record<string, ImageMetadata>;
 
 export function imageFor(kind: string, id: string, suffix = ''): ImageMetadata | null {
-  for (const ext of ['png', 'jpg', 'jpeg', 'webp', 'gif']) {
-    const hit = imageFiles[`/src/assets/images/${kind}/${id}${suffix}.${ext}`];
-    if (hit) return hit;
+  // 3D-model renders live in <kind>/3dmodels/ so they stay separate from the flat texture images.
+  for (const dir of [kind, `${kind}/3dmodels`]) {
+    for (const ext of ['png', 'jpg', 'jpeg', 'webp', 'gif']) {
+      const hit = imageFiles[`/src/assets/images/${dir}/${id}${suffix}.${ext}`];
+      if (hit) return hit;
+    }
   }
   return null;
 }
