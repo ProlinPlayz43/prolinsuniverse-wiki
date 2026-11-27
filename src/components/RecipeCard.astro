@@ -1,0 +1,112 @@
+---
+// Renders one recipe from recipes.json as a small crafting grid / smelting line.
+import { recipeById, ref } from '../lib/data';
+
+const { id } = Astro.props as { id: string };
+const r = recipeById(id);
+const label = (r: any) => (r.type === 'crafting_shaped' ? 'Crafting' : r.type === 'crafting_shapeless' ? 'Crafting (shapeless)' : r.type === 'smelting' ? 'Smelting' : r.type === 'blasting' ? 'Blast furnace' : r.type);
+
+// shaped grid, padded to the real pattern size
+const grid: (string | null)[][] = r?.type === 'crafting_shaped' ? r.pattern.map((row: string) => [...row].map((c) => (c === ' ' ? null : (r.key[c] ?? null)))) : [];
+const cell = (id: string | null) => (id ? ref(id) : null);
+const result = r ? ref(r.result.id) : null;
+---
+
+{
+  r && result && (
+    <div class="recipe">
+      <div class="recipe__type">{label(r)}</div>
+      <div class="recipe__body">
+        {r.type === 'crafting_shaped' && (
+          <div class="grid" style={`--cols:${grid[0]?.length ?? 3}`}>
+            {grid.flat().map((c) => {
+              const x = cell(c);
+              return <div class:list={['cell', { empty: !x }]}>{x && (x.href ? <a href={x.href}>{x.name}</a> : x.name)}</div>;
+            })}
+          </div>
+        )}
+        {r.type === 'crafting_shapeless' && (
+          <ul class="list">
+            {Object.entries(r.ingredients).map(([ing, n]) => {
+              const x = ref(ing);
+              return <li>{String(n)}× {x.href ? <a href={x.href}>{x.name}</a> : x.name}</li>;
+            })}
+          </ul>
+        )}
+        {(r.type === 'smelting' || r.type === 'blasting') && (
+          <div class="list">
+            {(() => {
+              const x = ref(r.ingredient);
+              return x.href ? <a href={x.href}>{x.name}</a> : x.name;
+            })()}
+            <div class="wiki-muted"><small>{r.cookingTime / 20}s · {r.experience} XP</small></div>
+          </div>
+        )}
+        <div class="arrow" aria-hidden="true">→</div>
+        <div class="result">
+          {r.result.count}× {result.href ? <a href={result.href}>{result.name}</a> : result.name}
+        </div>
+      </div>
+    </div>
+  )
+}
+
+<style>
+  .recipe {
+    display: inline-block;
+    margin: 0.4rem 0.75rem 0.4rem 0;
+    padding: 0.5rem 0.7rem 0.7rem;
+    border: 1px solid var(--sl-color-hairline);
+    border-radius: 0.5rem;
+    background: var(--sl-color-bg-nav);
+    vertical-align: top;
+  }
+  .recipe__type {
+    margin-bottom: 0.4rem;
+    color: var(--sl-color-gray-2);
+    font-size: var(--sl-text-xs);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+  .recipe__body {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    font-size: var(--sl-text-sm);
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(var(--cols), 5.2rem);
+    gap: 3px;
+  }
+  .cell {
+    display: grid;
+    place-items: center;
+    min-height: 2.6rem;
+    padding: 0.15rem;
+    border: 1px solid var(--sl-color-gray-5);
+    background: var(--sl-color-gray-6);
+    text-align: center;
+    font-size: var(--sl-text-xs);
+    line-height: 1.15;
+    overflow-wrap: anywhere;
+  }
+  .cell.empty {
+    background: transparent;
+    border-style: dashed;
+    opacity: 0.5;
+  }
+  .list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  .arrow {
+    font-size: 1.4rem;
+    color: var(--sl-color-gray-3);
+  }
+  .result {
+    font-weight: 700;
+  }
+</style>

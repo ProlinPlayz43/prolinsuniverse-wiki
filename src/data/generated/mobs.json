@@ -1,0 +1,2336 @@
+[
+  {
+    "id": "gecko",
+    "name": "Gecko",
+    "category": "creature",
+    "className": "GeckoEntity",
+    "width": 0.75,
+    "height": 0.35,
+    "fireImmune": false,
+    "boss": false,
+    "tameable": false,
+    "rideable": false,
+    "health": 10,
+    "attackDamage": null,
+    "armor": null,
+    "armorToughness": null,
+    "movementSpeed": 0.25,
+    "flyingSpeed": null,
+    "followRange": 24,
+    "knockbackResistance": null,
+    "attributesRaw": {
+      "MAX_HEALTH": 10,
+      "MOVEMENT_SPEED": 0.25,
+      "FOLLOW_RANGE": 24
+    },
+    "spawnEgg": "gecko_spawn_egg",
+    "spawn": [],
+    "drops": [],
+    "review": [],
+    "since": "0.0.2"
+  },
+  {
+    "id": "urubithian_guard",
+    "name": "Urubithian Guard",
+    "category": "creature",
+    "className": "UrubithianGuardEntity",
+    "width": 0.8,
+    "height": 1.5,
+    "fireImmune": false,
+    "boss": false,
+    "tameable": false,
+    "rideable": false,
+    "health": 24,
+    "attackDamage": 5,
+    "armor": null,
+    "armorToughness": null,
+    "movementSpeed": 0.32,
+    "flyingSpeed": null,
+    "followRange": 24,
+    "knockbackResistance": null,
+    "attributesRaw": {
+      "MAX_HEALTH": 24,
+      "MOVEMENT_SPEED": 0.32,
+      "ATTACK_SPEED": 1.25,
+      "ATTACK_DAMAGE": 5,
+      "FOLLOW_RANGE": 24
+    },
+    "spawnEgg": "urubithian_guard_spawnegg",
+    "spawn": [],
+    "drops": [
+      {
+        "items": [
+          "prolinsuniverse:urubithium_fragment"
+        ],
+        "min": 2,
+        "max": 4,
+        "chance": 1
+      },
+      {
+        "items": [
+          "prolinsuniverse:urubithium_ingot"
+        ],
+        "min": 1,
+        "max": 1,
+        "chance": 0.3
+      },
+      {
+        "items": [
+          "prolinsuniverse:raw_radonite"
+        ],
+        "min": 1,
+        "max": 1,
+        "chance": 0.03
+      },
+      {
+        "items": [
+          "prolinsuniverse:raw_xenonite"
+        ],
+        "min": 1,
+        "max": 1,
+        "chance": 0.03
+      }
+    ],
+    "review": [],
+    "since": "0.0.2"
+  },
+  {
+    "id": "urubithian_warrior",
+    "name": "Urubithian Warrior",
+    "category": "creature",
+    "className": "UrubithianWarriorEntity",
+    "width": 1.2,
+    "height": 2.35,
+    "fireImmune": false,
+    "boss": false,
+    "tameable": false,
+    "rideable": false,
+    "health": 36,
+    "attackDamage": 8,
+    "armor": 1.3,
+    "armorToughness": null,
+    "movementSpeed": 0.26,
+    "flyingSpeed": null,
+    "followRange": 28,
+    "knockbackResistance": null,
+    "attributesRaw": {
+      "MAX_HEALTH": 36,
+      "MOVEMENT_SPEED": 0.26,
+      "ATTACK_SPEED": 0.8,
+      "ATTACK_DAMAGE": 8,
+      "ARMOR": 1.3,
+      "FOLLOW_RANGE": 28
+    },
+    "spawnEgg": "urubithian_warrior_spawnegg",
+    "spawn": [],
+    "drops": [
+      {
+        "items": [
+          "prolinsuniverse:urubithium_fragment"
+        ],
+        "min": 2,
+        "max": 5,
+        "chance": 1
+      },
+      {
+        "items": [
+          "prolinsuniverse:urubithium_ingot"
+        ],
+        "min": 1,
+        "max": 1,
+        "chance": 0.35
+      },
+      {
+        "items": [
+          "prolinsuniverse:raw_radonite"
+        ],
+        "min": 1,
+        "max": 1,
+        "chance": 0.03
+      },
+      {
+        "items": [
+          "prolinsuniverse:raw_xenonite"
+        ],
+        "min": 1,
+        "max": 1,
+        "chance": 0.03
+      },
+      {
+        "items": [
+          "prolinsuniverse:weighted_handle"
+        ],
+        "min": 1,
+        "max": 1,
+        "chance": 0.1
+      }
+    ],
+    "review": [],
+    "since": "0.0.2"
+  },
+  {
+    "id": "vein_skitter",
+    "name": "Vein Skitter",
+    "category": "creature",
+    "className": "VeinSkitterEntity",
+    "width": 1.6,
+    "height": 1.8,
+    "fireImmune": false,
+    "boss": false,
+    "tameable": false,
+    "rideable": false,
+    "health": 26,
+    "attackDamage": 5,
+    "armor": 0.6,
+    "armorToughness": null,
+    "movementSpeed": 0.56,
+    "flyingSpeed": null,
+    "followRange": 36,
+    "knockbackResistance": null,
+    "attributesRaw": {
+      "MAX_HEALTH": 26,
+      "MOVEMENT_SPEED": 0.56,
+      "ATTACK_SPEED": 1.6,
+      "ATTACK_DAMAGE": 5,
+      "ARMOR": 0.6,
+      "FOLLOW_RANGE": 36,
+      "STEP_HEIGHT": 1
+    },
+    "spawnEgg": "vein_skitter_spawnegg",
+    "spawn": [
+      {
+        "biomes": [
+          {
+            "id": "prolinsuniverse:broken_vein_biome",
+            "name": "Broken Vein",
+            "biome": "broken_vein_biome",
+            "vanilla": false
+          }
+        ],
+        "weight": 2,
+        "min": 1,
+        "max": 2,
+        "viaTags": []
+      },
+      {
+        "biomes": [
+          {
+            "id": "prolinsuniverse:fractured_spine_biome",
+            "name": "Fractured Spine",
+            "biome": "fractured_spine_biome",
+            "vanilla": false
+          }
+        ],
+        "weight": 3,
+        "min": 1,
+        "max": 2,
+        "viaTags": []
+      }
+    ],
+    "drops": [
+      {
+        "items": [
+          "prolinsuniverse:raw_radonite"
+        ],
+        "min": 1,
+        "max": 1,
+        "chance": 0.03
+      },
+      {
+        "items": [
+          "prolinsuniverse:raw_xenonite"
+        ],
+        "min": 1,
+        "max": 1,
+        "chance": 0.03
+      },
+      {
+        "items": [
+          "prolinsuniverse:vein_skitter_scale"
+        ],
+        "min": 2,
+        "max": 5,
+        "chance": 1
+      },
+      {
+        "items": [
+          "prolinsuniverse:vein_skitter_scale"
+        ],
+        "min": 2,
+        "max": 2,
+        "chance": 0.15
+      },
+      {
+        "items": [
+          "prolinsuniverse:raw_vein_skitter_meat"
+        ],
+        "cooked": "prolinsuniverse:cooked_vein_skitter_meat",
+        "min": 2,
+        "max": 4,
+        "chance": 1
+      }
+    ],
+    "review": [],
+    "since": "0.0.2"
+  },
+  {
+    "id": "urubithian_sentinel",
+    "name": "Urubithian Sentinel",
+    "category": "creature",
+    "className": "UrubithianSentinelEntity",
+    "width": 2.9,
+    "height": 5.125,
+    "fireImmune": false,
+    "boss": true,
+    "tameable": false,
+    "rideable": false,
+    "health": 300,
+    "attackDamage": 15,
+    "armor": 10,
+    "armorToughness": null,
+    "movementSpeed": 0.22,
+    "flyingSpeed": null,
+    "followRange": 40,
+    "knockbackResistance": 1,
+    "attributesRaw": {
+      "MAX_HEALTH": 300,
+      "MOVEMENT_SPEED": 0.22,
+      "ATTACK_SPEED": 0.5,
+      "ATTACK_DAMAGE": 15,
+      "ARMOR": 10,
+      "KNOCKBACK_RESISTANCE": 1,
+      "FOLLOW_RANGE": 40,
+      "STEP_HEIGHT": 1.5
+    },
+    "spawnEgg": "urubithian_sentinel_spawnegg",
+    "spawn": [],
+    "drops": [
+      {
+        "items": [
+          "prolinsuniverse:urubithium_fragment"
+        ],
+        "min": 4,
+        "max": 8,
+        "chance": 1
+      },
+      {
+        "items": [
+          "prolinsuniverse:urubithium_ingot"
+        ],
+        "min": 1,
+        "max": 3,
+        "chance": 1
+      },
+      {
+        "items": [
+          "prolinsuniverse:raw_radonite"
+        ],
+        "min": 1,
+        "max": 1,
+        "chance": 0.06
+      },
+      {
+        "items": [
+          "prolinsuniverse:raw_xenonite"
+        ],
+        "min": 1,
+        "max": 1,
+        "chance": 0.06
+      },
+      {
+        "items": [
+          "prolinsuniverse:urubithium_shard"
+        ],
+        "min": 1,
+        "max": 1,
+        "chance": 0.2
+      },
+      {
+        "items": [
+          "prolinsuniverse:broken_vein_portal_core"
+        ],
+        "min": 1,
+        "max": 1,
+        "chance": 1
+      }
+    ],
+    "review": [],
+    "since": "0.0.2"
+  },
+  {
+    "id": "vein_stalker",
+    "name": "Vein Stalker",
+    "category": "creature",
+    "className": "VeinStalkerEntity",
+    "width": 0.8,
+    "height": 2.5,
+    "fireImmune": false,
+    "boss": false,
+    "tameable": false,
+    "rideable": false,
+    "health": 36,
+    "attackDamage": 8,
+    "armor": 1.3,
+    "armorToughness": null,
+    "movementSpeed": 0.32,
+    "flyingSpeed": null,
+    "followRange": 28,
+    "knockbackResistance": null,
+    "attributesRaw": {
+      "MAX_HEALTH": 36,
+      "MOVEMENT_SPEED": 0.32,
+      "ATTACK_SPEED": 0.8,
+      "ATTACK_DAMAGE": 8,
+      "ARMOR": 1.3,
+      "FOLLOW_RANGE": 28,
+      "STEP_HEIGHT": 1
+    },
+    "spawnEgg": "vein_stalker_spawnegg",
+    "spawn": [
+      {
+        "biomes": [
+          {
+            "id": "prolinsuniverse:broken_vein_biome",
+            "name": "Broken Vein",
+            "biome": "broken_vein_biome",
+            "vanilla": false
+          }
+        ],
+        "weight": 2,
+        "min": 1,
+        "max": 2,
+        "viaTags": []
+      },
+      {
+        "biomes": [
+          {
+            "id": "prolinsuniverse:fractured_spine_biome",
+            "name": "Fractured Spine",
+            "biome": "fractured_spine_biome",
+            "vanilla": false
+          }
+        ],
+        "weight": 2,
+        "min": 1,
+        "max": 2,
+        "viaTags": []
+      },
+      {
+        "biomes": [
+          {
+            "id": "prolinsuniverse:the_bleeding_grove",
+            "name": "The Bleeding Grove",
+            "biome": "the_bleeding_grove",
+            "vanilla": false
+          }
+        ],
+        "weight": 2,
+        "min": 1,
+        "max": 2,
+        "viaTags": []
+      }
+    ],
+    "drops": [
+      {
+        "items": [
+          "prolinsuniverse:raw_radonite"
+        ],
+        "min": 1,
+        "max": 1,
+        "chance": 0.03
+      },
+      {
+        "items": [
+          "prolinsuniverse:raw_xenonite"
+        ],
+        "min": 1,
+        "max": 1,
+        "chance": 0.03
+      },
+      {
+        "items": [
+          "prolinsuniverse:vein_stalker_scale"
+        ],
+        "min": 3,
+        "max": 6,
+        "chance": 1
+      },
+      {
+        "items": [
+          "prolinsuniverse:vein_stalker_scale"
+        ],
+        "min": 3,
+        "max": 3,
+        "chance": 0.1
+      },
+      {
+        "items": [
+          "prolinsuniverse:raw_vein_stalker_meat"
+        ],
+        "cooked": "prolinsuniverse:cooked_vein_stalker_meat",
+        "min": 2,
+        "max": 4,
+        "chance": 1
+      }
+    ],
+    "review": [],
+    "since": "0.0.2"
+  },
+  {
+    "id": "wailing_wraith",
+    "name": "Wailing Wraith",
+    "category": "creature",
+    "className": "WailingWraithEntity",
+    "width": 0.6,
+    "height": 1.7,
+    "fireImmune": false,
+    "boss": false,
+    "tameable": false,
+    "rideable": false,
+    "health": 30,
+    "attackDamage": 2,
+    "armor": null,
+    "armorToughness": null,
+    "movementSpeed": 0.28,
+    "flyingSpeed": 0.6,
+    "followRange": 35,
+    "knockbackResistance": null,
+    "attributesRaw": {
+      "MAX_HEALTH": 30,
+      "MOVEMENT_SPEED": 0.28,
+      "FLYING_SPEED": 0.6,
+      "ATTACK_DAMAGE": 2,
+      "FOLLOW_RANGE": 35
+    },
+    "spawnEgg": "wailing_wraith_spawnegg",
+    "spawn": [],
+    "drops": [
+      {
+        "items": [
+          "prolinsuniverse:wailing_wraith_eye"
+        ],
+        "min": 1,
+        "max": 1,
+        "chance": 1
+      },
+      {
+        "items": [
+          "prolinsuniverse:wailing_wraith_eye"
+        ],
+        "min": 1,
+        "max": 1,
+        "chance": 0.15
+      },
+      {
+        "items": [
+          "minecraft:ghast_tear"
+        ],
+        "min": 1,
+        "max": 1,
+        "chance": 0.3
+      },
+      {
+        "items": [
+          "minecraft:glowstone_dust"
+        ],
+        "min": 2,
+        "max": 2,
+        "chance": 0.25
+      }
+    ],
+    "review": [],
+    "since": "0.0.2"
+  },
+  {
+    "id": "hemaspitter",
+    "name": "Hemaspitter",
+    "category": "creature",
+    "className": "HemaSpitterEntity",
+    "width": 0.6,
+    "height": 1.7,
+    "fireImmune": false,
+    "boss": false,
+    "tameable": false,
+    "rideable": false,
+    "health": 36,
+    "attackDamage": 8,
+    "armor": 1.3,
+    "armorToughness": null,
+    "movementSpeed": 0.32,
+    "flyingSpeed": null,
+    "followRange": 28,
+    "knockbackResistance": null,
+    "attributesRaw": {
+      "MAX_HEALTH": 36,
+      "MOVEMENT_SPEED": 0.32,
+      "ATTACK_SPEED": 0.8,
+      "ATTACK_DAMAGE": 8,
+      "ARMOR": 1.3,
+      "FOLLOW_RANGE": 28,
+      "STEP_HEIGHT": 1
+    },
+    "spawnEgg": "hemaspitter_spawnegg",
+    "spawn": [
+      {
+        "biomes": [
+          {
+            "id": "prolinsuniverse:broken_vein_biome",
+            "name": "Broken Vein",
+            "biome": "broken_vein_biome",
+            "vanilla": false
+          }
+        ],
+        "weight": 1,
+        "min": 1,
+        "max": 2,
+        "viaTags": []
+      }
+    ],
+    "drops": [
+      {
+        "items": [
+          "prolinsuniverse:raw_radonite"
+        ],
+        "min": 1,
+        "max": 1,
+        "chance": 0.03
+      },
+      {
+        "items": [
+          "prolinsuniverse:raw_xenonite"
+        ],
+        "min": 1,
+        "max": 1,
+        "chance": 0.03
+      },
+      {
+        "items": [
+          "prolinsuniverse:venom_gland"
+        ],
+        "min": 1,
+        "max": 2,
+        "chance": 1
+      },
+      {
+        "items": [
+          "prolinsuniverse:hemaspitter_venom"
+        ],
+        "min": 1,
+        "max": 1,
+        "chance": 0.3
+      }
+    ],
+    "review": [],
+    "since": "0.0.2"
+  },
+  {
+    "id": "vein_ravager",
+    "name": "Vein Ravager",
+    "category": "creature",
+    "className": "VeinRavagerEntity",
+    "width": 1.3,
+    "height": 3.2,
+    "fireImmune": false,
+    "boss": false,
+    "tameable": false,
+    "rideable": false,
+    "health": 80,
+    "attackDamage": 10,
+    "armor": 6,
+    "armorToughness": null,
+    "movementSpeed": 0.35,
+    "flyingSpeed": null,
+    "followRange": 40,
+    "knockbackResistance": 0.6,
+    "attributesRaw": {
+      "MAX_HEALTH": 80,
+      "MOVEMENT_SPEED": 0.35,
+      "ATTACK_SPEED": 1.2,
+      "ATTACK_DAMAGE": 10,
+      "ARMOR": 6,
+      "FOLLOW_RANGE": 40,
+      "STEP_HEIGHT": 1.5,
+      "KNOCKBACK_RESISTANCE": 0.6
+    },
+    "spawnEgg": "vein_ravager_spawnegg",
+    "spawn": [
+      {
+        "biomes": [
+          {
+            "id": "prolinsuniverse:broken_vein_biome",
+            "name": "Broken Vein",
+            "biome": "broken_vein_biome",
+            "vanilla": false
+          }
+        ],
+        "weight": 1,
+        "min": 1,
+        "max": 1,
+        "viaTags": []
+      },
+      {
+        "biomes": [
+          {
+            "id": "prolinsuniverse:fractured_spine_biome",
+            "name": "Fractured Spine",
+            "biome": "fractured_spine_biome",
+            "vanilla": false
+          }
+        ],
+        "weight": 1,
+        "min": 1,
+        "max": 1,
+        "viaTags": []
+      }
+    ],
+    "drops": [
+      {
+        "items": [
+          "prolinsuniverse:raw_radonite"
+        ],
+        "min": 1,
+        "max": 1,
+        "chance": 0.04
+      },
+      {
+        "items": [
+          "prolinsuniverse:raw_xenonite"
+        ],
+        "min": 1,
+        "max": 1,
+        "chance": 0.04
+      },
+      {
+        "items": [
+          "prolinsuniverse:ravager_horn"
+        ],
+        "min": 1,
+        "max": 1,
+        "chance": 1
+      },
+      {
+        "items": [
+          "prolinsuniverse:urubithium_fragment"
+        ],
+        "min": 1,
+        "max": 3,
+        "chance": 1
+      }
+    ],
+    "review": [],
+    "since": "0.0.2"
+  },
+  {
+    "id": "vein_ripper",
+    "name": "Vein Ripper",
+    "category": "creature",
+    "className": "VeinRipperEntity",
+    "width": 0.9,
+    "height": 1.5,
+    "fireImmune": false,
+    "boss": false,
+    "tameable": false,
+    "rideable": false,
+    "health": 18,
+    "attackDamage": 4,
+    "armor": null,
+    "armorToughness": null,
+    "movementSpeed": 0.38,
+    "flyingSpeed": null,
+    "followRange": 32,
+    "knockbackResistance": null,
+    "attributesRaw": {
+      "MAX_HEALTH": 18,
+      "MOVEMENT_SPEED": 0.38,
+      "ATTACK_DAMAGE": 4,
+      "ATTACK_SPEED": 1.6,
+      "FOLLOW_RANGE": 32
+    },
+    "spawnEgg": "vein_ripper_spawnegg",
+    "spawn": [
+      {
+        "biomes": [
+          {
+            "id": "prolinsuniverse:broken_vein_biome",
+            "name": "Broken Vein",
+            "biome": "broken_vein_biome",
+            "vanilla": false
+          }
+        ],
+        "weight": 3,
+        "min": 2,
+        "max": 4,
+        "viaTags": []
+      },
+      {
+        "biomes": [
+          {
+            "id": "prolinsuniverse:fractured_spine_biome",
+            "name": "Fractured Spine",
+            "biome": "fractured_spine_biome",
+            "vanilla": false
+          }
+        ],
+        "weight": 2,
+        "min": 1,
+        "max": 3,
+        "viaTags": []
+      }
+    ],
+    "drops": [
+      {
+        "items": [
+          "minecraft:bone"
+        ],
+        "min": 1,
+        "max": 2,
+        "chance": 1
+      },
+      {
+        "items": [
+          "minecraft:iron_nugget"
+        ],
+        "min": 2,
+        "max": 2,
+        "chance": 0.35
+      },
+      {
+        "items": [
+          "prolinsuniverse:raw_radonite"
+        ],
+        "min": 1,
+        "max": 1,
+        "chance": 0.05
+      },
+      {
+        "items": [
+          "prolinsuniverse:raw_xenonite"
+        ],
+        "min": 1,
+        "max": 1,
+        "chance": 0.05
+      },
+      {
+        "items": [
+          "prolinsuniverse:experium_nugget"
+        ],
+        "min": 1,
+        "max": 1,
+        "chance": 0.08
+      }
+    ],
+    "review": [],
+    "since": "0.0.2"
+  },
+  {
+    "id": "storm_caller",
+    "name": "Storm Caller",
+    "category": "creature",
+    "className": "StormCallerEntity",
+    "width": 2.9,
+    "height": 7.2,
+    "fireImmune": false,
+    "boss": true,
+    "tameable": false,
+    "rideable": false,
+    "health": 800,
+    "attackDamage": 40,
+    "armor": 1.2,
+    "armorToughness": 1.2,
+    "movementSpeed": 0.28,
+    "flyingSpeed": 0.6,
+    "followRange": 64,
+    "knockbackResistance": null,
+    "attributesRaw": {
+      "MAX_HEALTH": 800,
+      "MOVEMENT_SPEED": 0.28,
+      "FLYING_SPEED": 0.6,
+      "ATTACK_DAMAGE": 40,
+      "ARMOR": 1.2,
+      "ARMOR_TOUGHNESS": 1.2,
+      "FOLLOW_RANGE": 64
+    },
+    "spawnEgg": null,
+    "spawn": [],
+    "drops": [
+      {
+        "items": [
+          "prolinsuniverse:storm_caller_heart"
+        ],
+        "min": 1,
+        "max": 1,
+        "chance": 1
+      },
+      {
+        "items": [
+          "prolinsuniverse:storm_caller_heart"
+        ],
+        "min": 1,
+        "max": 1,
+        "chance": 0.02
+      },
+      {
+        "items": [
+          "minecraft:ink_sac"
+        ],
+        "min": 12,
+        "max": 20,
+        "chance": 1
+      },
+      {
+        "items": [
+          "minecraft:phantom_membrane"
+        ],
+        "min": 2,
+        "max": 5,
+        "chance": 1
+      },
+      {
+        "items": [
+          "minecraft:ghast_tear"
+        ],
+        "min": 3,
+        "max": 3,
+        "chance": 0.3
+      },
+      {
+        "items": [
+          "prolinsuniverse:noctyrite_ingot"
+        ],
+        "min": 3,
+        "max": 6,
+        "chance": 1
+      },
+      {
+        "items": [
+          "prolinsuniverse:noctyrite_nugget"
+        ],
+        "min": 8,
+        "max": 16,
+        "chance": 1
+      },
+      {
+        "items": [
+          "prolinsuniverse:noctyrite_ingot"
+        ],
+        "min": 2,
+        "max": 5,
+        "chance": 0.35,
+        "oneOf": true
+      },
+      {
+        "items": [
+          "prolinsuniverse:noctyrite_nugget"
+        ],
+        "min": 8,
+        "max": 8,
+        "chance": 0.4
+      },
+      {
+        "items": [
+          "prolinsuniverse:experium_nugget"
+        ],
+        "min": 4,
+        "max": 10,
+        "chance": 1
+      },
+      {
+        "items": [
+          "minecraft:copper_ingot"
+        ],
+        "min": 6,
+        "max": 14,
+        "chance": 1
+      },
+      {
+        "items": [
+          "minecraft:lightning_rod"
+        ],
+        "min": 1,
+        "max": 3,
+        "chance": 1
+      },
+      {
+        "items": [
+          "minecraft:breeze_rod"
+        ],
+        "min": 3,
+        "max": 3,
+        "chance": 0.3
+      },
+      {
+        "items": [
+          "minecraft:glowstone_dust"
+        ],
+        "min": 6,
+        "max": 6,
+        "chance": 0.4
+      },
+      {
+        "items": [
+          "minecraft:amethyst_shard"
+        ],
+        "min": 4,
+        "max": 4,
+        "chance": 0.5
+      },
+      {
+        "items": [
+          "minecraft:prismarine_crystals"
+        ],
+        "min": 10,
+        "max": 10,
+        "chance": 0.6
+      },
+      {
+        "items": [
+          "minecraft:prismarine_shard"
+        ],
+        "min": 12,
+        "max": 12,
+        "chance": 0.55
+      },
+      {
+        "items": [
+          "minecraft:nautilus_shell"
+        ],
+        "min": 2,
+        "max": 2,
+        "chance": 0.35
+      },
+      {
+        "items": [
+          "minecraft:heart_of_the_sea"
+        ],
+        "min": 1,
+        "max": 1,
+        "chance": 0.08
+      },
+      {
+        "items": [
+          "minecraft:diamond"
+        ],
+        "min": 2,
+        "max": 2,
+        "chance": 0.25
+      },
+      {
+        "items": [
+          "minecraft:emerald"
+        ],
+        "min": 3,
+        "max": 3,
+        "chance": 0.3
+      },
+      {
+        "items": [
+          "prolinsuniverse:ruby"
+        ],
+        "min": 1,
+        "max": 3,
+        "chance": 0.2,
+        "oneOf": true
+      },
+      {
+        "items": [
+          "minecraft:echo_shard"
+        ],
+        "min": 2,
+        "max": 2,
+        "chance": 0.15
+      },
+      {
+        "items": [
+          "minecraft:trident"
+        ],
+        "min": 1,
+        "max": 1,
+        "chance": 0.01
+      }
+    ],
+    "review": [],
+    "since": "0.0.2"
+  },
+  {
+    "id": "skarn",
+    "name": "Skarn",
+    "category": "creature",
+    "className": "SkarnEntity",
+    "width": 1.25,
+    "height": 1.2,
+    "fireImmune": false,
+    "boss": false,
+    "tameable": true,
+    "rideable": true,
+    "health": 24,
+    "attackDamage": 5,
+    "armor": null,
+    "armorToughness": null,
+    "movementSpeed": 0.32,
+    "flyingSpeed": null,
+    "followRange": 24,
+    "knockbackResistance": null,
+    "attributesRaw": {
+      "MAX_HEALTH": 24,
+      "MOVEMENT_SPEED": 0.32,
+      "ATTACK_SPEED": 1.25,
+      "ATTACK_DAMAGE": 5,
+      "FOLLOW_RANGE": 24
+    },
+    "spawnEgg": "skarn_spawnegg",
+    "spawn": [],
+    "drops": [
+      {
+        "items": [
+          "prolinsuniverse:urubithium_fragment"
+        ],
+        "min": 2,
+        "max": 5,
+        "chance": 1
+      },
+      {
+        "items": [
+          "prolinsuniverse:urubithium_ingot"
+        ],
+        "min": 1,
+        "max": 1,
+        "chance": 0.4
+      },
+      {
+        "items": [
+          "minecraft:magma_cream"
+        ],
+        "min": 1,
+        "max": 1,
+        "chance": 0.25
+      },
+      {
+        "items": [
+          "prolinsuniverse:raw_radonite"
+        ],
+        "min": 1,
+        "max": 1,
+        "chance": 0.03
+      },
+      {
+        "items": [
+          "prolinsuniverse:raw_xenonite"
+        ],
+        "min": 1,
+        "max": 1,
+        "chance": 0.03
+      }
+    ],
+    "review": [],
+    "since": "0.0.2"
+  },
+  {
+    "id": "scither",
+    "name": "Scither",
+    "category": "creature",
+    "className": "ScitherEntity",
+    "width": 0.4,
+    "height": 0.35,
+    "fireImmune": false,
+    "boss": false,
+    "tameable": false,
+    "rideable": false,
+    "health": 6,
+    "attackDamage": 2,
+    "armor": null,
+    "armorToughness": null,
+    "movementSpeed": 0.13,
+    "flyingSpeed": null,
+    "followRange": 16,
+    "knockbackResistance": null,
+    "attributesRaw": {
+      "MAX_HEALTH": 6,
+      "MOVEMENT_SPEED": 0.13,
+      "ATTACK_DAMAGE": 2,
+      "FOLLOW_RANGE": 16
+    },
+    "spawnEgg": "scither_spawnegg",
+    "spawn": [],
+    "drops": [
+      {
+        "items": [
+          "minecraft:iron_nugget"
+        ],
+        "min": 2,
+        "max": 2,
+        "chance": 0.45
+      },
+      {
+        "items": [
+          "minecraft:diamond"
+        ],
+        "min": 1,
+        "max": 1,
+        "chance": 0.05
+      },
+      {
+        "items": [
+          "minecraft:netherite_ingot"
+        ],
+        "min": 1,
+        "max": 1,
+        "chance": 0.02
+      },
+      {
+        "items": [
+          "prolinsuniverse:radonite_nugget",
+          "prolinsuniverse:xenonite_nugget"
+        ],
+        "min": 1,
+        "max": 1,
+        "chance": 0.01,
+        "oneOf": true
+      },
+      {
+        "items": [
+          "prolinsuniverse:scither_normal_skin",
+          "prolinsuniverse:scither_brown_skin",
+          "prolinsuniverse:scither_purple_skin",
+          "prolinsuniverse:scither_red_skin"
+        ],
+        "min": 1,
+        "max": 1,
+        "chance": 1,
+        "note": "Always drops the skin matching its own colour (normal, brown, purple or red).",
+        "special": true
+      }
+    ],
+    "review": [],
+    "since": "0.0.2"
+  },
+  {
+    "id": "ender_skeleton",
+    "name": "Ender Skeleton",
+    "category": "creature",
+    "className": "EnderSkeletonEntity",
+    "width": 0.7,
+    "height": 2.1,
+    "fireImmune": false,
+    "boss": false,
+    "tameable": false,
+    "rideable": false,
+    "health": 30,
+    "attackDamage": 4,
+    "armor": null,
+    "armorToughness": null,
+    "movementSpeed": 0.25,
+    "flyingSpeed": null,
+    "followRange": 32,
+    "knockbackResistance": null,
+    "attributesRaw": {
+      "MAX_HEALTH": 30,
+      "MOVEMENT_SPEED": 0.25,
+      "ATTACK_DAMAGE": 4,
+      "FOLLOW_RANGE": 32
+    },
+    "spawnEgg": "ender_skeleton_spawnegg",
+    "spawn": [],
+    "drops": [
+      {
+        "items": [
+          "minecraft:ender_pearl"
+        ],
+        "min": 1,
+        "max": 2,
+        "chance": 1
+      },
+      {
+        "items": [
+          "minecraft:bone"
+        ],
+        "min": 1,
+        "max": 2,
+        "chance": 1
+      },
+      {
+        "items": [
+          "prolinsuniverse:experium_nugget"
+        ],
+        "min": 1,
+        "max": 1,
+        "chance": 0.15
+      },
+      {
+        "items": [
+          "prolinsuniverse:noctyrite_nugget"
+        ],
+        "min": 1,
+        "max": 1,
+        "chance": 0.05
+      },
+      {
+        "items": [
+          "prolinsuniverse:ender_staff"
+        ],
+        "min": 1,
+        "max": 1,
+        "chance": 1
+      },
+      {
+        "items": [
+          "prolinsuniverse:soulrift_orb"
+        ],
+        "min": 1,
+        "max": 1,
+        "chance": 1
+      }
+    ],
+    "review": [],
+    "since": "0.0.2"
+  },
+  {
+    "id": "demonic_eye",
+    "name": "Demonic Eye",
+    "category": "monster",
+    "className": "DemonicEyeEntity",
+    "width": 0.9,
+    "height": 0.9,
+    "fireImmune": false,
+    "boss": false,
+    "tameable": false,
+    "rideable": false,
+    "health": 30,
+    "attackDamage": 4,
+    "armor": null,
+    "armorToughness": null,
+    "movementSpeed": 0.2,
+    "flyingSpeed": 0.5,
+    "followRange": 35,
+    "knockbackResistance": null,
+    "attributesRaw": {
+      "MAX_HEALTH": 30,
+      "MOVEMENT_SPEED": 0.2,
+      "FLYING_SPEED": 0.5,
+      "ATTACK_DAMAGE": 4,
+      "FOLLOW_RANGE": 35
+    },
+    "spawnEgg": null,
+    "spawn": [
+      {
+        "biomes": [
+          {
+            "id": "prolinsuniverse:broken_vein_biome",
+            "name": "Broken Vein",
+            "biome": "broken_vein_biome",
+            "vanilla": false
+          },
+          {
+            "id": "prolinsuniverse:fractured_spine_biome",
+            "name": "Fractured Spine",
+            "biome": "fractured_spine_biome",
+            "vanilla": false
+          },
+          {
+            "id": "prolinsuniverse:the_bleeding_grove",
+            "name": "The Bleeding Grove",
+            "biome": "the_bleeding_grove",
+            "vanilla": false
+          }
+        ],
+        "weight": 6,
+        "min": 1,
+        "max": 1,
+        "viaTags": []
+      },
+      {
+        "biomes": [
+          {
+            "id": "#minecraft:is_nether",
+            "name": "Nether (all biomes)",
+            "biome": null,
+            "vanilla": true
+          }
+        ],
+        "weight": 8,
+        "min": 1,
+        "max": 1,
+        "viaTags": [
+          "#minecraft:is_nether"
+        ]
+      }
+    ],
+    "drops": [],
+    "review": [],
+    "since": "0.0.2"
+  },
+  {
+    "id": "werebear",
+    "name": "Werebear",
+    "category": "creature",
+    "className": "WerebearEntity",
+    "width": 1.7,
+    "height": 2,
+    "fireImmune": false,
+    "boss": false,
+    "tameable": false,
+    "rideable": false,
+    "health": 70,
+    "attackDamage": 12,
+    "armor": 6,
+    "armorToughness": null,
+    "movementSpeed": 0.28,
+    "flyingSpeed": null,
+    "followRange": 32,
+    "knockbackResistance": 0.7,
+    "attributesRaw": {
+      "MAX_HEALTH": 70,
+      "MOVEMENT_SPEED": 0.28,
+      "ATTACK_DAMAGE": 12,
+      "ARMOR": 6,
+      "KNOCKBACK_RESISTANCE": 0.7,
+      "FOLLOW_RANGE": 32,
+      "STEP_HEIGHT": 1
+    },
+    "spawnEgg": "werebear_spawnegg",
+    "spawn": [],
+    "drops": [
+      {
+        "items": [
+          "prolinsuniverse:werebear_fur"
+        ],
+        "min": 1,
+        "max": 3,
+        "chance": 1
+      }
+    ],
+    "review": [],
+    "since": "0.0.2"
+  },
+  {
+    "id": "skeleton_lord",
+    "name": "Skeleton Lord",
+    "category": "monster",
+    "className": "SkeletonLordEntity",
+    "width": 1.6,
+    "height": 5,
+    "fireImmune": true,
+    "boss": true,
+    "tameable": false,
+    "rideable": false,
+    "health": 700,
+    "attackDamage": 10,
+    "armor": 15,
+    "armorToughness": 4,
+    "movementSpeed": 0.25,
+    "flyingSpeed": null,
+    "followRange": 40,
+    "knockbackResistance": 1,
+    "attributesRaw": {
+      "MAX_HEALTH": 700,
+      "ARMOR": 15,
+      "ARMOR_TOUGHNESS": 4,
+      "MOVEMENT_SPEED": 0.25,
+      "ATTACK_DAMAGE": 10,
+      "KNOCKBACK_RESISTANCE": 1,
+      "FOLLOW_RANGE": 40,
+      "STEP_HEIGHT": 1
+    },
+    "spawnEgg": "skeleton_lord_spawnegg",
+    "spawn": [],
+    "drops": [
+      {
+        "items": [
+          "minecraft:bone"
+        ],
+        "min": 4,
+        "max": 8,
+        "chance": 1
+      },
+      {
+        "items": [
+          "prolinsuniverse:lich_crystal"
+        ],
+        "min": 3,
+        "max": 5,
+        "chance": 1
+      }
+    ],
+    "review": [],
+    "since": "0.0.2"
+  },
+  {
+    "id": "flying_skull",
+    "name": "Flying Skull",
+    "category": "monster",
+    "className": "FlyingSkullEntity",
+    "width": 0.6,
+    "height": 0.8,
+    "fireImmune": false,
+    "boss": false,
+    "tameable": false,
+    "rideable": false,
+    "health": 8,
+    "attackDamage": 4,
+    "armor": null,
+    "armorToughness": null,
+    "movementSpeed": 0.3,
+    "flyingSpeed": 0.6,
+    "followRange": 32,
+    "knockbackResistance": null,
+    "attributesRaw": {
+      "MAX_HEALTH": 8,
+      "FLYING_SPEED": 0.6,
+      "MOVEMENT_SPEED": 0.3,
+      "ATTACK_DAMAGE": 4,
+      "FOLLOW_RANGE": 32
+    },
+    "spawnEgg": "flying_skull_spawnegg",
+    "spawn": [],
+    "drops": [
+      {
+        "items": [
+          "minecraft:bone"
+        ],
+        "min": 0,
+        "max": 2,
+        "chance": 1
+      }
+    ],
+    "review": [],
+    "since": "0.0.2"
+  },
+  {
+    "id": "prismoth",
+    "name": "Prismoth",
+    "category": "monster",
+    "className": "PrismothEntity",
+    "width": 2.9,
+    "height": 2.9,
+    "fireImmune": false,
+    "boss": false,
+    "tameable": false,
+    "rideable": false,
+    "health": 80,
+    "attackDamage": 9,
+    "armor": 6,
+    "armorToughness": null,
+    "movementSpeed": 0.3,
+    "flyingSpeed": 0.55,
+    "followRange": 40,
+    "knockbackResistance": 0.6,
+    "attributesRaw": {
+      "MAX_HEALTH": 80,
+      "ARMOR": 6,
+      "ATTACK_DAMAGE": 9,
+      "ATTACK_KNOCKBACK": 0.8,
+      "FLYING_SPEED": 0.55,
+      "MOVEMENT_SPEED": 0.3,
+      "KNOCKBACK_RESISTANCE": 0.6,
+      "FOLLOW_RANGE": 40
+    },
+    "spawnEgg": "prismoth_spawnegg",
+    "spawn": [
+      {
+        "biomes": [
+          {
+            "id": "#minecraft:is_overworld",
+            "name": "Overworld biomes",
+            "biome": null,
+            "vanilla": true
+          }
+        ],
+        "weight": 6,
+        "min": 1,
+        "max": 1,
+        "viaTags": [
+          "#minecraft:is_overworld"
+        ]
+      },
+      {
+        "biomes": [
+          {
+            "id": "prolinsuniverse:broken_vein_biome",
+            "name": "Broken Vein",
+            "biome": "broken_vein_biome",
+            "vanilla": false
+          },
+          {
+            "id": "prolinsuniverse:fractured_spine_biome",
+            "name": "Fractured Spine",
+            "biome": "fractured_spine_biome",
+            "vanilla": false
+          },
+          {
+            "id": "prolinsuniverse:the_bleeding_grove",
+            "name": "The Bleeding Grove",
+            "biome": "the_bleeding_grove",
+            "vanilla": false
+          }
+        ],
+        "weight": 6,
+        "min": 1,
+        "max": 1,
+        "viaTags": []
+      }
+    ],
+    "drops": [
+      {
+        "items": [
+          "prolinsuniverse:prismoth_eye"
+        ],
+        "min": 1,
+        "max": 1,
+        "chance": 1
+      },
+      {
+        "items": [
+          "prolinsuniverse:radonite_nugget"
+        ],
+        "min": 2,
+        "max": 5,
+        "chance": 1
+      },
+      {
+        "items": [
+          "prolinsuniverse:xenonite_nugget"
+        ],
+        "min": 2,
+        "max": 5,
+        "chance": 1
+      },
+      {
+        "items": [
+          "minecraft:string"
+        ],
+        "min": 0,
+        "max": 3,
+        "chance": 1
+      },
+      {
+        "items": [
+          "minecraft:glowstone_dust"
+        ],
+        "min": 2,
+        "max": 2,
+        "chance": 0.45
+      },
+      {
+        "items": [
+          "minecraft:phantom_membrane"
+        ],
+        "min": 1,
+        "max": 1,
+        "chance": 0.35
+      }
+    ],
+    "review": [],
+    "since": "0.0.2"
+  },
+  {
+    "id": "heartstag",
+    "name": "Heartstag",
+    "category": "creature",
+    "className": "HeartstagEntity",
+    "width": 1.5,
+    "height": 2.4,
+    "fireImmune": false,
+    "boss": false,
+    "tameable": false,
+    "rideable": false,
+    "health": 140,
+    "attackDamage": 11,
+    "armor": 8,
+    "armorToughness": 2,
+    "movementSpeed": 0.28,
+    "flyingSpeed": null,
+    "followRange": 40,
+    "knockbackResistance": 0.75,
+    "attributesRaw": {
+      "MAX_HEALTH": 140,
+      "ARMOR": 8,
+      "ARMOR_TOUGHNESS": 2,
+      "ATTACK_DAMAGE": 11,
+      "ATTACK_KNOCKBACK": 1.2,
+      "MOVEMENT_SPEED": 0.28,
+      "KNOCKBACK_RESISTANCE": 0.75,
+      "FOLLOW_RANGE": 40,
+      "STEP_HEIGHT": 1.1
+    },
+    "spawnEgg": "heartstag_spawnegg",
+    "spawn": [
+      {
+        "biomes": [
+          {
+            "id": "prolinsuniverse:the_bleeding_grove",
+            "name": "The Bleeding Grove",
+            "biome": "the_bleeding_grove",
+            "vanilla": false
+          }
+        ],
+        "weight": 1,
+        "min": 1,
+        "max": 1,
+        "viaTags": []
+      }
+    ],
+    "drops": [
+      {
+        "items": [
+          "minecraft:bone"
+        ],
+        "min": 2,
+        "max": 4,
+        "chance": 1
+      },
+      {
+        "items": [
+          "prolinsuniverse:arterwood_sapling"
+        ],
+        "min": 1,
+        "max": 1,
+        "chance": 0.3
+      }
+    ],
+    "review": [],
+    "since": "0.0.2"
+  },
+  {
+    "id": "mutated_heartstag",
+    "name": "Mutated Heartstag",
+    "category": "monster",
+    "className": "MutatedHeartstagEntity",
+    "width": 2.4,
+    "height": 4.2,
+    "fireImmune": false,
+    "boss": true,
+    "tameable": false,
+    "rideable": false,
+    "health": 500,
+    "attackDamage": 16,
+    "armor": 14,
+    "armorToughness": 4,
+    "movementSpeed": 0.27,
+    "flyingSpeed": null,
+    "followRange": 48,
+    "knockbackResistance": 1,
+    "attributesRaw": {
+      "MAX_HEALTH": 500,
+      "ARMOR": 14,
+      "ARMOR_TOUGHNESS": 4,
+      "ATTACK_DAMAGE": 16,
+      "ATTACK_KNOCKBACK": 1.5,
+      "MOVEMENT_SPEED": 0.27,
+      "KNOCKBACK_RESISTANCE": 1,
+      "FOLLOW_RANGE": 48,
+      "STEP_HEIGHT": 1.6
+    },
+    "spawnEgg": "mutated_heartstag_spawnegg",
+    "spawn": [],
+    "drops": [
+      {
+        "items": [
+          "prolinsuniverse:heartwood_antler"
+        ],
+        "min": 1,
+        "max": 1,
+        "chance": 1
+      },
+      {
+        "items": [
+          "minecraft:bone"
+        ],
+        "min": 6,
+        "max": 10,
+        "chance": 1
+      },
+      {
+        "items": [
+          "prolinsuniverse:arterwood_log"
+        ],
+        "min": 4,
+        "max": 8,
+        "chance": 1
+      },
+      {
+        "items": [
+          "prolinsuniverse:arterwood_sapling"
+        ],
+        "min": 2,
+        "max": 2,
+        "chance": 0.5
+      }
+    ],
+    "review": [],
+    "since": "0.0.2"
+  },
+  {
+    "id": "scither_brood_mother",
+    "name": "Scither Brood-Mother",
+    "category": "monster",
+    "className": "ScitherBroodMotherEntity",
+    "width": 4,
+    "height": 3.75,
+    "fireImmune": false,
+    "boss": true,
+    "tameable": false,
+    "rideable": false,
+    "health": 650,
+    "attackDamage": 20,
+    "armor": 12,
+    "armorToughness": 4,
+    "movementSpeed": 0.2,
+    "flyingSpeed": null,
+    "followRange": 32,
+    "knockbackResistance": 1,
+    "attributesRaw": {
+      "MAX_HEALTH": 650,
+      "ARMOR": 12,
+      "ARMOR_TOUGHNESS": 4,
+      "ATTACK_DAMAGE": 20,
+      "MOVEMENT_SPEED": 0.2,
+      "KNOCKBACK_RESISTANCE": 1,
+      "FOLLOW_RANGE": 32
+    },
+    "spawnEgg": "scither_brood_mother_spawnegg",
+    "spawn": [],
+    "drops": [
+      {
+        "items": [
+          "prolinsuniverse:brood_chitin"
+        ],
+        "min": 2,
+        "max": 4,
+        "chance": 1
+      },
+      {
+        "items": [
+          "minecraft:diamond"
+        ],
+        "min": 1,
+        "max": 1,
+        "chance": 0.25
+      },
+      {
+        "items": [
+          "minecraft:iron_ingot"
+        ],
+        "min": 3,
+        "max": 3,
+        "chance": 0.6
+      },
+      {
+        "items": [
+          "prolinsuniverse:radonite_nugget",
+          "prolinsuniverse:xenonite_nugget"
+        ],
+        "min": 2,
+        "max": 2,
+        "chance": 0.3,
+        "oneOf": true
+      },
+      {
+        "items": [
+          "prolinsuniverse:scither_normal_skin",
+          "prolinsuniverse:scither_brown_skin",
+          "prolinsuniverse:scither_purple_skin",
+          "prolinsuniverse:scither_red_skin"
+        ],
+        "min": 2,
+        "max": 3,
+        "chance": 1,
+        "note": "Always drops 2-3 skins of its own colour.",
+        "special": true
+      }
+    ],
+    "review": [],
+    "since": "0.0.2"
+  },
+  {
+    "id": "ichorbloom",
+    "name": "Ichorbloom",
+    "category": "monster",
+    "className": "IchorbloomEntity",
+    "width": 2.9,
+    "height": 3,
+    "fireImmune": false,
+    "boss": false,
+    "tameable": false,
+    "rideable": false,
+    "health": 180,
+    "attackDamage": 7,
+    "armor": 2,
+    "armorToughness": null,
+    "movementSpeed": 0.1,
+    "flyingSpeed": null,
+    "followRange": 16,
+    "knockbackResistance": 1,
+    "attributesRaw": {
+      "MAX_HEALTH": 180,
+      "ARMOR": 2,
+      "ATTACK_DAMAGE": 7,
+      "MOVEMENT_SPEED": 0.1,
+      "KNOCKBACK_RESISTANCE": 1,
+      "FOLLOW_RANGE": 16
+    },
+    "spawnEgg": "ichorbloom_spawnegg",
+    "spawn": [
+      {
+        "biomes": [
+          {
+            "id": "prolinsuniverse:ichor_ocean",
+            "name": "Ichor Sea",
+            "biome": "ichor_ocean",
+            "vanilla": false
+          }
+        ],
+        "weight": 4,
+        "min": 1,
+        "max": 1,
+        "viaTags": []
+      }
+    ],
+    "drops": [
+      {
+        "items": [
+          "prolinsuniverse:bloom_nectar"
+        ],
+        "min": 2,
+        "max": 4,
+        "chance": 1
+      },
+      {
+        "items": [
+          "minecraft:glow_ink_sac"
+        ],
+        "min": 2,
+        "max": 2,
+        "chance": 0.5
+      },
+      {
+        "items": [
+          "minecraft:prismarine_crystals"
+        ],
+        "min": 3,
+        "max": 3,
+        "chance": 0.3
+      }
+    ],
+    "review": [],
+    "since": "0.0.2"
+  },
+  {
+    "id": "newborn_scither",
+    "name": "Newborn Scither",
+    "category": "monster",
+    "className": "NewbornScitherEntity",
+    "width": 0.2,
+    "height": 0.18,
+    "fireImmune": false,
+    "boss": false,
+    "tameable": false,
+    "rideable": false,
+    "health": 4,
+    "attackDamage": 4,
+    "armor": null,
+    "armorToughness": null,
+    "movementSpeed": 0.42,
+    "flyingSpeed": null,
+    "followRange": 24,
+    "knockbackResistance": null,
+    "attributesRaw": {
+      "MAX_HEALTH": 4,
+      "MOVEMENT_SPEED": 0.42,
+      "ATTACK_DAMAGE": 4,
+      "FOLLOW_RANGE": 24
+    },
+    "spawnEgg": null,
+    "spawn": [],
+    "drops": [
+      {
+        "items": [
+          "minecraft:iron_nugget"
+        ],
+        "min": 2,
+        "max": 2,
+        "chance": 0.45
+      },
+      {
+        "items": [
+          "minecraft:diamond"
+        ],
+        "min": 1,
+        "max": 1,
+        "chance": 0.05
+      },
+      {
+        "items": [
+          "minecraft:netherite_ingot"
+        ],
+        "min": 1,
+        "max": 1,
+        "chance": 0.02
+      },
+      {
+        "items": [
+          "prolinsuniverse:radonite_nugget",
+          "prolinsuniverse:xenonite_nugget"
+        ],
+        "min": 1,
+        "max": 1,
+        "chance": 0.01,
+        "oneOf": true
+      }
+    ],
+    "review": [],
+    "since": "0.0.2"
+  },
+  {
+    "id": "hoverpod",
+    "name": "Hoverpod",
+    "category": "creature",
+    "className": "HoverPodEntity",
+    "width": 1.3,
+    "height": 0.3,
+    "fireImmune": false,
+    "boss": false,
+    "tameable": false,
+    "rideable": true,
+    "health": 10,
+    "attackDamage": null,
+    "armor": null,
+    "armorToughness": null,
+    "movementSpeed": 0.3,
+    "flyingSpeed": 0.8,
+    "followRange": null,
+    "knockbackResistance": null,
+    "attributesRaw": {
+      "MAX_HEALTH": 10,
+      "MOVEMENT_SPEED": 0.3,
+      "FLYING_SPEED": 0.8
+    },
+    "spawnEgg": null,
+    "spawn": [],
+    "drops": [
+      {
+        "items": [
+          "prolinsuniverse:hoverpod"
+        ],
+        "min": 1,
+        "max": 1,
+        "chance": 1
+      }
+    ],
+    "review": [],
+    "since": "0.0.2"
+  },
+  {
+    "id": "ichor_lancefish",
+    "name": "Ichor Lancefish",
+    "category": "monster",
+    "className": "IchorLancefishEntity",
+    "width": 1,
+    "height": 1,
+    "fireImmune": false,
+    "boss": false,
+    "tameable": false,
+    "rideable": false,
+    "health": 40,
+    "attackDamage": 6,
+    "armor": 4,
+    "armorToughness": null,
+    "movementSpeed": 0.2,
+    "flyingSpeed": null,
+    "followRange": 48,
+    "knockbackResistance": 0.5,
+    "attributesRaw": {
+      "MAX_HEALTH": 40,
+      "ARMOR": 4,
+      "ATTACK_DAMAGE": 6,
+      "MOVEMENT_SPEED": 0.2,
+      "KNOCKBACK_RESISTANCE": 0.5,
+      "FOLLOW_RANGE": 48
+    },
+    "spawnEgg": "ichor_lancefish_spawnegg",
+    "spawn": [
+      {
+        "biomes": [
+          {
+            "id": "prolinsuniverse:ichor_ocean",
+            "name": "Ichor Sea",
+            "biome": "ichor_ocean",
+            "vanilla": false
+          }
+        ],
+        "weight": 10,
+        "min": 1,
+        "max": 1,
+        "viaTags": []
+      }
+    ],
+    "drops": [
+      {
+        "items": [
+          "prolinsuniverse:rostrum"
+        ],
+        "min": 1,
+        "max": 1,
+        "chance": 1
+      },
+      {
+        "items": [
+          "prolinsuniverse:bloom_nectar"
+        ],
+        "min": 1,
+        "max": 1,
+        "chance": 0.15
+      }
+    ],
+    "review": [],
+    "since": "0.0.2"
+  },
+  {
+    "id": "carcinyx",
+    "name": "Carcinyx",
+    "category": "monster",
+    "className": "CarcinyxEntity",
+    "width": 2.6,
+    "height": 1.8,
+    "fireImmune": false,
+    "boss": false,
+    "tameable": false,
+    "rideable": false,
+    "health": 700,
+    "attackDamage": 7,
+    "armor": 6,
+    "armorToughness": null,
+    "movementSpeed": 0.26,
+    "flyingSpeed": null,
+    "followRange": 28,
+    "knockbackResistance": 0.7,
+    "attributesRaw": {
+      "MAX_HEALTH": 700,
+      "ARMOR": 6,
+      "ATTACK_DAMAGE": 7,
+      "ATTACK_KNOCKBACK": 0.6,
+      "MOVEMENT_SPEED": 0.26,
+      "KNOCKBACK_RESISTANCE": 0.7,
+      "FOLLOW_RANGE": 28,
+      "STEP_HEIGHT": 1
+    },
+    "spawnEgg": "carcinyx_spawnegg",
+    "spawn": [
+      {
+        "biomes": [
+          {
+            "id": "#minecraft:is_beach",
+            "name": "Beaches",
+            "biome": null,
+            "vanilla": true
+          },
+          {
+            "id": "#minecraft:is_ocean",
+            "name": "Oceans",
+            "biome": null,
+            "vanilla": true
+          },
+          {
+            "id": "minecraft:stony_shore",
+            "name": "Stony Shore",
+            "biome": null,
+            "vanilla": true
+          }
+        ],
+        "weight": 2,
+        "min": 1,
+        "max": 1,
+        "viaTags": [
+          "#prolinsuniverse:carcinyx_shores"
+        ]
+      }
+    ],
+    "drops": [
+      {
+        "items": [
+          "prolinsuniverse:sawtooth_pincer"
+        ],
+        "min": 1,
+        "max": 1,
+        "chance": 1
+      },
+      {
+        "items": [
+          "prolinsuniverse:hecatomb_handle",
+          "prolinsuniverse:hecatomb_guard",
+          "prolinsuniverse:hecatomb_blade"
+        ],
+        "min": 1,
+        "max": 1,
+        "chance": 0.006,
+        "chanceText": "Golden giant only",
+        "oneOf": true,
+        "note": "Only the very rare golden Carcinyx (about 0.6% of giant spawns) drops one Hecatomb part.",
+        "special": true
+      }
+    ],
+    "review": [],
+    "since": "0.0.2"
+  },
+  {
+    "id": "veilfox",
+    "name": "Veilfox",
+    "category": "monster",
+    "className": "VeilfoxEntity",
+    "width": 0.9,
+    "height": 1.2,
+    "fireImmune": true,
+    "boss": false,
+    "tameable": false,
+    "rideable": false,
+    "health": 340,
+    "attackDamage": 9,
+    "armor": 4,
+    "armorToughness": null,
+    "movementSpeed": 0.34,
+    "flyingSpeed": null,
+    "followRange": 32,
+    "knockbackResistance": 0.3,
+    "attributesRaw": {
+      "MAX_HEALTH": 340,
+      "ARMOR": 4,
+      "ATTACK_DAMAGE": 9,
+      "MOVEMENT_SPEED": 0.34,
+      "FOLLOW_RANGE": 32,
+      "KNOCKBACK_RESISTANCE": 0.3,
+      "STEP_HEIGHT": 1
+    },
+    "spawnEgg": "veilfox_spawnegg",
+    "spawn": [
+      {
+        "biomes": [
+          {
+            "id": "#minecraft:is_forest",
+            "name": "Forest biomes",
+            "biome": null,
+            "vanilla": true
+          }
+        ],
+        "weight": 1,
+        "min": 1,
+        "max": 1,
+        "viaTags": [
+          "#minecraft:is_forest"
+        ]
+      },
+      {
+        "biomes": [
+          {
+            "id": "#minecraft:is_taiga",
+            "name": "Taiga biomes",
+            "biome": null,
+            "vanilla": true
+          }
+        ],
+        "weight": 1,
+        "min": 1,
+        "max": 1,
+        "viaTags": [
+          "#minecraft:is_taiga"
+        ]
+      }
+    ],
+    "drops": [
+      {
+        "items": [
+          "prolinsuniverse:veilfang"
+        ],
+        "min": 1,
+        "max": 2,
+        "chance": 1
+      },
+      {
+        "items": [
+          "prolinsuniverse:foxfire_heart"
+        ],
+        "min": 1,
+        "max": 1,
+        "chance": 1
+      }
+    ],
+    "review": [],
+    "since": "0.0.2"
+  },
+  {
+    "id": "cragmane",
+    "name": "Cragmane",
+    "category": "monster",
+    "className": "CragmaneEntity",
+    "width": 3,
+    "height": 3.6,
+    "fireImmune": false,
+    "boss": false,
+    "tameable": true,
+    "rideable": true,
+    "health": 450,
+    "attackDamage": 12,
+    "armor": 8,
+    "armorToughness": null,
+    "movementSpeed": 0.3,
+    "flyingSpeed": null,
+    "followRange": 48,
+    "knockbackResistance": 0.8,
+    "attributesRaw": {
+      "MAX_HEALTH": 450,
+      "ARMOR": 8,
+      "ATTACK_DAMAGE": 12,
+      "ATTACK_KNOCKBACK": 1,
+      "MOVEMENT_SPEED": 0.3,
+      "KNOCKBACK_RESISTANCE": 0.8,
+      "FOLLOW_RANGE": 48,
+      "STEP_HEIGHT": 1.5
+    },
+    "spawnEgg": "cragmane_spawnegg",
+    "spawn": [
+      {
+        "biomes": [
+          {
+            "id": "minecraft:jagged_peaks",
+            "name": "Jagged Peaks",
+            "biome": null,
+            "vanilla": true
+          },
+          {
+            "id": "minecraft:frozen_peaks",
+            "name": "Frozen Peaks",
+            "biome": null,
+            "vanilla": true
+          },
+          {
+            "id": "minecraft:stony_peaks",
+            "name": "Stony Peaks",
+            "biome": null,
+            "vanilla": true
+          },
+          {
+            "id": "minecraft:snowy_slopes",
+            "name": "Snowy Slopes",
+            "biome": null,
+            "vanilla": true
+          }
+        ],
+        "weight": 3,
+        "min": 1,
+        "max": 1,
+        "viaTags": [
+          "#prolinsuniverse:cragmane_peaks"
+        ]
+      }
+    ],
+    "drops": [
+      {
+        "items": [
+          "prolinsuniverse:cragmane_horn"
+        ],
+        "min": 1,
+        "max": 2,
+        "chance": 1
+      }
+    ],
+    "review": [],
+    "since": "0.0.2"
+  }
+]

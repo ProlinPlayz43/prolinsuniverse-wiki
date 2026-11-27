@@ -1,0 +1,8 @@
+---
+// Inline reference to an item/block by namespaced id; links when the thing has a page on this wiki.
+import { ref } from '../lib/data';
+const { id } = Astro.props as { id: string };
+const r = ref(id);
+---
+
+{r.href ? <a href={r.href}>{r.name}</a> : <span>{r.name}</span>}

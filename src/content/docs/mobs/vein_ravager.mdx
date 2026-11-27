@@ -1,0 +1,38 @@
+---
+title: "Vein Ravager"
+description: "Vein Ravager in Prolins Universe: health, drops, spawn locations and behaviour."
+since: "0.0.2"
+mob:
+  id: vein_ravager
+  # --- hand-written: review these ---------------------------------------------
+  tier: 3            # draft value seeded from max health; you decide the real tier
+  summary: ""            # one line shown in the mob list
+  # --- optional overrides (otherwise read from the mod source) -----------------
+  # health: 20
+  # spawnText: "Shown instead of the spawn table, e.g. 'Summoned at the Storm Caller altar'"
+---
+import MobInfobox from '../../../components/MobInfobox.astro';
+import SpawnTable from '../../../components/SpawnTable.astro';
+import DropsTable from '../../../components/DropsTable.astro';
+
+<MobInfobox mob={frontmatter.mob} title={frontmatter.title} />
+
+{/*
+  Write the Vein Ravager page here. Delete this comment and add sections, for example:
+
+  ## Overview
+  What it looks like, where players meet it, why it matters.
+
+  ## Behaviour
+  Attacks, phases, weaknesses and tips.
+
+  Until you add prose, the page simply shows the infobox, spawn table and drops.
+*/}
+
+## Spawning
+
+<SpawnTable mob={frontmatter.mob} />
+
+## Drops
+
+<DropsTable mob={frontmatter.mob} />

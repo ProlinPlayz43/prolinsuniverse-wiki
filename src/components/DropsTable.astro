@@ -1,0 +1,51 @@
+---
+// Drop table from the mod's ModEntityDrops setup (plus hand-verified special drops from the config).
+import { resolveMob } from '../lib/mob';
+import { ref, fmt, pct } from '../lib/data';
+
+const { mob: fm } = Astro.props as { mob: any };
+const m = resolveMob(fm);
+const drops: any[] = m.drops ?? [];
+const amount = (d: any) => (d.min === d.max ? fmt(d.min) : `${fmt(d.min)}–${fmt(d.max)}`);
+const chance = (d: any) => d.chanceText ?? (d.chance >= 1 ? 'Always' : pct(d.chance));
+---
+
+{
+  drops.length ? (
+    <table class="wiki-table">
+      <thead>
+        <tr><th>Drop</th><th>Amount</th><th>Chance</th></tr>
+      </thead>
+      <tbody>
+        {drops.map((d) => (
+          <tr>
+            <td>
+              {d.items.map((id: string, i: number) => {
+                const r = ref(id);
+                return (
+                  <>
+                    {i > 0 && (d.oneOf ? ' or ' : ', ')}
+                    {r.href ? <a href={r.href}>{r.name}</a> : r.name}
+                  </>
+                );
+              })}
+              {d.oneOf && d.items.length > 1 && <div class="wiki-muted"><small>one of these, picked at random</small></div>}
+              {d.cooked && (
+                <div class="wiki-muted">
+                  <small>
+                    drops <a href={ref(d.cooked).href ?? '#'}>{ref(d.cooked).name}</a> instead if it dies while on fire
+                  </small>
+                </div>
+              )}
+              {d.note && <div class="wiki-muted"><small>{d.note}</small></div>}
+            </td>
+            <td>{amount(d)}</td>
+            <td>{chance(d)}</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  ) : (
+    <p class="wiki-muted">No drops recorded for this mob.</p>
+  )
+}

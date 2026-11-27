@@ -1,0 +1,56 @@
+---
+import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+import Infobox from '../../components/Infobox.astro';
+import ObtainSections from '../../components/ObtainSections.astro';
+import { blocks, descriptions, ref, fmt } from '../../lib/data';
+
+export function getStaticPaths() {
+  return blocks.map((block) => ({ params: { id: block.slug }, props: { block } }));
+}
+const { block } = Astro.props;
+
+const GROUP: Record<string, string> = { ore: 'Ore', storage: 'Storage block', natural: 'Natural block', wood: 'Wood block', functional: 'Functional block', other: 'Block' };
+const description: string | undefined = (descriptions.blocks as Record<string, string>)[block.id];
+
+const rows = [
+  { label: 'Type', value: GROUP[block.group] ?? 'Block' },
+  { label: 'Hardness', value: block.hardness != null ? fmt(block.hardness) : null },
+  { label: 'Blast resistance', value: block.blastResistance != null ? fmt(block.blastResistance) : null },
+  { label: 'Requires tool', value: block.requiresTool ? 'Yes' : null },
+  { label: 'Light level', value: block.lightLevel ? fmt(block.lightLevel) : null },
+  { label: 'Experience', value: block.xp ? `${block.xp[0]}–${block.xp[1]}` : null },
+  { label: 'Sound', value: block.sound },
+];
+
+const drops: any[] = block.drops ?? [];
+---
+
+<StarlightPage
+  frontmatter={{
+    title: block.name,
+    description: description ?? `${block.name} in Prolins Universe: properties, drops and recipes.`,
+    tableOfContents: false,
+  }}
+>
+  <Infobox title={block.name} kind="blocks" id={block.id} ratio="1 / 1" pixelated rows={rows} since={block.since} />
+  {description && <p>{description}</p>}
+  {
+    drops.length > 0 && (
+      <>
+        <h2 id="drops">Drops</h2>
+        <ul>
+          {drops.map((d) => {
+            const r = ref(d.item);
+            return (
+              <li>
+                {r.href ? <a href={r.href}>{r.name}</a> : r.name}
+                {d.notes?.length ? <span class="wiki-muted"> ({d.notes.join(', ')})</span> : null}
+              </li>
+            );
+          })}
+        </ul>
+      </>
+    )
+  }
+  <ObtainSections entry={block} kind="blocks" />
+</StarlightPage>

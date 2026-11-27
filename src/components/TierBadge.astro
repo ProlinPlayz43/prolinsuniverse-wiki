@@ -1,0 +1,27 @@
+---
+// Tier 1..5 pill. The tier is a hand-written value in each mob's frontmatter (`mob.tier`).
+const { tier, boss = false } = Astro.props as { tier?: number; boss?: boolean };
+---
+
+{
+  tier ? (
+    <span class="tier" style={`--c: var(--tier-${tier})`} title={`Tier ${tier}`}>
+      {boss ? 'Boss · ' : ''}Tier {tier}
+    </span>
+  ) : boss ? (
+    <span class="tier" style="--c: var(--tier-5)">Boss</span>
+  ) : null
+}
+
+<style>
+  .tier {
+    display: inline-block;
+    padding: 0.05rem 0.55rem;
+    border-radius: 999px;
+    border: 1px solid var(--c);
+    color: var(--c);
+    font-size: var(--sl-text-xs);
+    font-weight: 700;
+    white-space: nowrap;
+  }
+</style>

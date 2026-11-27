@@ -1,0 +1,29 @@
+---
+// Card grid for the Mobs / Bosses index pages. Lists every page in that folder, sorted by tier then name.
+import { getCollection } from 'astro:content';
+import ImagePlaceholder from './ImagePlaceholder.astro';
+import TierBadge from './TierBadge.astro';
+import { href, mobById, fmt } from '../lib/data';
+
+const { kind } = Astro.props as { kind: 'mobs' | 'bosses' };
+const entries = (await getCollection('docs'))
+  .filter((e) => e.id.startsWith(`${kind}/`) && !/\/index$/.test(e.id) && e.data.mob)
+  .map((e) => ({ e, facts: mobById(e.data.mob!.id) }))
+  .sort((a, b) => (a.e.data.mob!.tier ?? 9) - (b.e.data.mob!.tier ?? 9) || a.e.data.title.localeCompare(b.e.data.title));
+---
+
+<ul class="wiki-grid">
+  {
+    entries.map(({ e, facts }) => (
+      <li>
+        <a class="wiki-card" href={href(e.id)}>
+          <ImagePlaceholder kind={kind} id={e.data.mob!.id} alt={e.data.title} ratio="1 / 1" width={320} small />
+          <span class="wiki-card__name">{e.data.title}</span>
+          <span><TierBadge tier={e.data.mob!.tier} boss={kind === 'bosses'} /></span>
+          {facts?.health != null && <span class="wiki-card__meta">{fmt(e.data.mob!.health ?? facts.health)} HP</span>}
+          {e.data.mob!.summary && <span class="wiki-card__meta">{e.data.mob!.summary}</span>}
+        </a>
+      </li>
+    ))
+  }
+</ul>

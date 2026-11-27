@@ -1,0 +1,60 @@
+---
+import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+import Infobox from '../../components/Infobox.astro';
+import ObtainSections from '../../components/ObtainSections.astro';
+import { items, descriptions, fmt, prettify } from '../../lib/data';
+
+export function getStaticPaths() {
+  return items.map((item) => ({ params: { id: item.slug }, props: { item } }));
+}
+const { item } = Astro.props;
+
+const KIND: Record<string, string> = { weapon: 'Weapon', tool: 'Tool', armor: 'Armor', food: 'Food', material: 'Material', misc: 'Item' };
+const EFFECT: Record<string, string> = { Confusion: 'Nausea', 'Movement Speed': 'Speed' };
+const description: string | undefined = (descriptions.items as Record<string, string>)[item.id];
+
+const food = item.food;
+const armor = item.armor;
+const rows = [
+  { label: 'Type', value: KIND[item.kind] ?? 'Item' },
+  { label: 'Rarity', value: item.rarity },
+  { label: 'Max stack', value: item.stackSize && item.stackSize !== 64 ? item.stackSize : null },
+  { label: 'Attack damage', value: item.attackDamage != null ? `${fmt(item.attackDamage)}` : null },
+  { label: 'Attack speed', value: item.attackSpeed != null ? `${fmt(item.attackSpeed)} / s` : null },
+  { label: 'Extra reach', value: item.reach ? `+${fmt(item.reach)} blocks` : null },
+  { label: 'Always enchanted', value: item.alwaysEnchanted },
+  { label: 'Mining speed', value: item.kind === 'tool' && item.miningSpeed != null ? fmt(item.miningSpeed) : null },
+  { label: 'Durability', value: item.durability },
+  { label: 'Tool tier', value: item.tier && item.tier !== item.id ? prettify(item.tier) : null },
+  { label: 'Enchantability', value: item.enchantability },
+  { label: 'Armor slot', value: armor ? prettify(armor.slot) : null },
+  { label: 'Armor points', value: armor ? fmt(armor.defense) : null },
+  { label: 'Armor toughness', value: armor?.toughness ? fmt(armor.toughness) : null },
+  { label: 'Knockback resistance', value: armor?.knockbackResistance ? fmt(armor.knockbackResistance) : null },
+  { label: 'Hunger restored', value: food ? `${fmt(food.nutrition)}` : null },
+  { label: 'Saturation', value: food ? fmt(food.saturation) : null },
+  ...(food?.effects ?? []).map((e: any) => ({
+    label: 'Effect',
+    value: `${EFFECT[e.effect] ?? e.effect}${e.seconds ? `, ${fmt(e.seconds)}s` : ''}${e.chance < 1 ? ` (${Math.round(e.chance * 100)}% chance)` : ''}`,
+  })),
+  { label: 'Fire resistant', value: item.fireResistant ? 'Yes' : null },
+];
+---
+
+<StarlightPage
+  frontmatter={{
+    title: item.name,
+    description: description ?? `${item.name} in Prolins Universe: stats, recipes and where to find it.`,
+    tableOfContents: false,
+  }}
+>
+  <Infobox title={item.name} kind="items" id={item.id} ratio="1 / 1" pixelated rows={rows} since={item.since} />
+  {description && <p>{description}</p>}
+  {item.tooltip?.length > 0 && (
+    <>
+      <h2 id="in-game-tooltip">In-game tooltip</h2>
+      <ul>{item.tooltip.map((t: string) => <li>{t}</li>)}</ul>
+    </>
+  )}
+  <ObtainSections entry={item} kind="items" />
+</StarlightPage>

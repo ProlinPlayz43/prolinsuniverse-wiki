@@ -1,0 +1,133 @@
+[
+  {
+    "id": "broken_vein_biome",
+    "name": "Broken Vein",
+    "dimension": "Broken Vein",
+    "temperature": 8,
+    "downfall": 0,
+    "precipitation": false,
+    "colors": {
+      "sky": "#330000",
+      "fog": "#140000",
+      "water": "#c20d00",
+      "grass": "#744016",
+      "foliage": "#753a0b"
+    },
+    "clouds": false,
+    "carvers": [
+      "cave",
+      "canyon"
+    ],
+    "structures": [
+      {
+        "id": "xerion_dungeon",
+        "name": "Xerion Dungeon"
+      }
+    ],
+    "mobs": [
+      "vein_skitter",
+      "vein_stalker",
+      "hemaspitter",
+      "vein_ravager",
+      "vein_ripper",
+      "demonic_eye",
+      "prismoth"
+    ],
+    "since": "0.0.2"
+  },
+  {
+    "id": "fractured_spine_biome",
+    "name": "Fractured Spine",
+    "dimension": "Broken Vein",
+    "temperature": 6,
+    "downfall": 0,
+    "precipitation": false,
+    "colors": {
+      "sky": "#7f3434",
+      "fog": "#b11616",
+      "water": "#5b34a2",
+      "grass": "#571e1e",
+      "foliage": "#531818"
+    },
+    "clouds": false,
+    "carvers": [
+      "cave",
+      "canyon"
+    ],
+    "structures": [
+      {
+        "id": "ender_sanctum",
+        "name": "Ender Sanctum"
+      },
+      {
+        "id": "xerion_dungeon",
+        "name": "Xerion Dungeon"
+      }
+    ],
+    "mobs": [
+      "vein_skitter",
+      "vein_stalker",
+      "vein_ravager",
+      "vein_ripper",
+      "demonic_eye",
+      "prismoth"
+    ],
+    "since": "0.0.2"
+  },
+  {
+    "id": "ichor_ocean",
+    "name": "Ichor Sea",
+    "dimension": "Broken Vein",
+    "temperature": 4,
+    "downfall": 0,
+    "precipitation": false,
+    "colors": {
+      "sky": "#330000",
+      "fog": "#140000",
+      "water": "#d45002",
+      "grass": "#744016",
+      "foliage": "#753a0b"
+    },
+    "clouds": false,
+    "carvers": [],
+    "structures": [
+      {
+        "id": "skarn_dungeon_island",
+        "name": "Skarn Dungeon Island"
+      }
+    ],
+    "mobs": [
+      "ichorbloom",
+      "ichor_lancefish"
+    ],
+    "since": "0.0.2"
+  },
+  {
+    "id": "the_bleeding_grove",
+    "name": "The Bleeding Grove",
+    "dimension": "Broken Vein",
+    "temperature": 8,
+    "downfall": 0,
+    "precipitation": false,
+    "colors": {
+      "sky": "#520000",
+      "fog": "#450000",
+      "water": "#d47d02",
+      "grass": "#ad2b00",
+      "foliage": "#d63600"
+    },
+    "clouds": false,
+    "carvers": [
+      "cave",
+      "canyon"
+    ],
+    "structures": [],
+    "mobs": [
+      "vein_stalker",
+      "demonic_eye",
+      "prismoth",
+      "heartstag"
+    ],
+    "since": "0.0.2"
+  }
+]

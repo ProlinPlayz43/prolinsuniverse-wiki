@@ -1,0 +1,89 @@
+---
+// Shared "How to get it / what it is used for" sections for item and block pages.
+import RecipeCard from './RecipeCard.astro';
+import { recipeById, ref, mobHref, mobById, chestName, items, blocks, href } from '../lib/data';
+
+const { entry, kind } = Astro.props as { entry: any; kind: 'items' | 'blocks' };
+
+const ORDER = ['crafting_shaped', 'crafting_shapeless', 'smelting', 'blasting'];
+const recipeIds: string[] = [...(entry.recipes ?? [])].sort((a, b) => ORDER.indexOf(recipeById(a)?.type) - ORDER.indexOf(recipeById(b)?.type));
+const droppedBy: string[] = entry.droppedBy ?? [];
+const chests: string[] = [...new Set<string>(entry.foundIn ?? [])];
+const fromBlocks: string[] = entry.obtainedFromBlocks ?? [];
+
+// "Used in": the distinct results of the recipes that consume this thing.
+const usedResults = new Map<string, { name: string; href: string | null }>();
+for (const rid of entry.usedIn ?? []) {
+  const r = recipeById(rid);
+  if (!r) continue;
+  const x = ref(r.result.id);
+  usedResults.set(x.id, { name: x.name, href: x.href });
+}
+const used = [...usedResults.values()].sort((a, b) => a.name.localeCompare(b.name));
+
+const blockLink = (id: string) => {
+  const b = blocks.find((x) => x.id === id);
+  return b ? { name: b.name, href: href(`blocks/${b.slug}`) } : { name: id, href: null };
+};
+const hasObtain = recipeIds.length || droppedBy.length || chests.length || fromBlocks.length;
+---
+
+{
+  hasObtain ? (
+    <>
+      <h2 id="obtaining">Obtaining</h2>
+      {droppedBy.length > 0 && (
+        <p>
+          <strong>Dropped by:</strong>{' '}
+          {droppedBy.map((id, i) => (
+            <>
+              {i > 0 && ', '}
+              <a href={mobHref(id)}>{mobById(id)?.name ?? id}</a>
+            </>
+          ))}
+        </p>
+      )}
+      {fromBlocks.length > 0 && (
+        <p>
+          <strong>Mined from:</strong>{' '}
+          {fromBlocks.map((id, i) => {
+            const b = blockLink(id);
+            return (
+              <>
+                {i > 0 && ', '}
+                {b.href ? <a href={b.href}>{b.name}</a> : b.name}
+              </>
+            );
+          })}
+        </p>
+      )}
+      {chests.length > 0 && (
+        <p>
+          <strong>Found in chests:</strong> {chests.map(chestName).join(', ')}
+        </p>
+      )}
+      {recipeIds.length > 0 && (
+        <div>
+          {recipeIds.map((id) => (
+            <RecipeCard id={id} />
+          ))}
+        </div>
+      )}
+    </>
+  ) : null
+}
+{
+  used.length > 0 && (
+    <>
+      <h2 id="used-in">Used in</h2>
+      <p>
+        {used.map((u, i) => (
+          <>
+            {i > 0 && ', '}
+            {u.href ? <a href={u.href}>{u.name}</a> : u.name}
+          </>
+        ))}
+      </p>
+    </>
+  )
+}

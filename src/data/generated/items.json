@@ -1,0 +1,2248 @@
+[
+  {
+    "id": "tynite_ingot",
+    "slug": "tynite_ingot",
+    "name": "Tynite Ingot",
+    "kind": "material",
+    "since": "0.0.2",
+    "tooltip": [],
+    "recipes": [
+      "tynite_block_to_tynite_ingot",
+      "tynite_ingot_from_blasting_deepslate_tynite_ore",
+      "tynite_ingot_from_blasting_raw_tynite",
+      "tynite_ingot_from_blasting_tynite_ore",
+      "tynite_ingot_from_smelting_deepslate_tynite_ore",
+      "tynite_ingot_from_smelting_raw_tynite",
+      "tynite_ingot_from_smelting_tynite_ore",
+      "tynite_nugget_to_tynite_ingot"
+    ],
+    "usedIn": [
+      "gem_cutter_recipe",
+      "hoverpod_recipe",
+      "mechanical_stormcaller_heart_recipe",
+      "stormcaller_gun_recipe",
+      "tynite_axe_recipe",
+      "tynite_boots_recipe",
+      "tynite_chestplate_recipe",
+      "tynite_helmet_recipe",
+      "tynite_hoe_recipe",
+      "tynite_ingot_to_tynite_block",
+      "tynite_ingot_to_tynite_nugget",
+      "tynite_legs_recipe",
+      "tynite_pickaxe_recipe",
+      "tynite_shovel_recipe",
+      "tynite_sword_recipe"
+    ],
+    "droppedBy": [],
+    "foundIn": [],
+    "obtainedFromBlocks": []
+  },
+  {
+    "id": "raw_tynite",
+    "slug": "raw_tynite",
+    "name": "Raw Tynite",
+    "kind": "material",
+    "since": "0.0.2",
+    "tooltip": [],
+    "recipes": [
+      "raw_tynite_block_to_raw_tynite"
+    ],
+    "usedIn": [
+      "raw_tynite_to_raw_tynite_block",
+      "tynite_ingot_from_blasting_raw_tynite",
+      "tynite_ingot_from_smelting_raw_tynite"
+    ],
+    "droppedBy": [],
+    "foundIn": [
+      "broken_vein_tier1",
+      "broken_vein_tier2",
+      "broken_vein_tier3"
+    ],
+    "obtainedFromBlocks": [
+      "deepslate_tynite_ore",
+      "tynite_ore"
+    ]
+  },
+  {
+    "id": "tynite_nugget",
+    "slug": "tynite_nugget",
+    "name": "Tynite Nugget",
+    "kind": "material",
+    "since": "0.0.2",
+    "tooltip": [],
+    "recipes": [
+      "tynite_ingot_to_tynite_nugget"
+    ],
+    "usedIn": [
+      "strengthened_string_recipe",
+      "tynite_nugget_to_tynite_ingot",
+      "weighted__handle_recipe"
+    ],
+    "droppedBy": [],
+    "foundIn": [
+      "broken_vein_tier1",
+      "broken_vein_tier2",
+      "broken_vein_tier3"
+    ],
+    "obtainedFromBlocks": []
+  },
+  {
+    "id": "raw_ruby",
+    "slug": "raw_ruby",
+    "name": "Raw Ruby",
+    "kind": "material",
+    "since": "0.0.2",
+    "tooltip": [],
+    "recipes": [],
+    "usedIn": [
+      "ruby_from_blasting_raw_ruby",
+      "ruby_from_smelting_raw_ruby"
+    ],
+    "droppedBy": [],
+    "foundIn": [],
+    "obtainedFromBlocks": [
+      "deepslated_calcite_ruby_ore",
+      "ruby_ore"
+    ]
+  },
+  {
+    "id": "ruby",
+    "slug": "ruby",
+    "name": "Ruby",
+    "kind": "material",
+    "since": "0.0.2",
+    "tooltip": [],
+    "recipes": [
+      "ruby_block_to_ruby",
+      "ruby_from_blasting_raw_ruby",
+      "ruby_from_blasting_ruby_ore",
+      "ruby_from_smelting_raw_ruby",
+      "ruby_from_smelting_ruby_ore"
+    ],
+    "usedIn": [
+      "ruby_axe_recipe",
+      "ruby_boots_recipe",
+      "ruby_chestplate_recipe",
+      "ruby_helmet_recipe",
+      "ruby_hoe_recipe",
+      "ruby_ingot_to_ruby_block",
+      "ruby_legs_recipe",
+      "ruby_pickaxe_recipe",
+      "ruby_shovel_recipe",
+      "ruby_sword_recipe"
+    ],
+    "droppedBy": [
+      "storm_caller"
+    ],
+    "foundIn": [],
+    "obtainedFromBlocks": []
+  },
+  {
+    "id": "radonite_ingot",
+    "slug": "radonite_ingot",
+    "name": "Radonite Ingot",
+    "kind": "material",
+    "since": "0.0.2",
+    "tooltip": [],
+    "recipes": [
+      "radonite_block_to_ingot",
+      "radonite_nuggets_to_ingot"
+    ],
+    "usedIn": [
+      "radonite_ingot_to_radonite_block",
+      "radonite_ingot_to_radonite_nugget",
+      "xerion_alloy_axe_recipe",
+      "xerion_alloy_boots_recipe",
+      "xerion_alloy_bow_recipe",
+      "xerion_alloy_chestplate_recipe",
+      "xerion_alloy_helmet_recipe",
+      "xerion_alloy_hoe_recipe",
+      "xerion_alloy_leggings_recipe",
+      "xerion_alloy_pickaxe_recipe",
+      "xerion_alloy_shovel_recipe",
+      "xerion_alloy_sword_recipe"
+    ],
+    "droppedBy": [],
+    "foundIn": [
+      "skarn_dungeon_island",
+      "xerion_dungeon_room_2_loot",
+      "xerion_dungeon_room_3_loot",
+      "xerion_dungeon_room_final_1_loot",
+      "xerion_dungeon_room_final_2_loot",
+      "xerion_dungeon_room_final_3_loot",
+      "xerion_dungeon_room_final_4_loot"
+    ],
+    "obtainedFromBlocks": []
+  },
+  {
+    "id": "xenonite_ingot",
+    "slug": "xenonite_ingot",
+    "name": "Xenonite Ingot",
+    "kind": "material",
+    "since": "0.0.2",
+    "tooltip": [],
+    "recipes": [
+      "xenonite_block_to_ingot",
+      "xenonite_nuggets_to_ingot"
+    ],
+    "usedIn": [
+      "xenonite_ingot_to_xenonite_block",
+      "xenonite_ingot_to_xenonite_nugget",
+      "xerion_alloy_axe_recipe",
+      "xerion_alloy_boots_recipe",
+      "xerion_alloy_bow_recipe",
+      "xerion_alloy_chestplate_recipe",
+      "xerion_alloy_helmet_recipe",
+      "xerion_alloy_hoe_recipe",
+      "xerion_alloy_leggings_recipe",
+      "xerion_alloy_pickaxe_recipe",
+      "xerion_alloy_shovel_recipe",
+      "xerion_alloy_sword_recipe"
+    ],
+    "droppedBy": [],
+    "foundIn": [
+      "skarn_dungeon_island",
+      "xerion_dungeon_room_2_loot",
+      "xerion_dungeon_room_3_loot",
+      "xerion_dungeon_room_final_1_loot",
+      "xerion_dungeon_room_final_2_loot",
+      "xerion_dungeon_room_final_3_loot",
+      "xerion_dungeon_room_final_4_loot"
+    ],
+    "obtainedFromBlocks": []
+  },
+  {
+    "id": "radonite_nugget",
+    "slug": "radonite_nugget",
+    "name": "Radonite Nugget",
+    "kind": "material",
+    "since": "0.0.2",
+    "tooltip": [],
+    "recipes": [
+      "radonite_ingot_to_radonite_nugget",
+      "radonite_nugget_from_blasting_deepslate_radonite_ore",
+      "radonite_nugget_from_blasting_radonite_ore",
+      "radonite_nugget_from_blasting_raw_radonite",
+      "radonite_nugget_from_smelting_deepslate_radonite_ore",
+      "radonite_nugget_from_smelting_radonite_ore",
+      "radonite_nugget_from_smelting_raw_radonite"
+    ],
+    "usedIn": [
+      "radonite_nuggets_to_ingot"
+    ],
+    "droppedBy": [
+      "scither",
+      "prismoth",
+      "scither_brood_mother",
+      "newborn_scither"
+    ],
+    "foundIn": [
+      "broken_vein_tier2",
+      "broken_vein_tier3",
+      "xerion_dungeon_room_1_loot",
+      "xerion_dungeon_room_2_loot"
+    ],
+    "obtainedFromBlocks": []
+  },
+  {
+    "id": "xenonite_nugget",
+    "slug": "xenonite_nugget",
+    "name": "Xenonite Nugget",
+    "kind": "material",
+    "since": "0.0.2",
+    "tooltip": [],
+    "recipes": [
+      "xenonite_ingot_to_xenonite_nugget",
+      "xenonite_nugget_from_blasting_deepslate_xenonite_ore",
+      "xenonite_nugget_from_blasting_raw_xenonite",
+      "xenonite_nugget_from_blasting_xenonite_ore",
+      "xenonite_nugget_from_smelting_deepslate_xenonite_ore",
+      "xenonite_nugget_from_smelting_raw_xenonite",
+      "xenonite_nugget_from_smelting_xenonite_ore"
+    ],
+    "usedIn": [
+      "xenonite_nuggets_to_ingot"
+    ],
+    "droppedBy": [
+      "scither",
+      "prismoth",
+      "scither_brood_mother",
+      "newborn_scither"
+    ],
+    "foundIn": [
+      "broken_vein_tier2",
+      "broken_vein_tier3",
+      "xerion_dungeon_room_1_loot",
+      "xerion_dungeon_room_2_loot"
+    ],
+    "obtainedFromBlocks": []
+  },
+  {
+    "id": "raw_radonite",
+    "slug": "raw_radonite",
+    "name": "Raw Radonite",
+    "kind": "material",
+    "since": "0.0.2",
+    "tooltip": [],
+    "recipes": [],
+    "usedIn": [
+      "radonite_nugget_from_blasting_raw_radonite",
+      "radonite_nugget_from_smelting_raw_radonite"
+    ],
+    "droppedBy": [
+      "urubithian_guard",
+      "urubithian_warrior",
+      "vein_skitter",
+      "urubithian_sentinel",
+      "vein_stalker",
+      "hemaspitter",
+      "vein_ravager",
+      "vein_ripper",
+      "skarn"
+    ],
+    "foundIn": [
+      "broken_vein_tier2",
+      "broken_vein_tier3"
+    ],
+    "obtainedFromBlocks": [
+      "deepslate_radonite_ore",
+      "hemastone_radonite_ore",
+      "radonite_ore"
+    ]
+  },
+  {
+    "id": "raw_xenonite",
+    "slug": "raw_xenonite",
+    "name": "Raw Xenonite",
+    "kind": "material",
+    "since": "0.0.2",
+    "tooltip": [],
+    "recipes": [],
+    "usedIn": [
+      "xenonite_nugget_from_blasting_raw_xenonite",
+      "xenonite_nugget_from_smelting_raw_xenonite"
+    ],
+    "droppedBy": [
+      "urubithian_guard",
+      "urubithian_warrior",
+      "vein_skitter",
+      "urubithian_sentinel",
+      "vein_stalker",
+      "hemaspitter",
+      "vein_ravager",
+      "vein_ripper",
+      "skarn"
+    ],
+    "foundIn": [
+      "broken_vein_tier2",
+      "broken_vein_tier3"
+    ],
+    "obtainedFromBlocks": [
+      "deepslate_xenonite_ore",
+      "hemastone_xenonite_ore",
+      "xenonite_ore"
+    ]
+  },
+  {
+    "id": "urubithium_ingot",
+    "slug": "urubithium_ingot",
+    "name": "Urubithium Ingot",
+    "kind": "material",
+    "since": "0.0.2",
+    "tooltip": [],
+    "recipes": [
+      "urubithium_block_to_ingot",
+      "urubithium_fragments_to_ingot"
+    ],
+    "usedIn": [
+      "urubithium_ingot_to_urubithium_block"
+    ],
+    "droppedBy": [
+      "urubithian_guard",
+      "urubithian_warrior",
+      "urubithian_sentinel",
+      "skarn"
+    ],
+    "foundIn": [
+      "broken_vein_tier1",
+      "broken_vein_tier2",
+      "broken_vein_tier3"
+    ],
+    "obtainedFromBlocks": []
+  },
+  {
+    "id": "urubithium_fragment",
+    "slug": "urubithium_fragment",
+    "name": "Urubithium Fragment",
+    "kind": "material",
+    "since": "0.0.2",
+    "tooltip": [],
+    "recipes": [],
+    "usedIn": [
+      "urubithium_fragments_to_ingot"
+    ],
+    "droppedBy": [
+      "urubithian_guard",
+      "urubithian_warrior",
+      "urubithian_sentinel",
+      "vein_ravager",
+      "skarn"
+    ],
+    "foundIn": [
+      "broken_vein_tier1",
+      "broken_vein_tier2",
+      "broken_vein_tier3"
+    ],
+    "obtainedFromBlocks": [
+      "deepslate_urubithium_ore",
+      "urubithium_ore"
+    ]
+  },
+  {
+    "id": "urubithium_shard",
+    "slug": "urubithium_shard",
+    "name": "Urubithium Shard",
+    "kind": "material",
+    "since": "0.0.2",
+    "tooltip": [],
+    "recipes": [],
+    "usedIn": [
+      "urubithian_maul_recipe",
+      "weighted__handle_recipe",
+      "xerion_alloy_axe_recipe",
+      "xerion_alloy_bow_recipe",
+      "xerion_alloy_chestplate_recipe",
+      "xerion_alloy_helmet_recipe",
+      "xerion_alloy_hoe_recipe",
+      "xerion_alloy_leggings_recipe",
+      "xerion_alloy_pickaxe_recipe",
+      "xerion_alloy_shovel_recipe",
+      "xerion_alloy_sword_recipe"
+    ],
+    "droppedBy": [
+      "urubithian_sentinel"
+    ],
+    "foundIn": [
+      "broken_vein_tier1",
+      "broken_vein_tier2",
+      "broken_vein_tier3"
+    ],
+    "obtainedFromBlocks": []
+  },
+  {
+    "id": "experium_nugget",
+    "slug": "experium_nugget",
+    "name": "Experium Nugget",
+    "kind": "material",
+    "since": "0.0.2",
+    "tooltip": [],
+    "recipes": [],
+    "usedIn": [
+      "experience_bottle_recipe"
+    ],
+    "droppedBy": [
+      "vein_ripper",
+      "storm_caller",
+      "ender_skeleton"
+    ],
+    "foundIn": [],
+    "obtainedFromBlocks": [
+      "deepslate_experium_ore"
+    ]
+  },
+  {
+    "id": "hemacite_ingot",
+    "slug": "hemacite_ingot",
+    "name": "Hemacite Ingot",
+    "kind": "material",
+    "since": "0.0.2",
+    "tooltip": [],
+    "recipes": [],
+    "usedIn": [],
+    "droppedBy": [],
+    "foundIn": [
+      "xerion_dungeon_room_1_loot",
+      "xerion_dungeon_room_2_loot",
+      "xerion_dungeon_room_3_loot",
+      "xerion_dungeon_room_final_1_loot",
+      "xerion_dungeon_room_final_2_loot",
+      "xerion_dungeon_room_final_3_loot",
+      "xerion_dungeon_room_final_4_loot"
+    ],
+    "obtainedFromBlocks": []
+  },
+  {
+    "id": "weighted_handle",
+    "slug": "weighted_handle",
+    "name": "Weighted Handle",
+    "kind": "misc",
+    "since": "0.0.2",
+    "tooltip": [],
+    "recipes": [
+      "weighted__handle_recipe"
+    ],
+    "usedIn": [
+      "hecatomb_handle_recipe",
+      "urubithian_maul_recipe",
+      "xerion_alloy_axe_recipe",
+      "xerion_alloy_hoe_recipe",
+      "xerion_alloy_pickaxe_recipe",
+      "xerion_alloy_shovel_recipe",
+      "xerion_alloy_sword_recipe"
+    ],
+    "droppedBy": [
+      "urubithian_warrior"
+    ],
+    "foundIn": [],
+    "obtainedFromBlocks": []
+  },
+  {
+    "id": "strengthened_string",
+    "slug": "strengthened_string",
+    "name": "Strengthened String",
+    "kind": "misc",
+    "since": "0.0.2",
+    "tooltip": [],
+    "recipes": [
+      "strengthened_string_recipe"
+    ],
+    "usedIn": [
+      "xerion_alloy_bow_recipe"
+    ],
+    "droppedBy": [],
+    "foundIn": [],
+    "obtainedFromBlocks": []
+  },
+  {
+    "id": "xerion_excavator",
+    "slug": "xerion_excavator",
+    "name": "Xerion-Excavator",
+    "kind": "misc",
+    "since": "0.0.2",
+    "tooltip": [],
+    "recipes": [
+      "xerion_excavator_recipe"
+    ],
+    "usedIn": [],
+    "droppedBy": [],
+    "foundIn": [],
+    "obtainedFromBlocks": []
+  },
+  {
+    "id": "tynite_sword",
+    "slug": "tynite_sword",
+    "name": "Tynite Sword",
+    "kind": "weapon",
+    "since": "0.0.2",
+    "durability": 780,
+    "tier": "tynite",
+    "attackDamage": 7.7,
+    "attackSpeed": 1.6,
+    "miningSpeed": 7.2,
+    "enchantability": 12,
+    "tooltip": [],
+    "recipes": [
+      "tynite_sword_recipe"
+    ],
+    "usedIn": [],
+    "droppedBy": [],
+    "foundIn": [],
+    "obtainedFromBlocks": []
+  },
+  {
+    "id": "ruby_sword",
+    "slug": "ruby_sword",
+    "name": "Ruby Sword",
+    "kind": "weapon",
+    "since": "0.0.2",
+    "durability": 1750,
+    "tier": "ruby",
+    "attackDamage": 9.5,
+    "attackSpeed": 1.6,
+    "miningSpeed": 8.5,
+    "enchantability": 14,
+    "tooltip": [],
+    "recipes": [
+      "ruby_sword_recipe"
+    ],
+    "usedIn": [],
+    "droppedBy": [],
+    "foundIn": [],
+    "obtainedFromBlocks": []
+  },
+  {
+    "id": "xerion_alloy_sword",
+    "slug": "xerion_alloy_sword",
+    "name": "Xerion Alloy Sword",
+    "kind": "weapon",
+    "since": "0.0.2",
+    "durability": 3452,
+    "tier": "xerion_alloy",
+    "attackDamage": 14.5,
+    "attackSpeed": 2.6,
+    "miningSpeed": 9.8,
+    "enchantability": 45,
+    "tooltip": [],
+    "recipes": [
+      "xerion_alloy_sword_recipe"
+    ],
+    "usedIn": [
+      "hecatomb_blade_recipe"
+    ],
+    "droppedBy": [],
+    "foundIn": [
+      "broken_vein_tier2",
+      "xerion_dungeon_room_2_loot",
+      "xerion_dungeon_room_3_loot"
+    ],
+    "obtainedFromBlocks": []
+  },
+  {
+    "id": "hecatomb",
+    "slug": "hecatomb",
+    "name": "Hecatomb",
+    "kind": "weapon",
+    "since": "0.0.2",
+    "rarity": "Epic",
+    "durability": 8000,
+    "fireResistant": true,
+    "tier": "hecatomb",
+    "attackDamage": 286,
+    "attackSpeed": 1.7,
+    "miningSpeed": 10,
+    "enchantability": 30,
+    "customStats": true,
+    "tooltip": [],
+    "recipes": [
+      "hecatomb_recipe"
+    ],
+    "usedIn": [],
+    "droppedBy": [],
+    "foundIn": [],
+    "obtainedFromBlocks": [],
+    "reach": 5,
+    "alwaysEnchanted": "Sharpness VI"
+  },
+  {
+    "id": "hecatomb_handle",
+    "slug": "hecatomb_handle",
+    "name": "Hecatomb Handle",
+    "kind": "misc",
+    "since": "0.0.2",
+    "rarity": "Rare",
+    "stackSize": 1,
+    "fireResistant": true,
+    "tooltip": [],
+    "recipes": [
+      "hecatomb_handle_recipe"
+    ],
+    "usedIn": [
+      "hecatomb_recipe"
+    ],
+    "droppedBy": [
+      "carcinyx"
+    ],
+    "foundIn": [],
+    "obtainedFromBlocks": []
+  },
+  {
+    "id": "hecatomb_guard",
+    "slug": "hecatomb_guard",
+    "name": "Hecatomb Guard",
+    "kind": "misc",
+    "since": "0.0.2",
+    "rarity": "Rare",
+    "stackSize": 1,
+    "fireResistant": true,
+    "tooltip": [],
+    "recipes": [
+      "hecatomb_guard_recipe"
+    ],
+    "usedIn": [
+      "hecatomb_recipe"
+    ],
+    "droppedBy": [
+      "carcinyx"
+    ],
+    "foundIn": [],
+    "obtainedFromBlocks": []
+  },
+  {
+    "id": "hecatomb_blade",
+    "slug": "hecatomb_blade",
+    "name": "Hecatomb Blade",
+    "kind": "misc",
+    "since": "0.0.2",
+    "rarity": "Rare",
+    "stackSize": 1,
+    "fireResistant": true,
+    "tooltip": [],
+    "recipes": [
+      "hecatomb_blade_recipe"
+    ],
+    "usedIn": [
+      "hecatomb_recipe"
+    ],
+    "droppedBy": [
+      "carcinyx"
+    ],
+    "foundIn": [],
+    "obtainedFromBlocks": []
+  },
+  {
+    "id": "tynite_pickaxe",
+    "slug": "tynite_pickaxe",
+    "name": "Tynite Pickaxe",
+    "kind": "tool",
+    "since": "0.0.2",
+    "durability": 780,
+    "tier": "tynite",
+    "attackDamage": 7.7,
+    "attackSpeed": 1.6,
+    "miningSpeed": 7.2,
+    "enchantability": 12,
+    "tooltip": [],
+    "recipes": [
+      "tynite_pickaxe_recipe"
+    ],
+    "usedIn": [],
+    "droppedBy": [],
+    "foundIn": [],
+    "obtainedFromBlocks": []
+  },
+  {
+    "id": "tynite_axe",
+    "slug": "tynite_axe",
+    "name": "Tynite Axe",
+    "kind": "tool",
+    "since": "0.0.2",
+    "durability": 780,
+    "tier": "tynite",
+    "attackDamage": 7.7,
+    "attackSpeed": 1.6,
+    "miningSpeed": 7.2,
+    "enchantability": 12,
+    "tooltip": [],
+    "recipes": [
+      "tynite_axe_recipe"
+    ],
+    "usedIn": [],
+    "droppedBy": [],
+    "foundIn": [],
+    "obtainedFromBlocks": []
+  },
+  {
+    "id": "tynite_shovel",
+    "slug": "tynite_shovel",
+    "name": "Tynite Shovel",
+    "kind": "tool",
+    "since": "0.0.2",
+    "durability": 780,
+    "tier": "tynite",
+    "attackDamage": 7.7,
+    "attackSpeed": 1.6,
+    "miningSpeed": 7.2,
+    "enchantability": 12,
+    "tooltip": [],
+    "recipes": [
+      "tynite_shovel_recipe"
+    ],
+    "usedIn": [],
+    "droppedBy": [],
+    "foundIn": [],
+    "obtainedFromBlocks": []
+  },
+  {
+    "id": "tynite_hoe",
+    "slug": "tynite_hoe",
+    "name": "Tynite Hoe",
+    "kind": "tool",
+    "since": "0.0.2",
+    "durability": 780,
+    "tier": "tynite",
+    "attackDamage": 7.7,
+    "attackSpeed": 1.6,
+    "miningSpeed": 7.2,
+    "enchantability": 12,
+    "tooltip": [],
+    "recipes": [
+      "tynite_hoe_recipe"
+    ],
+    "usedIn": [],
+    "droppedBy": [],
+    "foundIn": [],
+    "obtainedFromBlocks": []
+  },
+  {
+    "id": "ruby_pickaxe",
+    "slug": "ruby_pickaxe",
+    "name": "Ruby Pickaxe",
+    "kind": "tool",
+    "since": "0.0.2",
+    "durability": 1750,
+    "tier": "ruby",
+    "attackDamage": 9.5,
+    "attackSpeed": 1.6,
+    "miningSpeed": 8.5,
+    "enchantability": 14,
+    "tooltip": [],
+    "recipes": [
+      "ruby_pickaxe_recipe"
+    ],
+    "usedIn": [],
+    "droppedBy": [],
+    "foundIn": [],
+    "obtainedFromBlocks": []
+  },
+  {
+    "id": "ruby_axe",
+    "slug": "ruby_axe",
+    "name": "Ruby Axe",
+    "kind": "tool",
+    "since": "0.0.2",
+    "durability": 1750,
+    "tier": "ruby",
+    "attackDamage": 9.5,
+    "attackSpeed": 1.6,
+    "miningSpeed": 8.5,
+    "enchantability": 14,
+    "tooltip": [],
+    "recipes": [
+      "ruby_axe_recipe"
+    ],
+    "usedIn": [],
+    "droppedBy": [],
+    "foundIn": [],
+    "obtainedFromBlocks": []
+  },
+  {
+    "id": "ruby_shovel",
+    "slug": "ruby_shovel",
+    "name": "Ruby Shovel",
+    "kind": "tool",
+    "since": "0.0.2",
+    "durability": 1750,
+    "tier": "ruby",
+    "attackDamage": 9.5,
+    "attackSpeed": 1.6,
+    "miningSpeed": 8.5,
+    "enchantability": 14,
+    "tooltip": [],
+    "recipes": [
+      "ruby_shovel_recipe"
+    ],
+    "usedIn": [],
+    "droppedBy": [],
+    "foundIn": [],
+    "obtainedFromBlocks": []
+  },
+  {
+    "id": "ruby_hoe",
+    "slug": "ruby_hoe",
+    "name": "Ruby Hoe",
+    "kind": "tool",
+    "since": "0.0.2",
+    "durability": 1750,
+    "tier": "ruby",
+    "attackDamage": 9.5,
+    "attackSpeed": 1.6,
+    "miningSpeed": 8.5,
+    "enchantability": 14,
+    "tooltip": [],
+    "recipes": [
+      "ruby_hoe_recipe"
+    ],
+    "usedIn": [],
+    "droppedBy": [],
+    "foundIn": [],
+    "obtainedFromBlocks": []
+  },
+  {
+    "id": "xerion_alloy_axe",
+    "slug": "xerion_alloy_axe",
+    "name": "Xerion Alloy Axe",
+    "kind": "tool",
+    "since": "0.0.2",
+    "durability": 3452,
+    "tier": "xerion_alloy",
+    "attackDamage": 14.5,
+    "attackSpeed": 2.6,
+    "miningSpeed": 9.8,
+    "enchantability": 45,
+    "tooltip": [],
+    "recipes": [
+      "xerion_alloy_axe_recipe"
+    ],
+    "usedIn": [],
+    "droppedBy": [],
+    "foundIn": [
+      "xerion_dungeon_room_3_loot"
+    ],
+    "obtainedFromBlocks": []
+  },
+  {
+    "id": "xerion_alloy_pickaxe",
+    "slug": "xerion_alloy_pickaxe",
+    "name": "Xerion Alloy Pickaxe",
+    "kind": "tool",
+    "since": "0.0.2",
+    "durability": 3452,
+    "tier": "xerion_alloy",
+    "attackDamage": 14.5,
+    "attackSpeed": 2.6,
+    "miningSpeed": 9.8,
+    "enchantability": 45,
+    "tooltip": [],
+    "recipes": [
+      "xerion_alloy_pickaxe_recipe"
+    ],
+    "usedIn": [],
+    "droppedBy": [],
+    "foundIn": [
+      "xerion_dungeon_room_2_loot",
+      "xerion_dungeon_room_3_loot"
+    ],
+    "obtainedFromBlocks": []
+  },
+  {
+    "id": "xerion_alloy_shovel",
+    "slug": "xerion_alloy_shovel",
+    "name": "Xerion Alloy Shovel",
+    "kind": "tool",
+    "since": "0.0.2",
+    "durability": 3452,
+    "tier": "xerion_alloy",
+    "attackDamage": 14.5,
+    "attackSpeed": 2.6,
+    "miningSpeed": 9.8,
+    "enchantability": 45,
+    "tooltip": [],
+    "recipes": [
+      "xerion_alloy_shovel_recipe"
+    ],
+    "usedIn": [],
+    "droppedBy": [],
+    "foundIn": [
+      "xerion_dungeon_room_3_loot"
+    ],
+    "obtainedFromBlocks": []
+  },
+  {
+    "id": "xerion_alloy_hoe",
+    "slug": "xerion_alloy_hoe",
+    "name": "Xerion Alloy Hoe",
+    "kind": "tool",
+    "since": "0.0.2",
+    "durability": 3452,
+    "tier": "xerion_alloy",
+    "attackDamage": 14.5,
+    "attackSpeed": 2.6,
+    "miningSpeed": 9.8,
+    "enchantability": 45,
+    "tooltip": [],
+    "recipes": [
+      "xerion_alloy_hoe_recipe"
+    ],
+    "usedIn": [],
+    "droppedBy": [],
+    "foundIn": [
+      "xerion_dungeon_room_3_loot"
+    ],
+    "obtainedFromBlocks": []
+  },
+  {
+    "id": "tynite_helmet",
+    "slug": "tynite_helmet",
+    "name": "Tynite Helmet",
+    "kind": "armor",
+    "since": "0.0.2",
+    "durability": 297,
+    "armor": {
+      "material": "tynite",
+      "slot": "helmet",
+      "defense": 3,
+      "toughness": 1.2,
+      "knockbackResistance": 0.1,
+      "enchantability": 9
+    },
+    "tooltip": [],
+    "recipes": [
+      "tynite_helmet_recipe"
+    ],
+    "usedIn": [],
+    "droppedBy": [],
+    "foundIn": [],
+    "obtainedFromBlocks": []
+  },
+  {
+    "id": "tynite_chestplate",
+    "slug": "tynite_chestplate",
+    "name": "Tynite Chestplate",
+    "kind": "armor",
+    "since": "0.0.2",
+    "durability": 432,
+    "armor": {
+      "material": "tynite",
+      "slot": "chestplate",
+      "defense": 7,
+      "toughness": 1.2,
+      "knockbackResistance": 0.1,
+      "enchantability": 9
+    },
+    "tooltip": [],
+    "recipes": [
+      "tynite_chestplate_recipe"
+    ],
+    "usedIn": [],
+    "droppedBy": [],
+    "foundIn": [],
+    "obtainedFromBlocks": []
+  },
+  {
+    "id": "tynite_leggings",
+    "slug": "tynite_leggings",
+    "name": "Tynite Leggings",
+    "kind": "armor",
+    "since": "0.0.2",
+    "durability": 405,
+    "armor": {
+      "material": "tynite",
+      "slot": "leggings",
+      "defense": 5,
+      "toughness": 1.2,
+      "knockbackResistance": 0.1,
+      "enchantability": 9
+    },
+    "tooltip": [],
+    "recipes": [
+      "tynite_legs_recipe"
+    ],
+    "usedIn": [],
+    "droppedBy": [],
+    "foundIn": [],
+    "obtainedFromBlocks": []
+  },
+  {
+    "id": "tynite_boots",
+    "slug": "tynite_boots",
+    "name": "Tynite Boots",
+    "kind": "armor",
+    "since": "0.0.2",
+    "durability": 351,
+    "armor": {
+      "material": "tynite",
+      "slot": "boots",
+      "defense": 3,
+      "toughness": 1.2,
+      "knockbackResistance": 0.1,
+      "enchantability": 9
+    },
+    "tooltip": [],
+    "recipes": [
+      "tynite_boots_recipe"
+    ],
+    "usedIn": [],
+    "droppedBy": [],
+    "foundIn": [],
+    "obtainedFromBlocks": []
+  },
+  {
+    "id": "ruby_helmet",
+    "slug": "ruby_helmet",
+    "name": "Ruby Helmet",
+    "kind": "armor",
+    "since": "0.0.2",
+    "durability": 385,
+    "armor": {
+      "material": "ruby",
+      "slot": "helmet",
+      "defense": 4,
+      "toughness": 1.4,
+      "knockbackResistance": 0.1,
+      "enchantability": 14
+    },
+    "tooltip": [],
+    "recipes": [
+      "ruby_helmet_recipe"
+    ],
+    "usedIn": [],
+    "droppedBy": [],
+    "foundIn": [],
+    "obtainedFromBlocks": []
+  },
+  {
+    "id": "ruby_chestplate",
+    "slug": "ruby_chestplate",
+    "name": "Ruby Chestplate",
+    "kind": "armor",
+    "since": "0.0.2",
+    "durability": 560,
+    "armor": {
+      "material": "ruby",
+      "slot": "chestplate",
+      "defense": 8,
+      "toughness": 1.4,
+      "knockbackResistance": 0.1,
+      "enchantability": 14
+    },
+    "tooltip": [],
+    "recipes": [
+      "ruby_chestplate_recipe"
+    ],
+    "usedIn": [],
+    "droppedBy": [],
+    "foundIn": [],
+    "obtainedFromBlocks": []
+  },
+  {
+    "id": "ruby_leggings",
+    "slug": "ruby_leggings",
+    "name": "Ruby Leggings",
+    "kind": "armor",
+    "since": "0.0.2",
+    "durability": 525,
+    "armor": {
+      "material": "ruby",
+      "slot": "leggings",
+      "defense": 6,
+      "toughness": 1.4,
+      "knockbackResistance": 0.1,
+      "enchantability": 14
+    },
+    "tooltip": [],
+    "recipes": [
+      "ruby_legs_recipe"
+    ],
+    "usedIn": [],
+    "droppedBy": [],
+    "foundIn": [],
+    "obtainedFromBlocks": []
+  },
+  {
+    "id": "ruby_boots",
+    "slug": "ruby_boots",
+    "name": "Ruby Boots",
+    "kind": "armor",
+    "since": "0.0.2",
+    "durability": 455,
+    "armor": {
+      "material": "ruby",
+      "slot": "boots",
+      "defense": 4,
+      "toughness": 1.4,
+      "knockbackResistance": 0.1,
+      "enchantability": 14
+    },
+    "tooltip": [],
+    "recipes": [
+      "ruby_boots_recipe"
+    ],
+    "usedIn": [],
+    "droppedBy": [],
+    "foundIn": [],
+    "obtainedFromBlocks": []
+  },
+  {
+    "id": "xerion_alloy_helmet",
+    "slug": "xerion_alloy_helmet",
+    "name": "Xerion Alloy Helmet",
+    "kind": "armor",
+    "since": "0.0.2",
+    "armor": {
+      "material": "xerion_alloy",
+      "slot": "helmet",
+      "defense": 7,
+      "toughness": 3.4,
+      "knockbackResistance": 0.6,
+      "enchantability": 45
+    },
+    "tooltip": [],
+    "recipes": [
+      "xerion_alloy_helmet_recipe"
+    ],
+    "usedIn": [],
+    "droppedBy": [],
+    "foundIn": [
+      "broken_vein_tier3",
+      "xerion_dungeon_room_3_loot"
+    ],
+    "obtainedFromBlocks": []
+  },
+  {
+    "id": "xerion_alloy_chestplate",
+    "slug": "xerion_alloy_chestplate",
+    "name": "Xerion Alloy Chestplate",
+    "kind": "armor",
+    "since": "0.0.2",
+    "armor": {
+      "material": "xerion_alloy",
+      "slot": "chestplate",
+      "defense": 12,
+      "toughness": 3.4,
+      "knockbackResistance": 0.6,
+      "enchantability": 45
+    },
+    "tooltip": [],
+    "recipes": [
+      "xerion_alloy_chestplate_recipe"
+    ],
+    "usedIn": [],
+    "droppedBy": [],
+    "foundIn": [
+      "broken_vein_tier3",
+      "xerion_dungeon_room_3_loot"
+    ],
+    "obtainedFromBlocks": []
+  },
+  {
+    "id": "xerion_alloy_leggings",
+    "slug": "xerion_alloy_leggings",
+    "name": "Xerion Alloy Leggings",
+    "kind": "armor",
+    "since": "0.0.2",
+    "armor": {
+      "material": "xerion_alloy",
+      "slot": "leggings",
+      "defense": 11,
+      "toughness": 3.4,
+      "knockbackResistance": 0.6,
+      "enchantability": 45
+    },
+    "tooltip": [],
+    "recipes": [
+      "xerion_alloy_leggings_recipe"
+    ],
+    "usedIn": [],
+    "droppedBy": [],
+    "foundIn": [
+      "broken_vein_tier3",
+      "xerion_dungeon_room_3_loot"
+    ],
+    "obtainedFromBlocks": []
+  },
+  {
+    "id": "xerion_alloy_boots",
+    "slug": "xerion_alloy_boots",
+    "name": "Xerion Alloy Boots",
+    "kind": "armor",
+    "since": "0.0.2",
+    "armor": {
+      "material": "xerion_alloy",
+      "slot": "boots",
+      "defense": 7,
+      "toughness": 3.4,
+      "knockbackResistance": 0.6,
+      "enchantability": 45
+    },
+    "tooltip": [],
+    "recipes": [
+      "xerion_alloy_boots_recipe"
+    ],
+    "usedIn": [],
+    "droppedBy": [],
+    "foundIn": [
+      "broken_vein_tier3",
+      "xerion_dungeon_room_3_loot"
+    ],
+    "obtainedFromBlocks": []
+  },
+  {
+    "id": "hemacite_helmet",
+    "slug": "hemacite_helmet",
+    "name": "Hemacite Helmet",
+    "kind": "armor",
+    "since": "0.0.2",
+    "armor": {
+      "material": "hemacite",
+      "slot": "helmet",
+      "defense": 7,
+      "toughness": 4.5,
+      "knockbackResistance": 1.6,
+      "enchantability": 52
+    },
+    "tooltip": [],
+    "recipes": [],
+    "usedIn": [],
+    "droppedBy": [],
+    "foundIn": [
+      "xerion_dungeon_room_final_4_loot"
+    ],
+    "obtainedFromBlocks": []
+  },
+  {
+    "id": "hemacite_chestplate",
+    "slug": "hemacite_chestplate",
+    "name": "Hemacite Chestplate",
+    "kind": "armor",
+    "since": "0.0.2",
+    "armor": {
+      "material": "hemacite",
+      "slot": "chestplate",
+      "defense": 12,
+      "toughness": 4.5,
+      "knockbackResistance": 1.6,
+      "enchantability": 52
+    },
+    "tooltip": [],
+    "recipes": [],
+    "usedIn": [],
+    "droppedBy": [],
+    "foundIn": [
+      "xerion_dungeon_room_final_3_loot"
+    ],
+    "obtainedFromBlocks": []
+  },
+  {
+    "id": "hemacite_leggings",
+    "slug": "hemacite_leggings",
+    "name": "Hemacite Leggings",
+    "kind": "armor",
+    "since": "0.0.2",
+    "armor": {
+      "material": "hemacite",
+      "slot": "leggings",
+      "defense": 11,
+      "toughness": 4.5,
+      "knockbackResistance": 1.6,
+      "enchantability": 52
+    },
+    "tooltip": [],
+    "recipes": [],
+    "usedIn": [],
+    "droppedBy": [],
+    "foundIn": [
+      "xerion_dungeon_room_final_2_loot"
+    ],
+    "obtainedFromBlocks": []
+  },
+  {
+    "id": "hemacite_boots",
+    "slug": "hemacite_boots",
+    "name": "Hemacite Boots",
+    "kind": "armor",
+    "since": "0.0.2",
+    "armor": {
+      "material": "hemacite",
+      "slot": "boots",
+      "defense": 7,
+      "toughness": 4.5,
+      "knockbackResistance": 1.6,
+      "enchantability": 52
+    },
+    "tooltip": [],
+    "recipes": [],
+    "usedIn": [],
+    "droppedBy": [],
+    "foundIn": [
+      "xerion_dungeon_room_final_1_loot"
+    ],
+    "obtainedFromBlocks": []
+  },
+  {
+    "id": "urubithian_maul",
+    "slug": "urubithian_maul",
+    "name": "Urubithian Maul",
+    "kind": "misc",
+    "since": "0.0.2",
+    "durability": 500,
+    "tooltip": [],
+    "recipes": [
+      "urubithian_maul_recipe"
+    ],
+    "usedIn": [],
+    "droppedBy": [],
+    "foundIn": [],
+    "obtainedFromBlocks": []
+  },
+  {
+    "id": "xerion_alloy_bow",
+    "slug": "xerion_alloy_bow",
+    "name": "Xerion Alloy Bow",
+    "kind": "weapon",
+    "since": "0.0.2",
+    "stackSize": 1,
+    "tooltip": [],
+    "recipes": [
+      "xerion_alloy_bow_recipe"
+    ],
+    "usedIn": [],
+    "droppedBy": [],
+    "foundIn": [
+      "broken_vein_tier2",
+      "xerion_dungeon_room_3_loot"
+    ],
+    "obtainedFromBlocks": []
+  },
+  {
+    "id": "test_fluid_bucket",
+    "slug": "ichor_bucket",
+    "name": "Ichor Bucket",
+    "kind": "misc",
+    "since": "0.0.2",
+    "stackSize": 1,
+    "tooltip": [],
+    "recipes": [],
+    "usedIn": [],
+    "droppedBy": [],
+    "foundIn": [],
+    "obtainedFromBlocks": []
+  },
+  {
+    "id": "urubithian_charge",
+    "slug": "urubithian_charge",
+    "name": "Urubithian Charge",
+    "kind": "misc",
+    "since": "0.0.2",
+    "stackSize": 16,
+    "tooltip": [],
+    "recipes": [],
+    "usedIn": [],
+    "droppedBy": [],
+    "foundIn": [],
+    "obtainedFromBlocks": []
+  },
+  {
+    "id": "hemaspitter_venom",
+    "slug": "hemaspitter_venom",
+    "name": "Hemaspitter Venom",
+    "kind": "misc",
+    "since": "0.0.2",
+    "stackSize": 16,
+    "tooltip": [],
+    "recipes": [],
+    "usedIn": [],
+    "droppedBy": [
+      "hemaspitter"
+    ],
+    "foundIn": [],
+    "obtainedFromBlocks": []
+  },
+  {
+    "id": "raw_vein_skitter_meat",
+    "slug": "raw_vein_skitter_meat",
+    "name": "Raw Vein Skitter Meat",
+    "kind": "food",
+    "since": "0.0.2",
+    "food": {
+      "nutrition": 3,
+      "saturation": 0.3,
+      "effects": [
+        {
+          "effect": "Confusion",
+          "seconds": 10,
+          "chance": 1
+        }
+      ]
+    },
+    "tooltip": [],
+    "recipes": [],
+    "usedIn": [],
+    "droppedBy": [
+      "vein_skitter"
+    ],
+    "foundIn": [
+      "skarn_dungeon_island"
+    ],
+    "obtainedFromBlocks": []
+  },
+  {
+    "id": "cooked_vein_skitter_meat",
+    "slug": "cooked_vein_skitter_meat",
+    "name": "Cooked Vein Skitter Meat",
+    "kind": "food",
+    "since": "0.0.2",
+    "food": {
+      "nutrition": 3,
+      "saturation": 1.5,
+      "effects": [
+        {
+          "effect": "Movement Speed",
+          "seconds": 20,
+          "chance": 0.35
+        }
+      ]
+    },
+    "tooltip": [],
+    "recipes": [],
+    "usedIn": [],
+    "droppedBy": [
+      "vein_skitter"
+    ],
+    "foundIn": [],
+    "obtainedFromBlocks": []
+  },
+  {
+    "id": "raw_vein_stalker_meat",
+    "slug": "raw_vein_stalker_meat",
+    "name": "Raw Vein Stalker Meat",
+    "kind": "food",
+    "since": "0.0.2",
+    "food": {
+      "nutrition": 3,
+      "saturation": 0.3,
+      "effects": [
+        {
+          "effect": "Confusion",
+          "seconds": 10,
+          "chance": 1
+        }
+      ]
+    },
+    "tooltip": [],
+    "recipes": [],
+    "usedIn": [],
+    "droppedBy": [
+      "vein_stalker"
+    ],
+    "foundIn": [
+      "skarn_dungeon_island"
+    ],
+    "obtainedFromBlocks": []
+  },
+  {
+    "id": "cooked_vein_stalker_meat",
+    "slug": "cooked_vein_stalker_meat",
+    "name": "Cooked Vein Stalker Meat",
+    "kind": "food",
+    "since": "0.0.2",
+    "food": {
+      "nutrition": 3,
+      "saturation": 2.7,
+      "effects": [
+        {
+          "effect": "Health Boost",
+          "seconds": 20,
+          "chance": 0.75
+        }
+      ]
+    },
+    "tooltip": [],
+    "recipes": [],
+    "usedIn": [],
+    "droppedBy": [
+      "vein_stalker"
+    ],
+    "foundIn": [],
+    "obtainedFromBlocks": []
+  },
+  {
+    "id": "ravager_horn",
+    "slug": "ravager_horn",
+    "name": "Ravager Horn",
+    "kind": "misc",
+    "since": "0.0.2",
+    "tooltip": [],
+    "recipes": [],
+    "usedIn": [
+      "hecatomb_blade_recipe"
+    ],
+    "droppedBy": [
+      "vein_ravager"
+    ],
+    "foundIn": [],
+    "obtainedFromBlocks": []
+  },
+  {
+    "id": "vein_skitter_scale",
+    "slug": "vein_skitter_scale",
+    "name": "Vein Skitter Scale",
+    "kind": "misc",
+    "since": "0.0.2",
+    "tooltip": [],
+    "recipes": [],
+    "usedIn": [
+      "hecatomb_handle_recipe"
+    ],
+    "droppedBy": [
+      "vein_skitter"
+    ],
+    "foundIn": [],
+    "obtainedFromBlocks": []
+  },
+  {
+    "id": "vein_stalker_scale",
+    "slug": "vein_stalker_scale",
+    "name": "Vein Stalker Scale",
+    "kind": "misc",
+    "since": "0.0.2",
+    "tooltip": [],
+    "recipes": [],
+    "usedIn": [
+      "hecatomb_guard_recipe"
+    ],
+    "droppedBy": [
+      "vein_stalker"
+    ],
+    "foundIn": [],
+    "obtainedFromBlocks": []
+  },
+  {
+    "id": "venom_gland",
+    "slug": "venom_gland",
+    "name": "Venom Gland",
+    "kind": "misc",
+    "since": "0.0.2",
+    "tooltip": [],
+    "recipes": [],
+    "usedIn": [
+      "hecatomb_guard_recipe"
+    ],
+    "droppedBy": [
+      "hemaspitter"
+    ],
+    "foundIn": [],
+    "obtainedFromBlocks": []
+  },
+  {
+    "id": "wailing_wraith_eye",
+    "slug": "wailing_wraith_eye",
+    "name": "Wailing Wraith Eye",
+    "kind": "misc",
+    "since": "0.0.2",
+    "tooltip": [],
+    "recipes": [],
+    "usedIn": [
+      "hecatomb_guard_recipe"
+    ],
+    "droppedBy": [
+      "wailing_wraith"
+    ],
+    "foundIn": [],
+    "obtainedFromBlocks": []
+  },
+  {
+    "id": "storm_caller_heart",
+    "slug": "storm_caller_heart",
+    "name": "Storm Caller Heart",
+    "kind": "misc",
+    "since": "0.0.2",
+    "tooltip": [],
+    "recipes": [],
+    "usedIn": [
+      "hecatomb_guard_recipe",
+      "mechanical_stormcaller_heart_recipe"
+    ],
+    "droppedBy": [
+      "storm_caller"
+    ],
+    "foundIn": [],
+    "obtainedFromBlocks": []
+  },
+  {
+    "id": "prismoth_eye",
+    "slug": "prismoth_eye",
+    "name": "Prismoth Eye",
+    "kind": "misc",
+    "since": "0.0.2",
+    "rarity": "Uncommon",
+    "tooltip": [],
+    "recipes": [],
+    "usedIn": [
+      "hecatomb_handle_recipe"
+    ],
+    "droppedBy": [
+      "prismoth"
+    ],
+    "foundIn": [],
+    "obtainedFromBlocks": []
+  },
+  {
+    "id": "heartwood_antler",
+    "slug": "heartwood_antler",
+    "name": "Heartwood Antler",
+    "kind": "misc",
+    "since": "0.0.2",
+    "rarity": "Uncommon",
+    "tooltip": [],
+    "recipes": [],
+    "usedIn": [
+      "hecatomb_handle_recipe"
+    ],
+    "droppedBy": [
+      "mutated_heartstag"
+    ],
+    "foundIn": [],
+    "obtainedFromBlocks": []
+  },
+  {
+    "id": "brood_chitin",
+    "slug": "brood_chitin",
+    "name": "Brood Chitin",
+    "kind": "misc",
+    "since": "0.0.2",
+    "rarity": "Uncommon",
+    "tooltip": [],
+    "recipes": [],
+    "usedIn": [
+      "hecatomb_guard_recipe"
+    ],
+    "droppedBy": [
+      "scither_brood_mother"
+    ],
+    "foundIn": [],
+    "obtainedFromBlocks": []
+  },
+  {
+    "id": "bloom_nectar",
+    "slug": "bloom_nectar",
+    "name": "Bloom Nectar",
+    "kind": "misc",
+    "since": "0.0.2",
+    "rarity": "Uncommon",
+    "tooltip": [],
+    "recipes": [],
+    "usedIn": [
+      "hecatomb_blade_recipe"
+    ],
+    "droppedBy": [
+      "ichorbloom",
+      "ichor_lancefish"
+    ],
+    "foundIn": [],
+    "obtainedFromBlocks": []
+  },
+  {
+    "id": "rostrum",
+    "slug": "rostrum",
+    "name": "Rostrum",
+    "kind": "misc",
+    "since": "0.0.2",
+    "rarity": "Uncommon",
+    "tooltip": [],
+    "recipes": [],
+    "usedIn": [
+      "hecatomb_blade_recipe"
+    ],
+    "droppedBy": [
+      "ichor_lancefish"
+    ],
+    "foundIn": [],
+    "obtainedFromBlocks": []
+  },
+  {
+    "id": "sawtooth_pincer",
+    "slug": "sawtooth_pincer",
+    "name": "Sawtooth Pincer",
+    "kind": "misc",
+    "since": "0.0.2",
+    "rarity": "Uncommon",
+    "tooltip": [],
+    "recipes": [],
+    "usedIn": [
+      "hecatomb_blade_recipe"
+    ],
+    "droppedBy": [
+      "carcinyx"
+    ],
+    "foundIn": [],
+    "obtainedFromBlocks": []
+  },
+  {
+    "id": "veilfang",
+    "slug": "veilfang",
+    "name": "Veilfang",
+    "kind": "misc",
+    "since": "0.0.2",
+    "rarity": "Uncommon",
+    "tooltip": [],
+    "recipes": [],
+    "usedIn": [
+      "hecatomb_blade_recipe"
+    ],
+    "droppedBy": [
+      "veilfox"
+    ],
+    "foundIn": [],
+    "obtainedFromBlocks": []
+  },
+  {
+    "id": "foxfire_heart",
+    "slug": "foxfire_heart",
+    "name": "Foxfire Heart",
+    "kind": "misc",
+    "since": "0.0.2",
+    "rarity": "Rare",
+    "fireResistant": true,
+    "tooltip": [],
+    "recipes": [],
+    "usedIn": [
+      "foxfire_igniter_recipe"
+    ],
+    "droppedBy": [
+      "veilfox"
+    ],
+    "foundIn": [],
+    "obtainedFromBlocks": []
+  },
+  {
+    "id": "foxfire_igniter",
+    "slug": "foxfire_igniter",
+    "name": "Foxfire Igniter",
+    "kind": "misc",
+    "since": "0.0.2",
+    "rarity": "Rare",
+    "fireResistant": true,
+    "tooltip": [
+      "Strikes foxfire: white-hot, fast-spreading spirit fire",
+      "Use on water: a source becomes obsidian, flowing water becomes stone",
+      "Use on a fox to kindle it into a Veilfox that fights for you"
+    ],
+    "recipes": [
+      "foxfire_igniter_recipe"
+    ],
+    "usedIn": [],
+    "droppedBy": [],
+    "foundIn": [],
+    "obtainedFromBlocks": []
+  },
+  {
+    "id": "mechanical_stormcaller_heart",
+    "slug": "mechanical_stormcaller_heart",
+    "name": "Mechanical Stormcaller Heart",
+    "kind": "misc",
+    "since": "0.0.2",
+    "tooltip": [],
+    "recipes": [
+      "mechanical_stormcaller_heart_recipe"
+    ],
+    "usedIn": [
+      "stormcaller_gun_recipe"
+    ],
+    "droppedBy": [],
+    "foundIn": [],
+    "obtainedFromBlocks": []
+  },
+  {
+    "id": "stormcaller_gun",
+    "slug": "stormcaller_gun",
+    "name": "Stormcaller Gun",
+    "kind": "weapon",
+    "since": "0.0.2",
+    "stackSize": 1,
+    "durability": 250,
+    "tooltip": [
+      "Aim at the sky and hold right-click to change the weather"
+    ],
+    "recipes": [
+      "stormcaller_gun_recipe"
+    ],
+    "usedIn": [],
+    "droppedBy": [],
+    "foundIn": [],
+    "obtainedFromBlocks": []
+  },
+  {
+    "id": "ender_staff",
+    "slug": "ender_staff",
+    "name": "Ender Staff",
+    "kind": "weapon",
+    "since": "0.0.2",
+    "durability": 512,
+    "tooltip": [],
+    "recipes": [],
+    "usedIn": [],
+    "droppedBy": [
+      "ender_skeleton"
+    ],
+    "foundIn": [],
+    "obtainedFromBlocks": []
+  },
+  {
+    "id": "solaris_ingot",
+    "slug": "solaris_ingot",
+    "name": "Solaris Ingot",
+    "kind": "material",
+    "since": "0.0.2",
+    "tooltip": [],
+    "recipes": [
+      "solaris_ingot_from_blasting_solaris_cluster",
+      "solaris_ingot_from_blasting_solaris_ore",
+      "solaris_ingot_from_smelting_solaris_cluster",
+      "solaris_ingot_from_smelting_solaris_ore"
+    ],
+    "usedIn": [],
+    "droppedBy": [],
+    "foundIn": [],
+    "obtainedFromBlocks": []
+  },
+  {
+    "id": "kyrion_ingot",
+    "slug": "kyrion_ingot",
+    "name": "Kyrion Ingot",
+    "kind": "material",
+    "since": "0.0.2",
+    "tooltip": [],
+    "recipes": [
+      "kyrion_block_to_kyrion_ingot",
+      "kyrion_ingot_from_blasting_kyrion_ore",
+      "kyrion_ingot_from_blasting_raw_kyrion",
+      "kyrion_ingot_from_smelting_kyrion_ore",
+      "kyrion_ingot_from_smelting_raw_kyrion"
+    ],
+    "usedIn": [
+      "kyrion_ingot_to_kyrion_block",
+      "stormcaller_gun_recipe"
+    ],
+    "droppedBy": [],
+    "foundIn": [],
+    "obtainedFromBlocks": []
+  },
+  {
+    "id": "noctyrite_ingot",
+    "slug": "noctyrite_ingot",
+    "name": "Noctyrite Ingot",
+    "kind": "material",
+    "since": "0.0.2",
+    "tooltip": [],
+    "recipes": [],
+    "usedIn": [],
+    "droppedBy": [
+      "storm_caller"
+    ],
+    "foundIn": [],
+    "obtainedFromBlocks": []
+  },
+  {
+    "id": "solaris_cluster",
+    "slug": "solaris_cluster",
+    "name": "Solaris Cluster",
+    "kind": "material",
+    "since": "0.0.2",
+    "tooltip": [],
+    "recipes": [],
+    "usedIn": [
+      "solaris_ingot_from_blasting_solaris_cluster",
+      "solaris_ingot_from_smelting_solaris_cluster"
+    ],
+    "droppedBy": [],
+    "foundIn": [],
+    "obtainedFromBlocks": [
+      "solaris_ore"
+    ]
+  },
+  {
+    "id": "raw_kyrion",
+    "slug": "raw_kyrion",
+    "name": "Raw Kyrion",
+    "kind": "material",
+    "since": "0.0.2",
+    "tooltip": [],
+    "recipes": [],
+    "usedIn": [
+      "kyrion_ingot_from_blasting_raw_kyrion",
+      "kyrion_ingot_from_smelting_raw_kyrion"
+    ],
+    "droppedBy": [],
+    "foundIn": [],
+    "obtainedFromBlocks": [
+      "kyrion_ore"
+    ]
+  },
+  {
+    "id": "noctyrite_nugget",
+    "slug": "noctyrite_nugget",
+    "name": "Noctyrite Nugget",
+    "kind": "material",
+    "since": "0.0.2",
+    "tooltip": [],
+    "recipes": [],
+    "usedIn": [],
+    "droppedBy": [
+      "storm_caller",
+      "ender_skeleton"
+    ],
+    "foundIn": [],
+    "obtainedFromBlocks": [
+      "noctyrite_ore"
+    ]
+  },
+  {
+    "id": "ender_rod",
+    "slug": "ender_rod",
+    "name": "Ender Rod",
+    "kind": "misc",
+    "since": "0.0.2",
+    "tooltip": [],
+    "recipes": [],
+    "usedIn": [
+      "hecatomb_handle_recipe"
+    ],
+    "droppedBy": [],
+    "foundIn": [],
+    "obtainedFromBlocks": []
+  },
+  {
+    "id": "riftsteel_ingot",
+    "slug": "riftsteel_ingot",
+    "name": "Riftsteel Ingot",
+    "kind": "material",
+    "since": "0.0.2",
+    "tooltip": [],
+    "recipes": [
+      "riftsteel_block_to_ingot",
+      "riftsteel_nuggets_to_ingot"
+    ],
+    "usedIn": [
+      "random_teleport_block_recipe",
+      "riftsteel_ingot_to_nugget",
+      "riftsteel_ingot_to_riftsteel_block",
+      "soulrift_orb_recipe"
+    ],
+    "droppedBy": [],
+    "foundIn": [],
+    "obtainedFromBlocks": []
+  },
+  {
+    "id": "riftsteel_nugget",
+    "slug": "riftsteel_nugget",
+    "name": "Riftsteel Nugget",
+    "kind": "material",
+    "since": "0.0.2",
+    "tooltip": [],
+    "recipes": [
+      "riftsteel_ingot_to_nugget"
+    ],
+    "usedIn": [
+      "riftsteel_nuggets_to_ingot"
+    ],
+    "droppedBy": [],
+    "foundIn": [],
+    "obtainedFromBlocks": []
+  },
+  {
+    "id": "werebear_fur",
+    "slug": "werebear_fur",
+    "name": "Werebear Fur",
+    "kind": "misc",
+    "since": "0.0.2",
+    "tooltip": [],
+    "recipes": [],
+    "usedIn": [
+      "strengthened_leather_recipe"
+    ],
+    "droppedBy": [
+      "werebear"
+    ],
+    "foundIn": [
+      "werebear_den"
+    ],
+    "obtainedFromBlocks": []
+  },
+  {
+    "id": "strengthened_leather",
+    "slug": "strengthened_leather",
+    "name": "Strengthened Leather",
+    "kind": "misc",
+    "since": "0.0.2",
+    "tooltip": [],
+    "recipes": [
+      "strengthened_leather_recipe"
+    ],
+    "usedIn": [
+      "strengthened_book_recipe"
+    ],
+    "droppedBy": [],
+    "foundIn": [],
+    "obtainedFromBlocks": []
+  },
+  {
+    "id": "strengthened_book",
+    "slug": "strengthened_book",
+    "name": "Strengthened Book",
+    "kind": "misc",
+    "since": "0.0.2",
+    "tooltip": [],
+    "recipes": [
+      "strengthened_book_recipe"
+    ],
+    "usedIn": [
+      "strengthened_bookshelf_recipe",
+      "strengthened_enchanting_table_recipe"
+    ],
+    "droppedBy": [],
+    "foundIn": [],
+    "obtainedFromBlocks": [
+      "strengthened_bookshelf"
+    ]
+  },
+  {
+    "id": "strengthened_enchanted_book",
+    "slug": "strengthened_enchanted_book",
+    "name": "Strengthened Enchanted Book",
+    "kind": "misc",
+    "since": "0.0.2",
+    "rarity": "Rare",
+    "stackSize": 1,
+    "tooltip": [],
+    "recipes": [],
+    "usedIn": [],
+    "droppedBy": [],
+    "foundIn": [],
+    "obtainedFromBlocks": []
+  },
+  {
+    "id": "soulrift_orb",
+    "slug": "soulrift_orb",
+    "name": "Soulrift Orb",
+    "kind": "misc",
+    "since": "0.0.2",
+    "rarity": "Epic",
+    "stackSize": 16,
+    "fireResistant": true,
+    "tooltip": [
+      "In hotbar: the undead will not harm you",
+      "Undead you slay may rise to serve you",
+      "Your servants mend while near you",
+      "Shift + Right Click: return to where you last died",
+      "Recalling drains the orb for 5 minutes",
+      "Soulbound: never lost on death"
+    ],
+    "recipes": [
+      "soulrift_orb_recipe"
+    ],
+    "usedIn": [],
+    "droppedBy": [
+      "ender_skeleton"
+    ],
+    "foundIn": [],
+    "obtainedFromBlocks": []
+  },
+  {
+    "id": "lich_crystal",
+    "slug": "lich_crystal",
+    "name": "Lich Crystal",
+    "kind": "misc",
+    "since": "0.0.2",
+    "rarity": "Rare",
+    "tooltip": [],
+    "recipes": [],
+    "usedIn": [
+      "hecatomb_guard_recipe"
+    ],
+    "droppedBy": [
+      "skeleton_lord"
+    ],
+    "foundIn": [],
+    "obtainedFromBlocks": []
+  },
+  {
+    "id": "solar_core",
+    "slug": "solar_core",
+    "name": "Solar Core",
+    "kind": "misc",
+    "since": "0.0.2",
+    "stackSize": 1,
+    "tooltip": [],
+    "recipes": [],
+    "usedIn": [],
+    "droppedBy": [],
+    "foundIn": [],
+    "obtainedFromBlocks": []
+  },
+  {
+    "id": "scither_normal_skin",
+    "slug": "scither_normal_skin",
+    "name": "Scither Skin",
+    "kind": "misc",
+    "since": "0.0.2",
+    "stackSize": 24,
+    "tooltip": [],
+    "recipes": [],
+    "usedIn": [],
+    "droppedBy": [
+      "scither",
+      "scither_brood_mother"
+    ],
+    "foundIn": [],
+    "obtainedFromBlocks": []
+  },
+  {
+    "id": "scither_red_skin",
+    "slug": "scither_red_skin",
+    "name": "Red Scither Skin",
+    "kind": "misc",
+    "since": "0.0.2",
+    "stackSize": 24,
+    "tooltip": [],
+    "recipes": [],
+    "usedIn": [],
+    "droppedBy": [
+      "scither",
+      "scither_brood_mother"
+    ],
+    "foundIn": [],
+    "obtainedFromBlocks": []
+  },
+  {
+    "id": "scither_purple_skin",
+    "slug": "scither_purple_skin",
+    "name": "Purple Scither Skin",
+    "kind": "misc",
+    "since": "0.0.2",
+    "stackSize": 24,
+    "tooltip": [],
+    "recipes": [],
+    "usedIn": [],
+    "droppedBy": [
+      "scither",
+      "scither_brood_mother"
+    ],
+    "foundIn": [],
+    "obtainedFromBlocks": []
+  },
+  {
+    "id": "scither_brown_skin",
+    "slug": "scither_brown_skin",
+    "name": "Brown Scither Skin",
+    "kind": "misc",
+    "since": "0.0.2",
+    "stackSize": 24,
+    "tooltip": [],
+    "recipes": [],
+    "usedIn": [],
+    "droppedBy": [
+      "scither",
+      "scither_brood_mother"
+    ],
+    "foundIn": [],
+    "obtainedFromBlocks": []
+  },
+  {
+    "id": "cragmane_horn",
+    "slug": "cragmane_horn",
+    "name": "Cragmane Horn",
+    "kind": "misc",
+    "since": "0.0.2",
+    "rarity": "Uncommon",
+    "tooltip": [],
+    "recipes": [],
+    "usedIn": [
+      "hecatomb_blade_recipe"
+    ],
+    "droppedBy": [
+      "cragmane"
+    ],
+    "foundIn": [],
+    "obtainedFromBlocks": []
+  },
+  {
+    "id": "cragberries",
+    "slug": "cragberries",
+    "name": "Cragberries",
+    "kind": "food",
+    "since": "0.0.2",
+    "food": {
+      "nutrition": 7,
+      "saturation": 2.56,
+      "effects": []
+    },
+    "tooltip": [],
+    "recipes": [],
+    "usedIn": [],
+    "droppedBy": [],
+    "foundIn": [],
+    "obtainedFromBlocks": [
+      "cragcane"
+    ]
+  }
+]

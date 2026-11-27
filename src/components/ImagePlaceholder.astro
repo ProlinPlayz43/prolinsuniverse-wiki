@@ -1,0 +1,55 @@
+---
+// Shows src/assets/images/<kind>/<id>.png if it exists, otherwise a neutral placeholder box.
+// Supply the file (see IMAGES_NEEDED.md) and the placeholder disappears on the next build.
+import { Image } from 'astro:assets';
+import { imageFor } from '../lib/data';
+
+interface Props {
+  kind: 'mobs' | 'bosses' | 'items' | 'blocks' | 'biomes';
+  id: string;
+  alt: string;
+  ratio?: string; // CSS aspect-ratio of the placeholder, e.g. "4 / 3"
+  width?: number; // output width in px
+  pixelated?: boolean; // crisp scaling for 16x16 item/block textures
+  small?: boolean;
+}
+const { kind, id, alt, ratio = '4 / 3', width = 560, pixelated = false, small = false } = Astro.props;
+const img = imageFor(kind, id);
+---
+
+{
+  img ? (
+    <Image src={img} alt={alt} width={width} class:list={['wiki-img', { pixelated }]} />
+  ) : (
+    <div class:list={['wiki-ph', { small }]} style={`aspect-ratio:${ratio}`} role="img" aria-label={`No image of ${alt} yet`} data-image-slot={`${kind}/${id}`}>
+      <span>No image yet</span>
+    </div>
+  )
+}
+
+<style>
+  .wiki-img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 0.35rem;
+    background: var(--sl-color-gray-6);
+  }
+  .wiki-img.pixelated {
+    image-rendering: pixelated;
+  }
+  .wiki-ph {
+    display: grid;
+    place-items: center;
+    width: 100%;
+    border: 1px dashed var(--sl-color-gray-4);
+    border-radius: 0.35rem;
+    background: repeating-linear-gradient(45deg, transparent 0 10px, color-mix(in srgb, var(--sl-color-gray-5) 40%, transparent) 10px 20px);
+    color: var(--sl-color-gray-3);
+    font-size: var(--sl-text-xs);
+    text-align: center;
+  }
+  .wiki-ph.small span {
+    display: none;
+  }
+</style>

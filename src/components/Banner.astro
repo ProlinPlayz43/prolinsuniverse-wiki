@@ -1,0 +1,45 @@
+---
+// Replaces Starlight's banner: every page carries "Documenting v0.0.2" so readers never mistake the wiki for a newer or older version.
+import { site, CURRENT } from '../lib/data';
+const modrinth = site.modrinthUrl;
+---
+
+<div class="wiki-banner" data-pagefind-ignore>
+  <span class="wiki-banner__version">Documents v{CURRENT}</span>
+  <span class="wiki-banner__text">This wiki covers {site.modName} version {CURRENT} only.</span>
+  {
+    modrinth && (
+      <a class="wiki-banner__link" href={modrinth} rel="noopener">
+        Get the mod on Modrinth →
+      </a>
+    )
+  }
+</div>
+
+<style>
+  .wiki-banner {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem 1rem;
+    align-items: center;
+    justify-content: center;
+    padding: 0.45rem var(--sl-nav-pad-x, 1rem);
+    background: var(--sl-color-accent-low);
+    color: var(--sl-color-text);
+    font-size: var(--sl-text-sm);
+    line-height: 1.3;
+    text-align: center;
+    border-bottom: 1px solid var(--sl-color-hairline);
+  }
+  .wiki-banner__version {
+    font-weight: 700;
+    padding: 0.05rem 0.55rem;
+    border-radius: 999px;
+    background: var(--sl-color-accent);
+    color: var(--sl-color-black);
+  }
+  .wiki-banner__link {
+    font-weight: 600;
+    color: var(--sl-color-text-accent);
+  }
+</style>

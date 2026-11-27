@@ -1,0 +1,31 @@
+---
+import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+import ImagePlaceholder from '../../components/ImagePlaceholder.astro';
+import { biomes, href } from '../../lib/data';
+
+const dims = [...new Set(biomes.map((b) => b.dimension).filter(Boolean))] as string[];
+const list = [...biomes].sort((a, b) => a.name.localeCompare(b.name));
+---
+
+<StarlightPage frontmatter={{ title: 'Biomes', description: 'The biomes added by Prolins Universe.' }}>
+  <p>{biomes.length} biomes{dims.length === 1 ? `, all in the ${dims[0]} dimension` : ''}.</p>
+  <ul class="wiki-grid wide">
+    {
+      list.map((b) => (
+        <li>
+          <a class="wiki-card" href={href(`biomes/${b.id}`)}>
+            <ImagePlaceholder kind="biomes" id={b.id} alt={b.name} ratio="16 / 9" width={480} />
+            <span class="wiki-card__name">{b.name}</span>
+            <span class="wiki-card__meta">{b.dimension}</span>
+          </a>
+        </li>
+      ))
+    }
+  </ul>
+</StarlightPage>
+
+<style>
+  .wide {
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+  }
+</style>

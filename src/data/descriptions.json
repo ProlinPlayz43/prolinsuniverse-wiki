@@ -1,0 +1,32 @@
+{
+  "_comment": "Hand-written one-paragraph descriptions shown on item and block pages. Key = registry id (no namespace). Edit freely; the generator never touches this file. Seeded from flavour text in the mod source; mechanics that could not be verified in code were left out.",
+  "items": {
+    "strengthened_string": "Reinforced bowstring: string braided with tynite nuggets.",
+    "hecatomb": "A colossal greatsword forged from many lesser relics. It always carries Sharpness VI (above the vanilla cap) and extends your attack reach by 5 blocks while it is held in the main hand.",
+    "hecatomb_handle": "One of the three parts of the Hecatomb. Combine the handle, guard and blade (shapeless) to craft the sword.",
+    "hecatomb_guard": "One of the three parts of the Hecatomb. Combine the handle, guard and blade (shapeless) to craft the sword.",
+    "hecatomb_blade": "One of the three parts of the Hecatomb. Combine the handle, guard and blade (shapeless) to craft the sword.",
+    "prismoth_eye": "The Prismoth's ember compound eye.",
+    "heartwood_antler": "Living antler of the Heartstag, still weeping sap.",
+    "brood_chitin": "Plate of the Scither Brood-Mother's shell, still warm with her eggs' glow.",
+    "bloom_nectar": "Glowing nectar from an Ichorbloom's bladders.",
+    "rostrum": "The Ichor Lancefish's spear-like snout, its tip still faintly glowing.",
+    "sawtooth_pincer": "The Carcinyx's saw claw, bone-white teeth and all.",
+    "veilfang": "A Veilfox's long curved fang, its inner edge still glowing.",
+    "foxfire_heart": "The white-hot heart of a Veilfox.",
+    "mechanical_stormcaller_heart": "Storm Caller Heart machined into a weather-working core.",
+    "stormcaller_gun": "A hand-held storm rod.",
+    "ender_staff": "The Ender Skeleton's staff.",
+    "ender_rod": "The End's answer to the blaze rod.",
+    "riftsteel_ingot": "Riftsteel: void-forged metal with an ender sheen.",
+    "soulrift_orb": "The Ender Skeleton's undead heart, a void-bound soul caged in bone.",
+    "lich_crystal": "Pink crystal grown through the Skeleton Lord's bones.",
+    "cragmane_horn": "A ridged ibex horn in pale bone.",
+    "cragberries": "Frosty berries off the Cragcane of the high peaks. They are the Cragmane's taming treat, and the way to plant more Cragcane (use one on stone, gravel, snow or ice up there)."
+  },
+  "blocks": {
+    "random_teleport_block": "Ender-infected obsidian: throws anything that walks on it to a random grounded spot in a 15x15x15 cube.",
+    "foxfire": "Spirit fire: spreads far faster than fire and burns far hotter. It has no item and can only be lit.",
+    "cragcane": "Grows on the high peaks only. It has no block item; plant it with Cragberries."
+  }
+}

@@ -1,0 +1,1779 @@
+[
+  {
+    "id": "arterwood_door_recipe",
+    "type": "crafting_shaped",
+    "category": "misc",
+    "result": {
+      "id": "prolinsuniverse:arterwood_door",
+      "count": 1
+    },
+    "pattern": [
+      "PP",
+      "PP",
+      "PP"
+    ],
+    "key": {
+      "P": "prolinsuniverse:arterwood_planks"
+    }
+  },
+  {
+    "id": "arterwood_planks_fence_gate_recipe",
+    "type": "crafting_shaped",
+    "category": "misc",
+    "result": {
+      "id": "prolinsuniverse:arterwood_planks_fence_gate",
+      "count": 1
+    },
+    "pattern": [
+      "SPS",
+      "SPS"
+    ],
+    "key": {
+      "P": "prolinsuniverse:arterwood_planks",
+      "S": "minecraft:stick"
+    }
+  },
+  {
+    "id": "arterwood_planks_fence_recipe",
+    "type": "crafting_shaped",
+    "category": "misc",
+    "result": {
+      "id": "prolinsuniverse:arterwood_planks_fence",
+      "count": 1
+    },
+    "pattern": [
+      "PSP",
+      "PSP"
+    ],
+    "key": {
+      "P": "prolinsuniverse:arterwood_planks",
+      "S": "minecraft:stick"
+    }
+  },
+  {
+    "id": "arterwood_planks_slab_recipe",
+    "type": "crafting_shaped",
+    "category": "misc",
+    "result": {
+      "id": "prolinsuniverse:arterwood_planks_slab",
+      "count": 1
+    },
+    "pattern": [
+      "PPP"
+    ],
+    "key": {
+      "P": "prolinsuniverse:arterwood_planks"
+    }
+  },
+  {
+    "id": "arterwood_trapdoor_recipe",
+    "type": "crafting_shaped",
+    "category": "misc",
+    "result": {
+      "id": "prolinsuniverse:arterwood_trapdoor",
+      "count": 1
+    },
+    "pattern": [
+      "PPP",
+      "PPP"
+    ],
+    "key": {
+      "P": "prolinsuniverse:arterwood_planks"
+    }
+  },
+  {
+    "id": "arterwood_wood_recipe",
+    "type": "crafting_shaped",
+    "category": "misc",
+    "result": {
+      "id": "prolinsuniverse:arterwood_wood",
+      "count": 1
+    },
+    "pattern": [
+      "LL",
+      "LL"
+    ],
+    "key": {
+      "L": "prolinsuniverse:arterwood_log"
+    }
+  },
+  {
+    "id": "duplicator_crystal_edges_to_core",
+    "type": "crafting_shaped",
+    "category": "misc",
+    "result": {
+      "id": "prolinsuniverse:duplicator_crystal_core",
+      "count": 1
+    },
+    "pattern": [
+      "EEE",
+      "EEE",
+      "EEE"
+    ],
+    "key": {
+      "E": "prolinsuniverse:duplicator_crystal_edge"
+    }
+  },
+  {
+    "id": "ender_pearl_block_to_ender_pearls",
+    "type": "crafting_shapeless",
+    "category": "misc",
+    "result": {
+      "id": "minecraft:ender_pearl",
+      "count": 9
+    },
+    "ingredients": {
+      "prolinsuniverse:ender_pearl_block": 1
+    }
+  },
+  {
+    "id": "ender_pearls_to_ender_pearl_block",
+    "type": "crafting_shaped",
+    "category": "building",
+    "result": {
+      "id": "prolinsuniverse:ender_pearl_block",
+      "count": 1
+    },
+    "pattern": [
+      "PPP",
+      "PPP",
+      "PPP"
+    ],
+    "key": {
+      "P": "minecraft:ender_pearl"
+    }
+  },
+  {
+    "id": "experience_bottle_recipe",
+    "type": "crafting_shaped",
+    "category": "misc",
+    "result": {
+      "id": "minecraft:experience_bottle",
+      "count": 1
+    },
+    "pattern": [
+      "EEE",
+      "EEE",
+      " B "
+    ],
+    "key": {
+      "B": "minecraft:glass_bottle",
+      "E": "prolinsuniverse:experium_nugget"
+    }
+  },
+  {
+    "id": "eye_of_ender_block_to_eyes_of_ender",
+    "type": "crafting_shapeless",
+    "category": "misc",
+    "result": {
+      "id": "minecraft:ender_eye",
+      "count": 9
+    },
+    "ingredients": {
+      "prolinsuniverse:eye_of_ender_block": 1
+    }
+  },
+  {
+    "id": "eyes_of_ender_to_eye_of_ender_block",
+    "type": "crafting_shaped",
+    "category": "building",
+    "result": {
+      "id": "prolinsuniverse:eye_of_ender_block",
+      "count": 1
+    },
+    "pattern": [
+      "EEE",
+      "EEE",
+      "EEE"
+    ],
+    "key": {
+      "E": "minecraft:ender_eye"
+    }
+  },
+  {
+    "id": "foxfire_igniter_recipe",
+    "type": "crafting_shapeless",
+    "category": "equipment",
+    "result": {
+      "id": "prolinsuniverse:foxfire_igniter",
+      "count": 1
+    },
+    "ingredients": {
+      "prolinsuniverse:foxfire_heart": 1,
+      "minecraft:redstone": 1,
+      "minecraft:flint_and_steel": 1
+    }
+  },
+  {
+    "id": "gem_cutter_recipe",
+    "type": "crafting_shaped",
+    "category": "misc",
+    "result": {
+      "id": "prolinsuniverse:gemcutter",
+      "count": 1
+    },
+    "pattern": [
+      " I ",
+      "IXI",
+      "BBB"
+    ],
+    "key": {
+      "B": "prolinsuniverse:tynite_block",
+      "I": "minecraft:iron_nugget",
+      "X": "prolinsuniverse:tynite_ingot"
+    }
+  },
+  {
+    "id": "hecatomb_blade_recipe",
+    "type": "crafting_shaped",
+    "category": "equipment",
+    "result": {
+      "id": "prolinsuniverse:hecatomb_blade",
+      "count": 1
+    },
+    "pattern": [
+      "CVR",
+      "SB ",
+      "AP "
+    ],
+    "key": {
+      "A": "prolinsuniverse:rostrum",
+      "B": "prolinsuniverse:bloom_nectar",
+      "C": "prolinsuniverse:cragmane_horn",
+      "P": "prolinsuniverse:sawtooth_pincer",
+      "R": "prolinsuniverse:ravager_horn",
+      "S": "prolinsuniverse:xerion_alloy_sword",
+      "V": "prolinsuniverse:veilfang"
+    }
+  },
+  {
+    "id": "hecatomb_guard_recipe",
+    "type": "crafting_shaped",
+    "category": "equipment",
+    "result": {
+      "id": "prolinsuniverse:hecatomb_guard",
+      "count": 1
+    },
+    "pattern": [
+      "SCE",
+      "HV ",
+      "B  "
+    ],
+    "key": {
+      "B": "prolinsuniverse:brood_chitin",
+      "C": "prolinsuniverse:lich_crystal",
+      "E": "prolinsuniverse:wailing_wraith_eye",
+      "H": "prolinsuniverse:storm_caller_heart",
+      "S": "prolinsuniverse:vein_stalker_scale",
+      "V": "prolinsuniverse:venom_gland"
+    }
+  },
+  {
+    "id": "hecatomb_handle_recipe",
+    "type": "crafting_shaped",
+    "category": "equipment",
+    "result": {
+      "id": "prolinsuniverse:hecatomb_handle",
+      "count": 1
+    },
+    "pattern": [
+      "SR ",
+      "EA ",
+      "W  "
+    ],
+    "key": {
+      "A": "prolinsuniverse:heartwood_antler",
+      "E": "prolinsuniverse:prismoth_eye",
+      "R": "prolinsuniverse:ender_rod",
+      "S": "prolinsuniverse:vein_skitter_scale",
+      "W": "prolinsuniverse:weighted_handle"
+    }
+  },
+  {
+    "id": "hecatomb_recipe",
+    "type": "crafting_shapeless",
+    "category": "equipment",
+    "result": {
+      "id": "prolinsuniverse:hecatomb",
+      "count": 1
+    },
+    "ingredients": {
+      "prolinsuniverse:hecatomb_handle": 1,
+      "prolinsuniverse:hecatomb_guard": 1,
+      "prolinsuniverse:hecatomb_blade": 1
+    }
+  },
+  {
+    "id": "hoverpod_recipe",
+    "type": "crafting_shaped",
+    "category": "misc",
+    "result": {
+      "id": "prolinsuniverse:hoverpod",
+      "count": 1
+    },
+    "pattern": [
+      "PTP",
+      "RDR"
+    ],
+    "key": {
+      "D": "minecraft:diamond",
+      "P": "#minecraft:planks",
+      "R": "minecraft:redstone",
+      "T": "prolinsuniverse:tynite_ingot"
+    }
+  },
+  {
+    "id": "kyrion_block_to_kyrion_ingot",
+    "type": "crafting_shapeless",
+    "category": "misc",
+    "result": {
+      "id": "prolinsuniverse:kyrion_ingot",
+      "count": 9
+    },
+    "ingredients": {
+      "prolinsuniverse:kyrion_block": 1
+    }
+  },
+  {
+    "id": "kyrion_ingot_from_blasting_kyrion_ore",
+    "type": "blasting",
+    "category": "misc",
+    "result": {
+      "id": "prolinsuniverse:kyrion_ingot",
+      "count": 1
+    },
+    "ingredient": "prolinsuniverse:kyrion_ore",
+    "cookingTime": 150,
+    "experience": 1.25
+  },
+  {
+    "id": "kyrion_ingot_from_blasting_raw_kyrion",
+    "type": "blasting",
+    "category": "misc",
+    "result": {
+      "id": "prolinsuniverse:kyrion_ingot",
+      "count": 1
+    },
+    "ingredient": "prolinsuniverse:raw_kyrion",
+    "cookingTime": 150,
+    "experience": 1.25
+  },
+  {
+    "id": "kyrion_ingot_from_smelting_kyrion_ore",
+    "type": "smelting",
+    "category": "misc",
+    "result": {
+      "id": "prolinsuniverse:kyrion_ingot",
+      "count": 1
+    },
+    "ingredient": "prolinsuniverse:kyrion_ore",
+    "cookingTime": 250,
+    "experience": 1.25
+  },
+  {
+    "id": "kyrion_ingot_from_smelting_raw_kyrion",
+    "type": "smelting",
+    "category": "misc",
+    "result": {
+      "id": "prolinsuniverse:kyrion_ingot",
+      "count": 1
+    },
+    "ingredient": "prolinsuniverse:raw_kyrion",
+    "cookingTime": 250,
+    "experience": 1.25
+  },
+  {
+    "id": "kyrion_ingot_to_kyrion_block",
+    "type": "crafting_shaped",
+    "category": "misc",
+    "result": {
+      "id": "prolinsuniverse:kyrion_block",
+      "count": 1
+    },
+    "pattern": [
+      "BBB",
+      "BBB",
+      "BBB"
+    ],
+    "key": {
+      "B": "prolinsuniverse:kyrion_ingot"
+    }
+  },
+  {
+    "id": "mechanical_stormcaller_heart_recipe",
+    "type": "crafting_shapeless",
+    "category": "misc",
+    "result": {
+      "id": "prolinsuniverse:mechanical_stormcaller_heart",
+      "count": 1
+    },
+    "ingredients": {
+      "prolinsuniverse:storm_caller_heart": 1,
+      "minecraft:redstone": 1,
+      "prolinsuniverse:tynite_ingot": 2
+    }
+  },
+  {
+    "id": "radonite_block_to_ingot",
+    "type": "crafting_shapeless",
+    "category": "misc",
+    "result": {
+      "id": "prolinsuniverse:radonite_ingot",
+      "count": 9
+    },
+    "ingredients": {
+      "prolinsuniverse:radonite_block": 1
+    }
+  },
+  {
+    "id": "radonite_ingot_to_radonite_block",
+    "type": "crafting_shaped",
+    "category": "misc",
+    "result": {
+      "id": "prolinsuniverse:radonite_block",
+      "count": 1
+    },
+    "pattern": [
+      "BBB",
+      "BBB",
+      "BBB"
+    ],
+    "key": {
+      "B": "prolinsuniverse:radonite_ingot"
+    }
+  },
+  {
+    "id": "radonite_ingot_to_radonite_nugget",
+    "type": "crafting_shapeless",
+    "category": "misc",
+    "result": {
+      "id": "prolinsuniverse:radonite_nugget",
+      "count": 9
+    },
+    "ingredients": {
+      "prolinsuniverse:radonite_ingot": 1
+    }
+  },
+  {
+    "id": "radonite_nugget_from_blasting_deepslate_radonite_ore",
+    "type": "blasting",
+    "category": "misc",
+    "result": {
+      "id": "prolinsuniverse:radonite_nugget",
+      "count": 1
+    },
+    "ingredient": "prolinsuniverse:deepslate_radonite_ore",
+    "cookingTime": 100,
+    "experience": 0.25
+  },
+  {
+    "id": "radonite_nugget_from_blasting_radonite_ore",
+    "type": "blasting",
+    "category": "misc",
+    "result": {
+      "id": "prolinsuniverse:radonite_nugget",
+      "count": 1
+    },
+    "ingredient": "prolinsuniverse:radonite_ore",
+    "cookingTime": 100,
+    "experience": 0.25
+  },
+  {
+    "id": "radonite_nugget_from_blasting_raw_radonite",
+    "type": "blasting",
+    "category": "misc",
+    "result": {
+      "id": "prolinsuniverse:radonite_nugget",
+      "count": 1
+    },
+    "ingredient": "prolinsuniverse:raw_radonite",
+    "cookingTime": 100,
+    "experience": 0.25
+  },
+  {
+    "id": "radonite_nugget_from_smelting_deepslate_radonite_ore",
+    "type": "smelting",
+    "category": "misc",
+    "result": {
+      "id": "prolinsuniverse:radonite_nugget",
+      "count": 1
+    },
+    "ingredient": "prolinsuniverse:deepslate_radonite_ore",
+    "cookingTime": 200,
+    "experience": 0.25
+  },
+  {
+    "id": "radonite_nugget_from_smelting_radonite_ore",
+    "type": "smelting",
+    "category": "misc",
+    "result": {
+      "id": "prolinsuniverse:radonite_nugget",
+      "count": 1
+    },
+    "ingredient": "prolinsuniverse:radonite_ore",
+    "cookingTime": 200,
+    "experience": 0.25
+  },
+  {
+    "id": "radonite_nugget_from_smelting_raw_radonite",
+    "type": "smelting",
+    "category": "misc",
+    "result": {
+      "id": "prolinsuniverse:radonite_nugget",
+      "count": 1
+    },
+    "ingredient": "prolinsuniverse:raw_radonite",
+    "cookingTime": 200,
+    "experience": 0.25
+  },
+  {
+    "id": "radonite_nuggets_to_ingot",
+    "type": "crafting_shaped",
+    "category": "misc",
+    "result": {
+      "id": "prolinsuniverse:radonite_ingot",
+      "count": 1
+    },
+    "pattern": [
+      "BBB",
+      "BBB",
+      "BBB"
+    ],
+    "key": {
+      "B": "prolinsuniverse:radonite_nugget"
+    }
+  },
+  {
+    "id": "random_teleport_block_recipe",
+    "type": "crafting_shaped",
+    "category": "redstone",
+    "result": {
+      "id": "prolinsuniverse:random_teleport_block",
+      "count": 1
+    },
+    "pattern": [
+      "RPR",
+      "POP",
+      "RPR"
+    ],
+    "key": {
+      "O": "minecraft:obsidian",
+      "P": "minecraft:ender_pearl",
+      "R": "prolinsuniverse:riftsteel_ingot"
+    }
+  },
+  {
+    "id": "raw_tynite_block_to_raw_tynite",
+    "type": "crafting_shapeless",
+    "category": "misc",
+    "result": {
+      "id": "prolinsuniverse:raw_tynite",
+      "count": 9
+    },
+    "ingredients": {
+      "prolinsuniverse:raw_tynite_block": 1
+    }
+  },
+  {
+    "id": "raw_tynite_to_raw_tynite_block",
+    "type": "crafting_shaped",
+    "category": "misc",
+    "result": {
+      "id": "prolinsuniverse:raw_tynite_block",
+      "count": 1
+    },
+    "pattern": [
+      "BBB",
+      "BBB",
+      "BBB"
+    ],
+    "key": {
+      "B": "prolinsuniverse:raw_tynite"
+    }
+  },
+  {
+    "id": "riftsteel_block_to_ingot",
+    "type": "crafting_shapeless",
+    "category": "misc",
+    "result": {
+      "id": "prolinsuniverse:riftsteel_ingot",
+      "count": 9
+    },
+    "ingredients": {
+      "prolinsuniverse:riftsteel_block": 1
+    }
+  },
+  {
+    "id": "riftsteel_ingot_to_nugget",
+    "type": "crafting_shapeless",
+    "category": "misc",
+    "result": {
+      "id": "prolinsuniverse:riftsteel_nugget",
+      "count": 9
+    },
+    "ingredients": {
+      "prolinsuniverse:riftsteel_ingot": 1
+    }
+  },
+  {
+    "id": "riftsteel_ingot_to_riftsteel_block",
+    "type": "crafting_shaped",
+    "category": "building",
+    "result": {
+      "id": "prolinsuniverse:riftsteel_block",
+      "count": 1
+    },
+    "pattern": [
+      "III",
+      "III",
+      "III"
+    ],
+    "key": {
+      "I": "prolinsuniverse:riftsteel_ingot"
+    }
+  },
+  {
+    "id": "riftsteel_nuggets_to_ingot",
+    "type": "crafting_shaped",
+    "category": "misc",
+    "result": {
+      "id": "prolinsuniverse:riftsteel_ingot",
+      "count": 1
+    },
+    "pattern": [
+      "NNN",
+      "NNN",
+      "NNN"
+    ],
+    "key": {
+      "N": "prolinsuniverse:riftsteel_nugget"
+    }
+  },
+  {
+    "id": "ruby_axe_recipe",
+    "type": "crafting_shaped",
+    "category": "misc",
+    "result": {
+      "id": "prolinsuniverse:ruby_axe",
+      "count": 1
+    },
+    "pattern": [
+      "tt",
+      "ts",
+      " s"
+    ],
+    "key": {
+      "s": "minecraft:stick",
+      "t": "prolinsuniverse:ruby"
+    }
+  },
+  {
+    "id": "ruby_block_to_ruby",
+    "type": "crafting_shapeless",
+    "category": "misc",
+    "result": {
+      "id": "prolinsuniverse:ruby",
+      "count": 9
+    },
+    "ingredients": {
+      "prolinsuniverse:ruby_block": 1
+    }
+  },
+  {
+    "id": "ruby_boots_recipe",
+    "type": "crafting_shaped",
+    "category": "misc",
+    "result": {
+      "id": "prolinsuniverse:ruby_boots",
+      "count": 1
+    },
+    "pattern": [
+      "t t",
+      "t t"
+    ],
+    "key": {
+      "t": "prolinsuniverse:ruby"
+    }
+  },
+  {
+    "id": "ruby_chestplate_recipe",
+    "type": "crafting_shaped",
+    "category": "misc",
+    "result": {
+      "id": "prolinsuniverse:ruby_chestplate",
+      "count": 1
+    },
+    "pattern": [
+      "t t",
+      "ttt",
+      "ttt"
+    ],
+    "key": {
+      "t": "prolinsuniverse:ruby"
+    }
+  },
+  {
+    "id": "ruby_from_blasting_raw_ruby",
+    "type": "blasting",
+    "category": "misc",
+    "result": {
+      "id": "prolinsuniverse:ruby",
+      "count": 1
+    },
+    "ingredient": "prolinsuniverse:raw_ruby",
+    "cookingTime": 100,
+    "experience": 0.25
+  },
+  {
+    "id": "ruby_from_blasting_ruby_ore",
+    "type": "blasting",
+    "category": "misc",
+    "result": {
+      "id": "prolinsuniverse:ruby",
+      "count": 1
+    },
+    "ingredient": "prolinsuniverse:ruby_ore",
+    "cookingTime": 100,
+    "experience": 0.25
+  },
+  {
+    "id": "ruby_from_smelting_raw_ruby",
+    "type": "smelting",
+    "category": "misc",
+    "result": {
+      "id": "prolinsuniverse:ruby",
+      "count": 1
+    },
+    "ingredient": "prolinsuniverse:raw_ruby",
+    "cookingTime": 200,
+    "experience": 0.25
+  },
+  {
+    "id": "ruby_from_smelting_ruby_ore",
+    "type": "smelting",
+    "category": "misc",
+    "result": {
+      "id": "prolinsuniverse:ruby",
+      "count": 1
+    },
+    "ingredient": "prolinsuniverse:ruby_ore",
+    "cookingTime": 200,
+    "experience": 0.25
+  },
+  {
+    "id": "ruby_helmet_recipe",
+    "type": "crafting_shaped",
+    "category": "misc",
+    "result": {
+      "id": "prolinsuniverse:ruby_helmet",
+      "count": 1
+    },
+    "pattern": [
+      "ttt",
+      "t t"
+    ],
+    "key": {
+      "t": "prolinsuniverse:ruby"
+    }
+  },
+  {
+    "id": "ruby_hoe_recipe",
+    "type": "crafting_shaped",
+    "category": "misc",
+    "result": {
+      "id": "prolinsuniverse:ruby_hoe",
+      "count": 1
+    },
+    "pattern": [
+      "tt",
+      "s ",
+      "s "
+    ],
+    "key": {
+      "s": "minecraft:stick",
+      "t": "prolinsuniverse:ruby"
+    }
+  },
+  {
+    "id": "ruby_ingot_to_ruby_block",
+    "type": "crafting_shaped",
+    "category": "misc",
+    "result": {
+      "id": "prolinsuniverse:ruby_block",
+      "count": 1
+    },
+    "pattern": [
+      "BBB",
+      "BBB",
+      "BBB"
+    ],
+    "key": {
+      "B": "prolinsuniverse:ruby"
+    }
+  },
+  {
+    "id": "ruby_legs_recipe",
+    "type": "crafting_shaped",
+    "category": "misc",
+    "result": {
+      "id": "prolinsuniverse:ruby_leggings",
+      "count": 1
+    },
+    "pattern": [
+      "ttt",
+      "t t",
+      "t t"
+    ],
+    "key": {
+      "t": "prolinsuniverse:ruby"
+    }
+  },
+  {
+    "id": "ruby_pickaxe_recipe",
+    "type": "crafting_shaped",
+    "category": "misc",
+    "result": {
+      "id": "prolinsuniverse:ruby_pickaxe",
+      "count": 1
+    },
+    "pattern": [
+      "ttt",
+      " s ",
+      " s "
+    ],
+    "key": {
+      "s": "minecraft:stick",
+      "t": "prolinsuniverse:ruby"
+    }
+  },
+  {
+    "id": "ruby_shovel_recipe",
+    "type": "crafting_shaped",
+    "category": "misc",
+    "result": {
+      "id": "prolinsuniverse:ruby_shovel",
+      "count": 1
+    },
+    "pattern": [
+      "t",
+      "s",
+      "s"
+    ],
+    "key": {
+      "s": "minecraft:stick",
+      "t": "prolinsuniverse:ruby"
+    }
+  },
+  {
+    "id": "ruby_sword_recipe",
+    "type": "crafting_shaped",
+    "category": "misc",
+    "result": {
+      "id": "prolinsuniverse:ruby_sword",
+      "count": 1
+    },
+    "pattern": [
+      "t",
+      "t",
+      "s"
+    ],
+    "key": {
+      "s": "minecraft:stick",
+      "t": "prolinsuniverse:ruby"
+    }
+  },
+  {
+    "id": "solaris_ingot_from_blasting_solaris_cluster",
+    "type": "blasting",
+    "category": "misc",
+    "result": {
+      "id": "prolinsuniverse:solaris_ingot",
+      "count": 1
+    },
+    "ingredient": "prolinsuniverse:solaris_cluster",
+    "cookingTime": 150,
+    "experience": 1.25
+  },
+  {
+    "id": "solaris_ingot_from_blasting_solaris_ore",
+    "type": "blasting",
+    "category": "misc",
+    "result": {
+      "id": "prolinsuniverse:solaris_ingot",
+      "count": 1
+    },
+    "ingredient": "prolinsuniverse:solaris_ore",
+    "cookingTime": 150,
+    "experience": 1.25
+  },
+  {
+    "id": "solaris_ingot_from_smelting_solaris_cluster",
+    "type": "smelting",
+    "category": "misc",
+    "result": {
+      "id": "prolinsuniverse:solaris_ingot",
+      "count": 1
+    },
+    "ingredient": "prolinsuniverse:solaris_cluster",
+    "cookingTime": 250,
+    "experience": 1.25
+  },
+  {
+    "id": "solaris_ingot_from_smelting_solaris_ore",
+    "type": "smelting",
+    "category": "misc",
+    "result": {
+      "id": "prolinsuniverse:solaris_ingot",
+      "count": 1
+    },
+    "ingredient": "prolinsuniverse:solaris_ore",
+    "cookingTime": 250,
+    "experience": 1.25
+  },
+  {
+    "id": "soulrift_orb_recipe",
+    "type": "crafting_shaped",
+    "category": "misc",
+    "result": {
+      "id": "prolinsuniverse:soulrift_orb",
+      "count": 1
+    },
+    "pattern": [
+      "RFR",
+      "FNF",
+      "RFR"
+    ],
+    "key": {
+      "F": "minecraft:rotten_flesh",
+      "N": "minecraft:nether_star",
+      "R": "prolinsuniverse:riftsteel_ingot"
+    }
+  },
+  {
+    "id": "stormcaller_gun_recipe",
+    "type": "crafting_shaped",
+    "category": "equipment",
+    "result": {
+      "id": "prolinsuniverse:stormcaller_gun",
+      "count": 1
+    },
+    "pattern": [
+      " H ",
+      "XXX",
+      "LT "
+    ],
+    "key": {
+      "H": "prolinsuniverse:mechanical_stormcaller_heart",
+      "L": "minecraft:leather",
+      "T": "prolinsuniverse:tynite_ingot",
+      "X": "prolinsuniverse:kyrion_ingot"
+    }
+  },
+  {
+    "id": "strengthened_book_recipe",
+    "type": "crafting_shapeless",
+    "category": "misc",
+    "result": {
+      "id": "prolinsuniverse:strengthened_book",
+      "count": 1
+    },
+    "ingredients": {
+      "minecraft:paper": 3,
+      "prolinsuniverse:strengthened_leather": 1
+    }
+  },
+  {
+    "id": "strengthened_bookshelf_recipe",
+    "type": "crafting_shaped",
+    "category": "building",
+    "result": {
+      "id": "prolinsuniverse:strengthened_bookshelf",
+      "count": 1
+    },
+    "pattern": [
+      "PPP",
+      "BBB",
+      "PPP"
+    ],
+    "key": {
+      "B": "prolinsuniverse:strengthened_book",
+      "P": "#minecraft:planks"
+    }
+  },
+  {
+    "id": "strengthened_enchanting_table_recipe",
+    "type": "crafting_shaped",
+    "category": "misc",
+    "result": {
+      "id": "prolinsuniverse:strengthened_enchanting_table",
+      "count": 1
+    },
+    "pattern": [
+      " B ",
+      "DTD",
+      "OOO"
+    ],
+    "key": {
+      "B": "prolinsuniverse:strengthened_book",
+      "D": "minecraft:diamond",
+      "O": "minecraft:obsidian",
+      "T": "minecraft:enchanting_table"
+    }
+  },
+  {
+    "id": "strengthened_leather_recipe",
+    "type": "crafting_shaped",
+    "category": "misc",
+    "result": {
+      "id": "prolinsuniverse:strengthened_leather",
+      "count": 2
+    },
+    "pattern": [
+      " F ",
+      "FLF",
+      " F "
+    ],
+    "key": {
+      "F": "prolinsuniverse:werebear_fur",
+      "L": "minecraft:leather"
+    }
+  },
+  {
+    "id": "strengthened_string_recipe",
+    "type": "crafting_shapeless",
+    "category": "misc",
+    "result": {
+      "id": "prolinsuniverse:strengthened_string",
+      "count": 1
+    },
+    "ingredients": {
+      "minecraft:string": 1,
+      "prolinsuniverse:tynite_nugget": 3
+    }
+  },
+  {
+    "id": "stripped_arterwood_wood_recipe",
+    "type": "crafting_shaped",
+    "category": "misc",
+    "result": {
+      "id": "prolinsuniverse:stripped_arterwood_wood",
+      "count": 1
+    },
+    "pattern": [
+      "LL",
+      "LL"
+    ],
+    "key": {
+      "L": "prolinsuniverse:stripped_arterwood_log"
+    }
+  },
+  {
+    "id": "tynite_axe_recipe",
+    "type": "crafting_shaped",
+    "category": "misc",
+    "result": {
+      "id": "prolinsuniverse:tynite_axe",
+      "count": 1
+    },
+    "pattern": [
+      "tt",
+      "ts",
+      " s"
+    ],
+    "key": {
+      "s": "minecraft:stick",
+      "t": "prolinsuniverse:tynite_ingot"
+    }
+  },
+  {
+    "id": "tynite_block_to_tynite_ingot",
+    "type": "crafting_shapeless",
+    "category": "misc",
+    "result": {
+      "id": "prolinsuniverse:tynite_ingot",
+      "count": 9
+    },
+    "ingredients": {
+      "prolinsuniverse:tynite_block": 1
+    }
+  },
+  {
+    "id": "tynite_boots_recipe",
+    "type": "crafting_shaped",
+    "category": "misc",
+    "result": {
+      "id": "prolinsuniverse:tynite_boots",
+      "count": 1
+    },
+    "pattern": [
+      "t t",
+      "t t"
+    ],
+    "key": {
+      "t": "prolinsuniverse:tynite_ingot"
+    }
+  },
+  {
+    "id": "tynite_chestplate_recipe",
+    "type": "crafting_shaped",
+    "category": "misc",
+    "result": {
+      "id": "prolinsuniverse:tynite_chestplate",
+      "count": 1
+    },
+    "pattern": [
+      "t t",
+      "ttt",
+      "ttt"
+    ],
+    "key": {
+      "t": "prolinsuniverse:tynite_ingot"
+    }
+  },
+  {
+    "id": "tynite_helmet_recipe",
+    "type": "crafting_shaped",
+    "category": "misc",
+    "result": {
+      "id": "prolinsuniverse:tynite_helmet",
+      "count": 1
+    },
+    "pattern": [
+      "ttt",
+      "t t"
+    ],
+    "key": {
+      "t": "prolinsuniverse:tynite_ingot"
+    }
+  },
+  {
+    "id": "tynite_hoe_recipe",
+    "type": "crafting_shaped",
+    "category": "misc",
+    "result": {
+      "id": "prolinsuniverse:tynite_hoe",
+      "count": 1
+    },
+    "pattern": [
+      "tt",
+      "s ",
+      "s "
+    ],
+    "key": {
+      "s": "minecraft:stick",
+      "t": "prolinsuniverse:tynite_ingot"
+    }
+  },
+  {
+    "id": "tynite_ingot_from_blasting_deepslate_tynite_ore",
+    "type": "blasting",
+    "category": "misc",
+    "result": {
+      "id": "prolinsuniverse:tynite_ingot",
+      "count": 1
+    },
+    "ingredient": "prolinsuniverse:deepslate_tynite_ore",
+    "cookingTime": 100,
+    "experience": 0.25
+  },
+  {
+    "id": "tynite_ingot_from_blasting_raw_tynite",
+    "type": "blasting",
+    "category": "misc",
+    "result": {
+      "id": "prolinsuniverse:tynite_ingot",
+      "count": 1
+    },
+    "ingredient": "prolinsuniverse:raw_tynite",
+    "cookingTime": 100,
+    "experience": 0.25
+  },
+  {
+    "id": "tynite_ingot_from_blasting_tynite_ore",
+    "type": "blasting",
+    "category": "misc",
+    "result": {
+      "id": "prolinsuniverse:tynite_ingot",
+      "count": 1
+    },
+    "ingredient": "prolinsuniverse:tynite_ore",
+    "cookingTime": 100,
+    "experience": 0.25
+  },
+  {
+    "id": "tynite_ingot_from_smelting_deepslate_tynite_ore",
+    "type": "smelting",
+    "category": "misc",
+    "result": {
+      "id": "prolinsuniverse:tynite_ingot",
+      "count": 1
+    },
+    "ingredient": "prolinsuniverse:deepslate_tynite_ore",
+    "cookingTime": 200,
+    "experience": 0.25
+  },
+  {
+    "id": "tynite_ingot_from_smelting_raw_tynite",
+    "type": "smelting",
+    "category": "misc",
+    "result": {
+      "id": "prolinsuniverse:tynite_ingot",
+      "count": 1
+    },
+    "ingredient": "prolinsuniverse:raw_tynite",
+    "cookingTime": 200,
+    "experience": 0.25
+  },
+  {
+    "id": "tynite_ingot_from_smelting_tynite_ore",
+    "type": "smelting",
+    "category": "misc",
+    "result": {
+      "id": "prolinsuniverse:tynite_ingot",
+      "count": 1
+    },
+    "ingredient": "prolinsuniverse:tynite_ore",
+    "cookingTime": 200,
+    "experience": 0.25
+  },
+  {
+    "id": "tynite_ingot_to_tynite_block",
+    "type": "crafting_shaped",
+    "category": "misc",
+    "result": {
+      "id": "prolinsuniverse:tynite_block",
+      "count": 1
+    },
+    "pattern": [
+      "BBB",
+      "BBB",
+      "BBB"
+    ],
+    "key": {
+      "B": "prolinsuniverse:tynite_ingot"
+    }
+  },
+  {
+    "id": "tynite_ingot_to_tynite_nugget",
+    "type": "crafting_shapeless",
+    "category": "misc",
+    "result": {
+      "id": "prolinsuniverse:tynite_nugget",
+      "count": 9
+    },
+    "ingredients": {
+      "prolinsuniverse:tynite_ingot": 1
+    }
+  },
+  {
+    "id": "tynite_legs_recipe",
+    "type": "crafting_shaped",
+    "category": "misc",
+    "result": {
+      "id": "prolinsuniverse:tynite_leggings",
+      "count": 1
+    },
+    "pattern": [
+      "ttt",
+      "t t",
+      "t t"
+    ],
+    "key": {
+      "t": "prolinsuniverse:tynite_ingot"
+    }
+  },
+  {
+    "id": "tynite_nugget_to_tynite_ingot",
+    "type": "crafting_shaped",
+    "category": "misc",
+    "result": {
+      "id": "prolinsuniverse:tynite_ingot",
+      "count": 1
+    },
+    "pattern": [
+      "BBB",
+      "BBB",
+      "BBB"
+    ],
+    "key": {
+      "B": "prolinsuniverse:tynite_nugget"
+    }
+  },
+  {
+    "id": "tynite_pickaxe_recipe",
+    "type": "crafting_shaped",
+    "category": "misc",
+    "result": {
+      "id": "prolinsuniverse:tynite_pickaxe",
+      "count": 1
+    },
+    "pattern": [
+      "ttt",
+      " s ",
+      " s "
+    ],
+    "key": {
+      "s": "minecraft:stick",
+      "t": "prolinsuniverse:tynite_ingot"
+    }
+  },
+  {
+    "id": "tynite_shovel_recipe",
+    "type": "crafting_shaped",
+    "category": "misc",
+    "result": {
+      "id": "prolinsuniverse:tynite_shovel",
+      "count": 1
+    },
+    "pattern": [
+      "t",
+      "s",
+      "s"
+    ],
+    "key": {
+      "s": "minecraft:stick",
+      "t": "prolinsuniverse:tynite_ingot"
+    }
+  },
+  {
+    "id": "tynite_sword_recipe",
+    "type": "crafting_shaped",
+    "category": "misc",
+    "result": {
+      "id": "prolinsuniverse:tynite_sword",
+      "count": 1
+    },
+    "pattern": [
+      "t",
+      "t",
+      "s"
+    ],
+    "key": {
+      "s": "minecraft:stick",
+      "t": "prolinsuniverse:tynite_ingot"
+    }
+  },
+  {
+    "id": "urubithian_maul_recipe",
+    "type": "crafting_shaped",
+    "category": "misc",
+    "result": {
+      "id": "prolinsuniverse:urubithian_maul",
+      "count": 1
+    },
+    "pattern": [
+      "UGU",
+      " M ",
+      " W "
+    ],
+    "key": {
+      "G": "minecraft:gunpowder",
+      "M": "minecraft:mace",
+      "U": "prolinsuniverse:urubithium_shard",
+      "W": "prolinsuniverse:weighted_handle"
+    }
+  },
+  {
+    "id": "urubithium_block_to_ingot",
+    "type": "crafting_shapeless",
+    "category": "misc",
+    "result": {
+      "id": "prolinsuniverse:urubithium_ingot",
+      "count": 9
+    },
+    "ingredients": {
+      "prolinsuniverse:urubithium_block": 1
+    }
+  },
+  {
+    "id": "urubithium_fragments_to_ingot",
+    "type": "crafting_shapeless",
+    "category": "misc",
+    "result": {
+      "id": "prolinsuniverse:urubithium_ingot",
+      "count": 1
+    },
+    "ingredients": {
+      "prolinsuniverse:urubithium_fragment": 4
+    }
+  },
+  {
+    "id": "urubithium_ingot_to_urubithium_block",
+    "type": "crafting_shaped",
+    "category": "misc",
+    "result": {
+      "id": "prolinsuniverse:urubithium_block",
+      "count": 1
+    },
+    "pattern": [
+      "BBB",
+      "BBB",
+      "BBB"
+    ],
+    "key": {
+      "B": "prolinsuniverse:urubithium_ingot"
+    }
+  },
+  {
+    "id": "weighted__handle_recipe",
+    "type": "crafting_shaped",
+    "category": "misc",
+    "result": {
+      "id": "prolinsuniverse:weighted_handle",
+      "count": 1
+    },
+    "pattern": [
+      " TT",
+      "TSX",
+      "TX "
+    ],
+    "key": {
+      "S": "minecraft:stick",
+      "T": "prolinsuniverse:tynite_nugget",
+      "X": "prolinsuniverse:urubithium_shard"
+    }
+  },
+  {
+    "id": "xenonite_block_to_ingot",
+    "type": "crafting_shapeless",
+    "category": "misc",
+    "result": {
+      "id": "prolinsuniverse:xenonite_ingot",
+      "count": 9
+    },
+    "ingredients": {
+      "prolinsuniverse:xenonite_block": 1
+    }
+  },
+  {
+    "id": "xenonite_ingot_to_xenonite_block",
+    "type": "crafting_shaped",
+    "category": "misc",
+    "result": {
+      "id": "prolinsuniverse:xenonite_block",
+      "count": 1
+    },
+    "pattern": [
+      "BBB",
+      "BBB",
+      "BBB"
+    ],
+    "key": {
+      "B": "prolinsuniverse:xenonite_ingot"
+    }
+  },
+  {
+    "id": "xenonite_ingot_to_xenonite_nugget",
+    "type": "crafting_shapeless",
+    "category": "misc",
+    "result": {
+      "id": "prolinsuniverse:xenonite_nugget",
+      "count": 9
+    },
+    "ingredients": {
+      "prolinsuniverse:xenonite_ingot": 1
+    }
+  },
+  {
+    "id": "xenonite_nugget_from_blasting_deepslate_xenonite_ore",
+    "type": "blasting",
+    "category": "misc",
+    "result": {
+      "id": "prolinsuniverse:xenonite_nugget",
+      "count": 1
+    },
+    "ingredient": "prolinsuniverse:deepslate_xenonite_ore",
+    "cookingTime": 100,
+    "experience": 0.25
+  },
+  {
+    "id": "xenonite_nugget_from_blasting_raw_xenonite",
+    "type": "blasting",
+    "category": "misc",
+    "result": {
+      "id": "prolinsuniverse:xenonite_nugget",
+      "count": 1
+    },
+    "ingredient": "prolinsuniverse:raw_xenonite",
+    "cookingTime": 100,
+    "experience": 0.25
+  },
+  {
+    "id": "xenonite_nugget_from_blasting_xenonite_ore",
+    "type": "blasting",
+    "category": "misc",
+    "result": {
+      "id": "prolinsuniverse:xenonite_nugget",
+      "count": 1
+    },
+    "ingredient": "prolinsuniverse:xenonite_ore",
+    "cookingTime": 100,
+    "experience": 0.25
+  },
+  {
+    "id": "xenonite_nugget_from_smelting_deepslate_xenonite_ore",
+    "type": "smelting",
+    "category": "misc",
+    "result": {
+      "id": "prolinsuniverse:xenonite_nugget",
+      "count": 1
+    },
+    "ingredient": "prolinsuniverse:deepslate_xenonite_ore",
+    "cookingTime": 200,
+    "experience": 0.25
+  },
+  {
+    "id": "xenonite_nugget_from_smelting_raw_xenonite",
+    "type": "smelting",
+    "category": "misc",
+    "result": {
+      "id": "prolinsuniverse:xenonite_nugget",
+      "count": 1
+    },
+    "ingredient": "prolinsuniverse:raw_xenonite",
+    "cookingTime": 200,
+    "experience": 0.25
+  },
+  {
+    "id": "xenonite_nugget_from_smelting_xenonite_ore",
+    "type": "smelting",
+    "category": "misc",
+    "result": {
+      "id": "prolinsuniverse:xenonite_nugget",
+      "count": 1
+    },
+    "ingredient": "prolinsuniverse:xenonite_ore",
+    "cookingTime": 200,
+    "experience": 0.25
+  },
+  {
+    "id": "xenonite_nuggets_to_ingot",
+    "type": "crafting_shaped",
+    "category": "misc",
+    "result": {
+      "id": "prolinsuniverse:xenonite_ingot",
+      "count": 1
+    },
+    "pattern": [
+      "BBB",
+      "BBB",
+      "BBB"
+    ],
+    "key": {
+      "B": "prolinsuniverse:xenonite_nugget"
+    }
+  },
+  {
+    "id": "xerion_alloy_axe_recipe",
+    "type": "crafting_shaped",
+    "category": "misc",
+    "result": {
+      "id": "prolinsuniverse:xerion_alloy_axe",
+      "count": 1
+    },
+    "pattern": [
+      "XR ",
+      "XR ",
+      "UWU"
+    ],
+    "key": {
+      "R": "prolinsuniverse:radonite_ingot",
+      "U": "prolinsuniverse:urubithium_shard",
+      "W": "prolinsuniverse:weighted_handle",
+      "X": "prolinsuniverse:xenonite_ingot"
+    }
+  },
+  {
+    "id": "xerion_alloy_boots_recipe",
+    "type": "crafting_shaped",
+    "category": "misc",
+    "result": {
+      "id": "prolinsuniverse:xerion_alloy_boots",
+      "count": 1
+    },
+    "pattern": [
+      "X R",
+      "X R"
+    ],
+    "key": {
+      "R": "prolinsuniverse:radonite_ingot",
+      "X": "prolinsuniverse:xenonite_ingot"
+    }
+  },
+  {
+    "id": "xerion_alloy_bow_recipe",
+    "type": "crafting_shaped",
+    "category": "misc",
+    "result": {
+      "id": "prolinsuniverse:xerion_alloy_bow",
+      "count": 1
+    },
+    "pattern": [
+      " RS",
+      "U S",
+      " XS"
+    ],
+    "key": {
+      "R": "prolinsuniverse:radonite_ingot",
+      "S": "prolinsuniverse:strengthened_string",
+      "U": "prolinsuniverse:urubithium_shard",
+      "X": "prolinsuniverse:xenonite_ingot"
+    }
+  },
+  {
+    "id": "xerion_alloy_chestplate_recipe",
+    "type": "crafting_shaped",
+    "category": "misc",
+    "result": {
+      "id": "prolinsuniverse:xerion_alloy_chestplate",
+      "count": 1
+    },
+    "pattern": [
+      "X R",
+      "XUR",
+      "XUR"
+    ],
+    "key": {
+      "R": "prolinsuniverse:radonite_ingot",
+      "U": "prolinsuniverse:urubithium_shard",
+      "X": "prolinsuniverse:xenonite_ingot"
+    }
+  },
+  {
+    "id": "xerion_alloy_helmet_recipe",
+    "type": "crafting_shaped",
+    "category": "misc",
+    "result": {
+      "id": "prolinsuniverse:xerion_alloy_helmet",
+      "count": 1
+    },
+    "pattern": [
+      "XUX",
+      "R R"
+    ],
+    "key": {
+      "R": "prolinsuniverse:radonite_ingot",
+      "U": "prolinsuniverse:urubithium_shard",
+      "X": "prolinsuniverse:xenonite_ingot"
+    }
+  },
+  {
+    "id": "xerion_alloy_hoe_recipe",
+    "type": "crafting_shaped",
+    "category": "misc",
+    "result": {
+      "id": "prolinsuniverse:xerion_alloy_hoe",
+      "count": 1
+    },
+    "pattern": [
+      "XR ",
+      " W ",
+      "UWU"
+    ],
+    "key": {
+      "R": "prolinsuniverse:radonite_ingot",
+      "U": "prolinsuniverse:urubithium_shard",
+      "W": "prolinsuniverse:weighted_handle",
+      "X": "prolinsuniverse:xenonite_ingot"
+    }
+  },
+  {
+    "id": "xerion_alloy_leggings_recipe",
+    "type": "crafting_shaped",
+    "category": "misc",
+    "result": {
+      "id": "prolinsuniverse:xerion_alloy_leggings",
+      "count": 1
+    },
+    "pattern": [
+      "XUR",
+      "X R",
+      "X R"
+    ],
+    "key": {
+      "R": "prolinsuniverse:radonite_ingot",
+      "U": "prolinsuniverse:urubithium_shard",
+      "X": "prolinsuniverse:xenonite_ingot"
+    }
+  },
+  {
+    "id": "xerion_alloy_pickaxe_recipe",
+    "type": "crafting_shaped",
+    "category": "misc",
+    "result": {
+      "id": "prolinsuniverse:xerion_alloy_pickaxe",
+      "count": 1
+    },
+    "pattern": [
+      "XRX",
+      " R ",
+      "UWU"
+    ],
+    "key": {
+      "R": "prolinsuniverse:radonite_ingot",
+      "U": "prolinsuniverse:urubithium_shard",
+      "W": "prolinsuniverse:weighted_handle",
+      "X": "prolinsuniverse:xenonite_ingot"
+    }
+  },
+  {
+    "id": "xerion_alloy_shovel_recipe",
+    "type": "crafting_shaped",
+    "category": "misc",
+    "result": {
+      "id": "prolinsuniverse:xerion_alloy_shovel",
+      "count": 1
+    },
+    "pattern": [
+      " R ",
+      " X ",
+      "UWU"
+    ],
+    "key": {
+      "R": "prolinsuniverse:radonite_ingot",
+      "U": "prolinsuniverse:urubithium_shard",
+      "W": "prolinsuniverse:weighted_handle",
+      "X": "prolinsuniverse:xenonite_ingot"
+    }
+  },
+  {
+    "id": "xerion_alloy_sword_recipe",
+    "type": "crafting_shaped",
+    "category": "misc",
+    "result": {
+      "id": "prolinsuniverse:xerion_alloy_sword",
+      "count": 1
+    },
+    "pattern": [
+      " X ",
+      " R ",
+      "UWU"
+    ],
+    "key": {
+      "R": "prolinsuniverse:radonite_ingot",
+      "U": "prolinsuniverse:urubithium_shard",
+      "W": "prolinsuniverse:weighted_handle",
+      "X": "prolinsuniverse:xenonite_ingot"
+    }
+  },
+  {
+    "id": "xerion_excavator_recipe",
+    "type": "crafting_shaped",
+    "category": "misc",
+    "result": {
+      "id": "prolinsuniverse:xerion_excavator",
+      "count": 8
+    },
+    "pattern": [
+      "XXN",
+      "XSR",
+      "NRR"
+    ],
+    "key": {
+      "N": "minecraft:netherite_ingot",
+      "R": "prolinsuniverse:radonite_block",
+      "S": "minecraft:nether_star",
+      "X": "prolinsuniverse:xenonite_block"
+    }
+  }
+]

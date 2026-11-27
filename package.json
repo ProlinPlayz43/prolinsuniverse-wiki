@@ -1,0 +1,22 @@
+{
+  "name": "prolinsuniverse-wiki",
+  "type": "module",
+  "version": "0.0.2",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "build": "node scripts/check.mjs && astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "gen": "node scripts/generate.mjs",
+    "images": "node scripts/images.mjs",
+    "check": "node scripts/check.mjs"
+  },
+  "dependencies": {
+    "@astrojs/starlight": "^0.43.2",
+    "astro": "^7.4.13"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

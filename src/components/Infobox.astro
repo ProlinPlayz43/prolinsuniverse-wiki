@@ -1,0 +1,103 @@
+---
+// Generic infobox: floated to the right of the page text on wide screens, full width on phones.
+// Rows tolerate missing data: a row with no value is simply not rendered.
+import ImagePlaceholder from './ImagePlaceholder.astro';
+
+interface Row {
+  label: string;
+  value?: string | number | null;
+  links?: { name: string; href: string | null }[];
+}
+interface Props {
+  title: string;
+  kind: 'mobs' | 'bosses' | 'items' | 'blocks' | 'biomes';
+  id: string;
+  ratio?: string;
+  pixelated?: boolean;
+  rows: Row[];
+  since?: string;
+}
+const { title, kind, id, ratio = '4 / 3', pixelated = false, rows, since } = Astro.props;
+const shown = rows.filter((r) => (r.links && r.links.length) || (r.value !== undefined && r.value !== null && r.value !== ''));
+---
+
+<aside class="infobox not-content" aria-label={`${title} facts`}>
+  <div class="infobox__title">{title}</div>
+  <div class="infobox__img">
+    <ImagePlaceholder kind={kind} id={id} alt={title} ratio={ratio} pixelated={pixelated} width={pixelated ? 256 : 560} />
+  </div>
+  <slot name="badges" />
+  <dl>
+    {
+      shown.map((r) => (
+        <>
+          <dt>{r.label}</dt>
+          <dd>
+            {r.links && r.links.length
+              ? r.links.map((l, i) => (
+                  <>
+                    {i > 0 && ', '}
+                    {l.href ? <a href={l.href}>{l.name}</a> : <span>{l.name}</span>}
+                  </>
+                ))
+              : r.value}
+          </dd>
+        </>
+      ))
+    }
+    {since && (<><dt>Added in</dt><dd>v{since}</dd></>)}
+  </dl>
+  <slot />
+</aside>
+
+<style>
+  .infobox {
+    margin: 0 0 1.25rem;
+    border: 1px solid var(--sl-color-hairline);
+    border-radius: 0.6rem;
+    background: var(--sl-color-bg-nav);
+    overflow: hidden;
+    font-size: var(--sl-text-sm);
+  }
+  @media (min-width: 50rem) {
+    .infobox {
+      float: right;
+      width: 19rem;
+      margin: 0 0 1rem 1.5rem;
+    }
+  }
+  .infobox__title {
+    padding: 0.55rem 0.8rem;
+    background: var(--sl-color-accent-low);
+    font-weight: 700;
+    font-size: var(--sl-text-base);
+    text-align: center;
+  }
+  .infobox__img {
+    padding: 0.7rem;
+  }
+  dl {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    margin: 0;
+    border-top: 1px solid var(--sl-color-hairline);
+  }
+  dt,
+  dd {
+    margin: 0;
+    padding: 0.35rem 0.8rem;
+    border-bottom: 1px solid var(--sl-color-hairline);
+  }
+  dt {
+    font-weight: 600;
+    color: var(--sl-color-gray-2);
+    padding-right: 0.5rem;
+  }
+  dd {
+    text-align: right;
+    overflow-wrap: anywhere;
+  }
+  dl > :nth-last-child(-n + 2) {
+    border-bottom: 0;
+  }
+</style>

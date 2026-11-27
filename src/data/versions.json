@@ -1,0 +1,9 @@
+{
+  "current": "0.0.2",
+  "modName": "Prolins Universe",
+  "modrinthUrl": "",
+  "versions": [
+    { "id": "0.0.1", "released": null, "status": "released", "note": "First release on Modrinth." },
+    { "id": "0.0.2", "released": null, "status": "documented", "note": "" }
+  ]
+}

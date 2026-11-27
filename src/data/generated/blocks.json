@@ -1,0 +1,2447 @@
+[
+  {
+    "id": "tynite_block",
+    "slug": "tynite_block",
+    "name": "Block of Tynite",
+    "group": "storage",
+    "since": "0.0.2",
+    "hardness": 2,
+    "blastResistance": 2,
+    "requiresTool": true,
+    "sound": "Metal",
+    "hasItem": true,
+    "drops": [
+      {
+        "item": "prolinsuniverse:tynite_block",
+        "count": null,
+        "notes": [],
+        "weight": null
+      }
+    ],
+    "recipes": [
+      "tynite_ingot_to_tynite_block"
+    ],
+    "usedIn": [
+      "gem_cutter_recipe",
+      "tynite_block_to_tynite_ingot"
+    ],
+    "foundIn": []
+  },
+  {
+    "id": "raw_tynite_block",
+    "slug": "raw_tynite_block",
+    "name": "Raw Block of Tynite",
+    "group": "storage",
+    "since": "0.0.2",
+    "hardness": 2,
+    "blastResistance": 2,
+    "requiresTool": true,
+    "sound": "Stone",
+    "hasItem": true,
+    "drops": [
+      {
+        "item": "prolinsuniverse:raw_tynite_block",
+        "count": null,
+        "notes": [],
+        "weight": null
+      }
+    ],
+    "recipes": [
+      "raw_tynite_to_raw_tynite_block"
+    ],
+    "usedIn": [
+      "raw_tynite_block_to_raw_tynite"
+    ],
+    "foundIn": []
+  },
+  {
+    "id": "tynite_ore",
+    "slug": "tynite_ore",
+    "name": "Tynite Ore",
+    "group": "ore",
+    "since": "0.0.2",
+    "hardness": 1.2,
+    "blastResistance": 1.2,
+    "requiresTool": true,
+    "xp": [
+      2,
+      4
+    ],
+    "sound": "Stone",
+    "hasItem": true,
+    "drops": [
+      {
+        "item": "prolinsuniverse:tynite_ore",
+        "count": null,
+        "notes": [
+          "Silk Touch"
+        ],
+        "weight": null
+      },
+      {
+        "item": "prolinsuniverse:raw_tynite",
+        "count": null,
+        "notes": [
+          "otherwise",
+          "affected by Fortune"
+        ],
+        "weight": null
+      }
+    ],
+    "recipes": [],
+    "usedIn": [
+      "tynite_ingot_from_blasting_tynite_ore",
+      "tynite_ingot_from_smelting_tynite_ore"
+    ],
+    "foundIn": []
+  },
+  {
+    "id": "deepslate_tynite_ore",
+    "slug": "deepslate_tynite_ore",
+    "name": "Deepslate Tynite Ore",
+    "group": "ore",
+    "since": "0.0.2",
+    "hardness": 2,
+    "blastResistance": 2,
+    "requiresTool": true,
+    "xp": [
+      3,
+      6
+    ],
+    "sound": "Deepslate",
+    "hasItem": true,
+    "drops": [
+      {
+        "item": "prolinsuniverse:deepslate_tynite_ore",
+        "count": null,
+        "notes": [
+          "Silk Touch"
+        ],
+        "weight": null
+      },
+      {
+        "item": "prolinsuniverse:raw_tynite",
+        "count": [
+          2,
+          5
+        ],
+        "notes": [
+          "otherwise",
+          "affected by Fortune"
+        ],
+        "weight": null
+      }
+    ],
+    "recipes": [],
+    "usedIn": [
+      "tynite_ingot_from_blasting_deepslate_tynite_ore",
+      "tynite_ingot_from_smelting_deepslate_tynite_ore"
+    ],
+    "foundIn": []
+  },
+  {
+    "id": "ruby_ore",
+    "slug": "ruby_ore",
+    "name": "Ruby Ore",
+    "group": "ore",
+    "since": "0.0.2",
+    "hardness": 1.3,
+    "blastResistance": 1.3,
+    "requiresTool": true,
+    "xp": [
+      3,
+      6
+    ],
+    "sound": "Calcite",
+    "hasItem": true,
+    "drops": [
+      {
+        "item": "prolinsuniverse:ruby_ore",
+        "count": null,
+        "notes": [
+          "Silk Touch"
+        ],
+        "weight": null
+      },
+      {
+        "item": "prolinsuniverse:raw_ruby",
+        "count": [
+          3,
+          5
+        ],
+        "notes": [
+          "otherwise",
+          "affected by Fortune"
+        ],
+        "weight": null
+      }
+    ],
+    "recipes": [],
+    "usedIn": [
+      "ruby_from_blasting_ruby_ore",
+      "ruby_from_smelting_ruby_ore"
+    ],
+    "foundIn": []
+  },
+  {
+    "id": "ruby_block",
+    "slug": "ruby_block",
+    "name": "Block of Ruby",
+    "group": "storage",
+    "since": "0.0.2",
+    "hardness": 2,
+    "blastResistance": 2,
+    "requiresTool": true,
+    "sound": "Metal",
+    "hasItem": true,
+    "drops": [
+      {
+        "item": "prolinsuniverse:ruby_block",
+        "count": null,
+        "notes": [],
+        "weight": null
+      }
+    ],
+    "recipes": [
+      "ruby_ingot_to_ruby_block"
+    ],
+    "usedIn": [
+      "ruby_block_to_ruby"
+    ],
+    "foundIn": []
+  },
+  {
+    "id": "raw_ruby_block",
+    "slug": "raw_ruby_block",
+    "name": "Raw Block of Ruby",
+    "group": "storage",
+    "since": "0.0.2",
+    "hardness": 2,
+    "blastResistance": 2,
+    "requiresTool": true,
+    "sound": "Stone",
+    "hasItem": true,
+    "drops": [
+      {
+        "item": "prolinsuniverse:raw_ruby_block",
+        "count": null,
+        "notes": [],
+        "weight": null
+      }
+    ],
+    "recipes": [],
+    "usedIn": [],
+    "foundIn": []
+  },
+  {
+    "id": "radonite_block",
+    "slug": "radonite_block",
+    "name": "Block of Radonite",
+    "group": "storage",
+    "since": "0.0.2",
+    "hardness": 2,
+    "blastResistance": 2,
+    "requiresTool": true,
+    "sound": "Metal",
+    "hasItem": true,
+    "drops": [
+      {
+        "item": "prolinsuniverse:radonite_block",
+        "count": null,
+        "notes": [],
+        "weight": null
+      }
+    ],
+    "recipes": [
+      "radonite_ingot_to_radonite_block"
+    ],
+    "usedIn": [
+      "radonite_block_to_ingot",
+      "xerion_excavator_recipe"
+    ],
+    "foundIn": []
+  },
+  {
+    "id": "xenonite_block",
+    "slug": "xenonite_block",
+    "name": "Block of Xenonite",
+    "group": "storage",
+    "since": "0.0.2",
+    "hardness": 2,
+    "blastResistance": 2,
+    "requiresTool": true,
+    "sound": "Metal",
+    "hasItem": true,
+    "drops": [
+      {
+        "item": "prolinsuniverse:xenonite_block",
+        "count": null,
+        "notes": [],
+        "weight": null
+      }
+    ],
+    "recipes": [
+      "xenonite_ingot_to_xenonite_block"
+    ],
+    "usedIn": [
+      "xenonite_block_to_ingot",
+      "xerion_excavator_recipe"
+    ],
+    "foundIn": []
+  },
+  {
+    "id": "urubithium_block",
+    "slug": "urubithium_block",
+    "name": "Block of Urubithium",
+    "group": "storage",
+    "since": "0.0.2",
+    "hardness": 2,
+    "blastResistance": 2,
+    "requiresTool": true,
+    "sound": "Metal",
+    "hasItem": true,
+    "drops": [
+      {
+        "item": "prolinsuniverse:urubithium_block",
+        "count": null,
+        "notes": [],
+        "weight": null
+      }
+    ],
+    "recipes": [
+      "urubithium_ingot_to_urubithium_block"
+    ],
+    "usedIn": [
+      "urubithium_block_to_ingot"
+    ],
+    "foundIn": []
+  },
+  {
+    "id": "hemastone",
+    "slug": "hemastone",
+    "name": "Hemastone",
+    "group": "natural",
+    "since": "0.0.2",
+    "hardness": 6,
+    "blastResistance": 6,
+    "requiresTool": true,
+    "sound": "Deepslate",
+    "hasItem": true,
+    "drops": [
+      {
+        "item": "prolinsuniverse:hemastone",
+        "count": null,
+        "notes": [
+          "Silk Touch"
+        ],
+        "weight": null
+      },
+      {
+        "item": "prolinsuniverse:cracked_hemastone",
+        "count": null,
+        "notes": [
+          "otherwise"
+        ],
+        "weight": null
+      }
+    ],
+    "recipes": [],
+    "usedIn": [],
+    "foundIn": []
+  },
+  {
+    "id": "cracked_hemastone",
+    "slug": "cracked_hemastone",
+    "name": "Cracked Hemastone",
+    "group": "natural",
+    "since": "0.0.2",
+    "hardness": 4,
+    "blastResistance": 4,
+    "requiresTool": true,
+    "sound": "Stone",
+    "hasItem": true,
+    "drops": [
+      {
+        "item": "prolinsuniverse:cracked_hemastone",
+        "count": null,
+        "notes": [],
+        "weight": null
+      }
+    ],
+    "recipes": [],
+    "usedIn": [],
+    "foundIn": []
+  },
+  {
+    "id": "hemastone_grass",
+    "slug": "hemastone_grass",
+    "name": "Hemastone Grass",
+    "group": "natural",
+    "since": "0.0.2",
+    "hardness": 4,
+    "blastResistance": 4,
+    "requiresTool": true,
+    "sound": "Deepslate",
+    "hasItem": true,
+    "drops": [
+      {
+        "item": "prolinsuniverse:hemastone_grass",
+        "count": null,
+        "notes": [
+          "Silk Touch"
+        ],
+        "weight": null
+      },
+      {
+        "item": "prolinsuniverse:cracked_hemastone",
+        "count": null,
+        "notes": [
+          "otherwise"
+        ],
+        "weight": null
+      }
+    ],
+    "recipes": [],
+    "usedIn": [],
+    "foundIn": []
+  },
+  {
+    "id": "hemastone_bricks",
+    "slug": "hemastone_bricks",
+    "name": "Hemastone Bricks",
+    "group": "natural",
+    "since": "0.0.2",
+    "hardness": 4,
+    "blastResistance": 4,
+    "requiresTool": true,
+    "sound": "Deepslate",
+    "hasItem": true,
+    "drops": [
+      {
+        "item": "prolinsuniverse:hemastone_bricks",
+        "count": null,
+        "notes": [],
+        "weight": null
+      }
+    ],
+    "recipes": [],
+    "usedIn": [],
+    "foundIn": []
+  },
+  {
+    "id": "hemastone_tiles",
+    "slug": "hemastone_tiles",
+    "name": "Hemastone Tiles",
+    "group": "natural",
+    "since": "0.0.2",
+    "hardness": 4,
+    "blastResistance": 4,
+    "requiresTool": true,
+    "sound": "Deepslate",
+    "hasItem": true,
+    "drops": [
+      {
+        "item": "prolinsuniverse:hemastone_tiles",
+        "count": null,
+        "notes": [],
+        "weight": null
+      }
+    ],
+    "recipes": [],
+    "usedIn": [],
+    "foundIn": []
+  },
+  {
+    "id": "cracked_hemastone_bricks",
+    "slug": "cracked_hemastone_bricks",
+    "name": "Cracked Hemastone Bricks",
+    "group": "natural",
+    "since": "0.0.2",
+    "hardness": 4,
+    "blastResistance": 4,
+    "requiresTool": true,
+    "sound": "Deepslate",
+    "hasItem": true,
+    "drops": [
+      {
+        "item": "prolinsuniverse:cracked_hemastone_bricks",
+        "count": null,
+        "notes": [],
+        "weight": null
+      }
+    ],
+    "recipes": [],
+    "usedIn": [],
+    "foundIn": []
+  },
+  {
+    "id": "cracked_hemastone_tiles",
+    "slug": "cracked_hemastone_tiles",
+    "name": "Cracked Hemastone Tiles",
+    "group": "natural",
+    "since": "0.0.2",
+    "hardness": 4,
+    "blastResistance": 4,
+    "requiresTool": true,
+    "sound": "Deepslate",
+    "hasItem": true,
+    "drops": [
+      {
+        "item": "prolinsuniverse:cracked_hemastone_tiles",
+        "count": null,
+        "notes": [],
+        "weight": null
+      }
+    ],
+    "recipes": [],
+    "usedIn": [],
+    "foundIn": []
+  },
+  {
+    "id": "uru_hemastone_bricks",
+    "slug": "uru_hemastone_bricks",
+    "name": "Uru Hemastone Bricks",
+    "group": "natural",
+    "since": "0.0.2",
+    "hardness": 6,
+    "blastResistance": 6,
+    "requiresTool": true,
+    "sound": "Deepslate",
+    "hasItem": true,
+    "drops": [
+      {
+        "item": "prolinsuniverse:uru_hemastone_bricks",
+        "count": null,
+        "notes": [],
+        "weight": null
+      }
+    ],
+    "recipes": [],
+    "usedIn": [],
+    "foundIn": []
+  },
+  {
+    "id": "hemastone_chain",
+    "slug": "hemastone_chain",
+    "name": "Hemastone Chain",
+    "group": "natural",
+    "since": "0.0.2",
+    "hardness": 2.4,
+    "blastResistance": 2.4,
+    "requiresTool": true,
+    "sound": "Chain",
+    "hasItem": true,
+    "drops": [
+      {
+        "item": "prolinsuniverse:hemastone_chain",
+        "count": null,
+        "notes": [],
+        "weight": null
+      }
+    ],
+    "recipes": [],
+    "usedIn": [],
+    "foundIn": []
+  },
+  {
+    "id": "uru_light",
+    "slug": "uru_light",
+    "name": "Uru Light",
+    "group": "natural",
+    "since": "0.0.2",
+    "hardness": 1.2,
+    "blastResistance": 1.2,
+    "lightLevel": 12,
+    "sound": "Shroomlight",
+    "hasItem": true,
+    "drops": [
+      {
+        "item": "prolinsuniverse:uru_light",
+        "count": null,
+        "notes": [],
+        "weight": null
+      }
+    ],
+    "recipes": [],
+    "usedIn": [],
+    "foundIn": []
+  },
+  {
+    "id": "broken_vein_portal",
+    "slug": "broken_vein_portal",
+    "name": "Broken Vein Portal",
+    "group": "functional",
+    "since": "0.0.2",
+    "hardness": 4,
+    "blastResistance": 4,
+    "requiresTool": true,
+    "sound": "Deepslate",
+    "hasItem": true,
+    "drops": [],
+    "recipes": [],
+    "usedIn": [],
+    "foundIn": []
+  },
+  {
+    "id": "broken_vein_portal_frame",
+    "slug": "broken_vein_portal_frame",
+    "name": "Broken Vein Portal Frame",
+    "group": "functional",
+    "since": "0.0.2",
+    "hardness": -1,
+    "blastResistance": 360000000000,
+    "sound": "Deepslate",
+    "hasItem": true,
+    "drops": [],
+    "recipes": [],
+    "usedIn": [],
+    "foundIn": []
+  },
+  {
+    "id": "broken_vein_portal_core",
+    "slug": "broken_vein_portal_core",
+    "name": "Broken Vein Portal Core",
+    "group": "functional",
+    "since": "0.0.2",
+    "hardness": 4,
+    "blastResistance": 4,
+    "requiresTool": true,
+    "sound": "Deepslate",
+    "hasItem": true,
+    "drops": [
+      {
+        "item": "prolinsuniverse:broken_vein_portal_core",
+        "count": null,
+        "notes": [],
+        "weight": null
+      }
+    ],
+    "recipes": [],
+    "usedIn": [],
+    "foundIn": []
+  },
+  {
+    "id": "hemastone_bricks_stairs",
+    "slug": "hemastone_bricks_stairs",
+    "name": "Hemastone Brick Stairs",
+    "group": "natural",
+    "since": "0.0.2",
+    "hardness": 2,
+    "blastResistance": 2,
+    "requiresTool": true,
+    "hasItem": true,
+    "drops": [
+      {
+        "item": "prolinsuniverse:hemastone_bricks_stairs",
+        "count": null,
+        "notes": [],
+        "weight": null
+      }
+    ],
+    "recipes": [],
+    "usedIn": [],
+    "foundIn": []
+  },
+  {
+    "id": "hemastone_brick_slab",
+    "slug": "hemastone_brick_slab",
+    "name": "Hemastone Brick Slab",
+    "group": "natural",
+    "since": "0.0.2",
+    "hardness": 4,
+    "blastResistance": 4,
+    "requiresTool": true,
+    "sound": "Deepslate",
+    "hasItem": true,
+    "drops": [
+      {
+        "item": "prolinsuniverse:hemastone_brick_slab",
+        "count": null,
+        "notes": [],
+        "weight": null
+      }
+    ],
+    "recipes": [],
+    "usedIn": [],
+    "foundIn": []
+  },
+  {
+    "id": "radonite_ore",
+    "slug": "radonite_ore",
+    "name": "Radonite Ore",
+    "group": "ore",
+    "since": "0.0.2",
+    "hardness": 2.3,
+    "blastResistance": 2.3,
+    "requiresTool": true,
+    "xp": [
+      6,
+      8
+    ],
+    "sound": "Stone",
+    "hasItem": true,
+    "drops": [
+      {
+        "item": "prolinsuniverse:raw_radonite",
+        "count": null,
+        "notes": [],
+        "weight": null
+      }
+    ],
+    "recipes": [],
+    "usedIn": [
+      "radonite_nugget_from_blasting_radonite_ore",
+      "radonite_nugget_from_smelting_radonite_ore"
+    ],
+    "foundIn": []
+  },
+  {
+    "id": "deepslate_radonite_ore",
+    "slug": "deepslate_radonite_ore",
+    "name": "Deepslate Radonite Ore",
+    "group": "ore",
+    "since": "0.0.2",
+    "hardness": 2.5,
+    "blastResistance": 2.5,
+    "requiresTool": true,
+    "xp": [
+      6,
+      8
+    ],
+    "sound": "Deepslate",
+    "hasItem": true,
+    "drops": [
+      {
+        "item": "prolinsuniverse:raw_radonite",
+        "count": null,
+        "notes": [],
+        "weight": null
+      }
+    ],
+    "recipes": [],
+    "usedIn": [
+      "radonite_nugget_from_blasting_deepslate_radonite_ore",
+      "radonite_nugget_from_smelting_deepslate_radonite_ore"
+    ],
+    "foundIn": []
+  },
+  {
+    "id": "xenonite_ore",
+    "slug": "xenonite_ore",
+    "name": "Xenonite Ore",
+    "group": "ore",
+    "since": "0.0.2",
+    "hardness": 2.3,
+    "blastResistance": 2.3,
+    "requiresTool": true,
+    "xp": [
+      6,
+      8
+    ],
+    "sound": "Stone",
+    "hasItem": true,
+    "drops": [
+      {
+        "item": "prolinsuniverse:raw_xenonite",
+        "count": null,
+        "notes": [],
+        "weight": null
+      }
+    ],
+    "recipes": [],
+    "usedIn": [
+      "xenonite_nugget_from_blasting_xenonite_ore",
+      "xenonite_nugget_from_smelting_xenonite_ore"
+    ],
+    "foundIn": []
+  },
+  {
+    "id": "deepslate_xenonite_ore",
+    "slug": "deepslate_xenonite_ore",
+    "name": "Deepslate Xenonite Ore",
+    "group": "ore",
+    "since": "0.0.2",
+    "hardness": 2.5,
+    "blastResistance": 2.5,
+    "requiresTool": true,
+    "xp": [
+      6,
+      8
+    ],
+    "sound": "Deepslate",
+    "hasItem": true,
+    "drops": [
+      {
+        "item": "prolinsuniverse:raw_xenonite",
+        "count": null,
+        "notes": [],
+        "weight": null
+      }
+    ],
+    "recipes": [],
+    "usedIn": [
+      "xenonite_nugget_from_blasting_deepslate_xenonite_ore",
+      "xenonite_nugget_from_smelting_deepslate_xenonite_ore"
+    ],
+    "foundIn": []
+  },
+  {
+    "id": "urubithium_ore",
+    "slug": "urubithium_ore",
+    "name": "Urubithium Ore",
+    "group": "ore",
+    "since": "0.0.2",
+    "hardness": 2.3,
+    "blastResistance": 2.3,
+    "requiresTool": true,
+    "xp": [
+      6,
+      8
+    ],
+    "sound": "Stone",
+    "hasItem": true,
+    "drops": [
+      {
+        "item": "prolinsuniverse:urubithium_ore",
+        "count": null,
+        "notes": [
+          "Silk Touch"
+        ],
+        "weight": null
+      },
+      {
+        "item": "prolinsuniverse:urubithium_fragment",
+        "count": [
+          1,
+          3
+        ],
+        "notes": [
+          "otherwise",
+          "affected by Fortune"
+        ],
+        "weight": null
+      }
+    ],
+    "recipes": [],
+    "usedIn": [],
+    "foundIn": []
+  },
+  {
+    "id": "deepslate_urubithium_ore",
+    "slug": "deepslate_urubithium_ore",
+    "name": "Deepslate Urubithium Ore",
+    "group": "ore",
+    "since": "0.0.2",
+    "hardness": 2.5,
+    "blastResistance": 2.5,
+    "requiresTool": true,
+    "xp": [
+      6,
+      8
+    ],
+    "sound": "Deepslate",
+    "hasItem": true,
+    "drops": [
+      {
+        "item": "prolinsuniverse:deepslate_urubithium_ore",
+        "count": null,
+        "notes": [
+          "Silk Touch"
+        ],
+        "weight": null
+      },
+      {
+        "item": "prolinsuniverse:urubithium_fragment",
+        "count": [
+          1,
+          3
+        ],
+        "notes": [
+          "otherwise",
+          "affected by Fortune"
+        ],
+        "weight": null
+      }
+    ],
+    "recipes": [],
+    "usedIn": [],
+    "foundIn": []
+  },
+  {
+    "id": "deepslate_experium_ore",
+    "slug": "deepslate_experium_ore",
+    "name": "Deepslate Experium Ore",
+    "group": "ore",
+    "since": "0.0.2",
+    "hardness": 2.1,
+    "blastResistance": 2.1,
+    "requiresTool": true,
+    "xp": [
+      6,
+      8
+    ],
+    "sound": "Deepslate",
+    "hasItem": true,
+    "drops": [
+      {
+        "item": "prolinsuniverse:deepslate_experium_ore",
+        "count": null,
+        "notes": [
+          "Silk Touch"
+        ],
+        "weight": null
+      },
+      {
+        "item": "prolinsuniverse:experium_nugget",
+        "count": [
+          9,
+          17
+        ],
+        "notes": [
+          "otherwise",
+          "affected by Fortune"
+        ],
+        "weight": null
+      }
+    ],
+    "recipes": [],
+    "usedIn": [],
+    "foundIn": []
+  },
+  {
+    "id": "gemcutter",
+    "slug": "gemcutter",
+    "name": "Gem Cutter",
+    "group": "functional",
+    "since": "0.0.2",
+    "hardness": 2.5,
+    "blastResistance": 2.5,
+    "requiresTool": true,
+    "sound": "Stone",
+    "hasItem": true,
+    "drops": [
+      {
+        "item": "prolinsuniverse:gemcutter",
+        "count": null,
+        "notes": [],
+        "weight": null
+      }
+    ],
+    "recipes": [
+      "gem_cutter_recipe"
+    ],
+    "usedIn": [],
+    "foundIn": []
+  },
+  {
+    "id": "deepslated_calcite",
+    "slug": "deepslated_calcite",
+    "name": "Deepslated Calcite",
+    "group": "natural",
+    "since": "0.0.2",
+    "hardness": 2.5,
+    "blastResistance": 2.5,
+    "requiresTool": true,
+    "sound": "Deepslate",
+    "hasItem": true,
+    "drops": [
+      {
+        "item": "prolinsuniverse:deepslated_calcite",
+        "count": null,
+        "notes": [],
+        "weight": null
+      }
+    ],
+    "recipes": [],
+    "usedIn": [],
+    "foundIn": []
+  },
+  {
+    "id": "deepslated_calcite_ruby_ore",
+    "slug": "deepslated_calcite_ruby_ore",
+    "name": "Deepslated Calcite Ruby Ore",
+    "group": "ore",
+    "since": "0.0.2",
+    "hardness": 2.5,
+    "blastResistance": 2.5,
+    "requiresTool": true,
+    "xp": [
+      2,
+      3
+    ],
+    "sound": "Deepslate",
+    "hasItem": true,
+    "drops": [
+      {
+        "item": "prolinsuniverse:ruby_ore",
+        "count": null,
+        "notes": [
+          "Silk Touch"
+        ],
+        "weight": null
+      },
+      {
+        "item": "prolinsuniverse:raw_ruby",
+        "count": [
+          3,
+          5
+        ],
+        "notes": [
+          "otherwise",
+          "affected by Fortune"
+        ],
+        "weight": null
+      }
+    ],
+    "recipes": [],
+    "usedIn": [],
+    "foundIn": []
+  },
+  {
+    "id": "arterwood_log",
+    "slug": "arterwood_log",
+    "name": "Arterwood Log",
+    "group": "wood",
+    "since": "0.0.2",
+    "hardness": 1.2,
+    "blastResistance": 1.2,
+    "sound": "Wood",
+    "hasItem": true,
+    "drops": [
+      {
+        "item": "prolinsuniverse:arterwood_log",
+        "count": null,
+        "notes": [],
+        "weight": null
+      }
+    ],
+    "recipes": [],
+    "usedIn": [
+      "arterwood_wood_recipe"
+    ],
+    "foundIn": []
+  },
+  {
+    "id": "stripped_arterwood_log",
+    "slug": "stripped_arterwood_log",
+    "name": "Stripped Arterwood Log",
+    "group": "wood",
+    "since": "0.0.2",
+    "hardness": 1.2,
+    "blastResistance": 1.2,
+    "sound": "Wood",
+    "hasItem": true,
+    "drops": [
+      {
+        "item": "prolinsuniverse:stripped_arterwood_log",
+        "count": null,
+        "notes": [],
+        "weight": null
+      }
+    ],
+    "recipes": [],
+    "usedIn": [
+      "stripped_arterwood_wood_recipe"
+    ],
+    "foundIn": []
+  },
+  {
+    "id": "arterwood_wood",
+    "slug": "arterwood_wood",
+    "name": "Arterwood Wood",
+    "group": "wood",
+    "since": "0.0.2",
+    "hardness": 1.2,
+    "blastResistance": 1.2,
+    "sound": "Wood",
+    "hasItem": true,
+    "drops": [
+      {
+        "item": "prolinsuniverse:arterwood_wood",
+        "count": null,
+        "notes": [],
+        "weight": null
+      }
+    ],
+    "recipes": [
+      "arterwood_wood_recipe"
+    ],
+    "usedIn": [],
+    "foundIn": []
+  },
+  {
+    "id": "stripped_arterwood_wood",
+    "slug": "stripped_arterwood_wood",
+    "name": "Stripped Arterwood Wood",
+    "group": "wood",
+    "since": "0.0.2",
+    "hardness": 1.2,
+    "blastResistance": 1.2,
+    "sound": "Wood",
+    "hasItem": true,
+    "drops": [
+      {
+        "item": "prolinsuniverse:stripped_arterwood_wood",
+        "count": null,
+        "notes": [],
+        "weight": null
+      }
+    ],
+    "recipes": [
+      "stripped_arterwood_wood_recipe"
+    ],
+    "usedIn": [],
+    "foundIn": []
+  },
+  {
+    "id": "arterwood_planks",
+    "slug": "arterwood_planks",
+    "name": "Arterwood Planks",
+    "group": "wood",
+    "since": "0.0.2",
+    "hardness": 1.2,
+    "blastResistance": 1.2,
+    "sound": "Wood",
+    "hasItem": true,
+    "drops": [
+      {
+        "item": "prolinsuniverse:arterwood_planks",
+        "count": null,
+        "notes": [],
+        "weight": null
+      }
+    ],
+    "recipes": [],
+    "usedIn": [
+      "arterwood_door_recipe",
+      "arterwood_planks_fence_gate_recipe",
+      "arterwood_planks_fence_recipe",
+      "arterwood_planks_slab_recipe",
+      "arterwood_trapdoor_recipe"
+    ],
+    "foundIn": []
+  },
+  {
+    "id": "arterwood_leaves",
+    "slug": "arterwood_leaves",
+    "name": "Arterwood Leaves",
+    "group": "wood",
+    "since": "0.0.2",
+    "hardness": 1.2,
+    "blastResistance": 1.2,
+    "sound": "Azalea Leaves",
+    "hasItem": true,
+    "drops": [
+      {
+        "item": "prolinsuniverse:arterwood_leaves",
+        "count": null,
+        "notes": [
+          "conditional"
+        ],
+        "weight": null
+      },
+      {
+        "item": "prolinsuniverse:arterwood_leaves",
+        "count": null,
+        "notes": [
+          "otherwise",
+          "chance rises with enchantment"
+        ],
+        "weight": null
+      },
+      {
+        "item": "minecraft:stick",
+        "count": [
+          1,
+          2
+        ],
+        "notes": [
+          "chance rises with enchantment"
+        ],
+        "weight": null
+      }
+    ],
+    "recipes": [],
+    "usedIn": [],
+    "foundIn": []
+  },
+  {
+    "id": "bloodspewer",
+    "slug": "bloodspewer",
+    "name": "Bloodspewer",
+    "group": "functional",
+    "since": "0.0.2",
+    "sound": "Grass",
+    "hasItem": true,
+    "drops": [
+      {
+        "item": "prolinsuniverse:bloodspewer",
+        "count": null,
+        "notes": [],
+        "weight": null
+      }
+    ],
+    "recipes": [],
+    "usedIn": [],
+    "foundIn": []
+  },
+  {
+    "id": "arterwood_sapling",
+    "slug": "arterwood_sapling",
+    "name": "Arterwood Sapling",
+    "group": "wood",
+    "since": "0.0.2",
+    "hasItem": true,
+    "drops": [
+      {
+        "item": "prolinsuniverse:arterwood_sapling",
+        "count": null,
+        "notes": [],
+        "weight": null
+      }
+    ],
+    "recipes": [],
+    "usedIn": [],
+    "foundIn": []
+  },
+  {
+    "id": "duplicator_crystal_core",
+    "slug": "duplicator_crystal_core",
+    "name": "Duplicator Crystal Core",
+    "group": "functional",
+    "since": "0.0.2",
+    "hardness": 1.6,
+    "blastResistance": 1.6,
+    "sound": "Amethyst",
+    "hasItem": true,
+    "drops": [
+      {
+        "item": "prolinsuniverse:duplicator_crystal_core",
+        "count": null,
+        "notes": [],
+        "weight": null
+      }
+    ],
+    "recipes": [
+      "duplicator_crystal_edges_to_core"
+    ],
+    "usedIn": [],
+    "foundIn": []
+  },
+  {
+    "id": "duplicator_crystal_edge",
+    "slug": "duplicator_crystal_edge",
+    "name": "Duplicator Crystal Edge",
+    "group": "functional",
+    "since": "0.0.2",
+    "hardness": 1.2,
+    "blastResistance": 1.2,
+    "sound": "Amethyst",
+    "hasItem": true,
+    "drops": [
+      {
+        "item": "prolinsuniverse:duplicator_crystal_edge",
+        "count": null,
+        "notes": [],
+        "weight": null
+      }
+    ],
+    "recipes": [],
+    "usedIn": [
+      "duplicator_crystal_edges_to_core"
+    ],
+    "foundIn": []
+  },
+  {
+    "id": "duplicator_crystal_leaves",
+    "slug": "duplicator_crystal_leaves",
+    "name": "Duplicator Crystal Leaves",
+    "group": "functional",
+    "since": "0.0.2",
+    "hardness": 0.45,
+    "blastResistance": 0.45,
+    "sound": "Cherry Leaves",
+    "hasItem": true,
+    "drops": [],
+    "recipes": [],
+    "usedIn": [],
+    "foundIn": []
+  },
+  {
+    "id": "arterwood_planks_stairs",
+    "slug": "arterwood_planks_stairs",
+    "name": "Arterwood Stairs",
+    "group": "wood",
+    "since": "0.0.2",
+    "hardness": 1.2,
+    "blastResistance": 1.2,
+    "hasItem": true,
+    "drops": [
+      {
+        "item": "prolinsuniverse:arterwood_planks_stairs",
+        "count": null,
+        "notes": [],
+        "weight": null
+      }
+    ],
+    "recipes": [],
+    "usedIn": [],
+    "foundIn": []
+  },
+  {
+    "id": "arterwood_planks_slab",
+    "slug": "arterwood_planks_slab",
+    "name": "Arterwood Slab",
+    "group": "wood",
+    "since": "0.0.2",
+    "hardness": 1.2,
+    "blastResistance": 1.2,
+    "hasItem": true,
+    "drops": [
+      {
+        "item": "prolinsuniverse:arterwood_planks_slab",
+        "count": [
+          2,
+          2
+        ],
+        "notes": [],
+        "weight": null
+      }
+    ],
+    "recipes": [
+      "arterwood_planks_slab_recipe"
+    ],
+    "usedIn": [],
+    "foundIn": []
+  },
+  {
+    "id": "arterwood_planks_pressure_plate",
+    "slug": "arterwood_planks_pressure_plate",
+    "name": "Arterwood Pressure Plate",
+    "group": "wood",
+    "since": "0.0.2",
+    "hardness": 1.2,
+    "blastResistance": 1.2,
+    "hasItem": true,
+    "drops": [
+      {
+        "item": "prolinsuniverse:arterwood_planks_pressure_plate",
+        "count": null,
+        "notes": [],
+        "weight": null
+      }
+    ],
+    "recipes": [],
+    "usedIn": [],
+    "foundIn": []
+  },
+  {
+    "id": "arterwood_planks_button",
+    "slug": "arterwood_planks_button",
+    "name": "Arterwood Button",
+    "group": "wood",
+    "since": "0.0.2",
+    "hardness": 1.2,
+    "blastResistance": 1.2,
+    "hasItem": true,
+    "drops": [
+      {
+        "item": "prolinsuniverse:arterwood_planks_button",
+        "count": null,
+        "notes": [],
+        "weight": null
+      }
+    ],
+    "recipes": [],
+    "usedIn": [],
+    "foundIn": []
+  },
+  {
+    "id": "arterwood_planks_fence",
+    "slug": "arterwood_planks_fence",
+    "name": "Arterwood Fence",
+    "group": "wood",
+    "since": "0.0.2",
+    "hardness": 1.2,
+    "blastResistance": 1.2,
+    "hasItem": true,
+    "drops": [
+      {
+        "item": "prolinsuniverse:arterwood_planks_fence",
+        "count": null,
+        "notes": [],
+        "weight": null
+      }
+    ],
+    "recipes": [
+      "arterwood_planks_fence_recipe"
+    ],
+    "usedIn": [],
+    "foundIn": []
+  },
+  {
+    "id": "arterwood_planks_fence_gate",
+    "slug": "arterwood_planks_fence_gate",
+    "name": "Arterwood Fence Gate",
+    "group": "wood",
+    "since": "0.0.2",
+    "hardness": 1.2,
+    "blastResistance": 1.2,
+    "hasItem": true,
+    "drops": [
+      {
+        "item": "prolinsuniverse:arterwood_planks_fence_gate",
+        "count": null,
+        "notes": [],
+        "weight": null
+      }
+    ],
+    "recipes": [
+      "arterwood_planks_fence_gate_recipe"
+    ],
+    "usedIn": [],
+    "foundIn": []
+  },
+  {
+    "id": "arterwood_door",
+    "slug": "arterwood_door",
+    "name": "Arterwood Door",
+    "group": "wood",
+    "since": "0.0.2",
+    "hardness": 1.2,
+    "blastResistance": 1.2,
+    "hasItem": true,
+    "drops": [
+      {
+        "item": "prolinsuniverse:arterwood_door",
+        "count": null,
+        "notes": [],
+        "weight": null
+      }
+    ],
+    "recipes": [
+      "arterwood_door_recipe"
+    ],
+    "usedIn": [],
+    "foundIn": []
+  },
+  {
+    "id": "arterwood_trapdoor",
+    "slug": "arterwood_trapdoor",
+    "name": "Arterwood Trapdoor",
+    "group": "wood",
+    "since": "0.0.2",
+    "hardness": 1.2,
+    "blastResistance": 1.2,
+    "hasItem": true,
+    "drops": [
+      {
+        "item": "prolinsuniverse:arterwood_trapdoor",
+        "count": null,
+        "notes": [],
+        "weight": null
+      }
+    ],
+    "recipes": [
+      "arterwood_trapdoor_recipe"
+    ],
+    "usedIn": [],
+    "foundIn": []
+  },
+  {
+    "id": "hemastone_brick_wall",
+    "slug": "hemastone_brick_wall",
+    "name": "Hemastone Brick Wall",
+    "group": "natural",
+    "since": "0.0.2",
+    "hardness": 4,
+    "blastResistance": 4,
+    "requiresTool": true,
+    "sound": "Deepslate",
+    "hasItem": true,
+    "drops": [
+      {
+        "item": "prolinsuniverse:hemastone_brick_wall",
+        "count": null,
+        "notes": [],
+        "weight": null
+      }
+    ],
+    "recipes": [],
+    "usedIn": [],
+    "foundIn": []
+  },
+  {
+    "id": "hemastone_coal_ore",
+    "slug": "hemastone_coal_ore",
+    "name": "Hemastone Coal Ore",
+    "group": "ore",
+    "since": "0.0.2",
+    "hardness": 4.5,
+    "blastResistance": 4.5,
+    "requiresTool": true,
+    "xp": [
+      0,
+      2
+    ],
+    "sound": "Deepslate",
+    "hasItem": true,
+    "drops": [
+      {
+        "item": "prolinsuniverse:hemastone_coal_ore",
+        "count": null,
+        "notes": [
+          "Silk Touch"
+        ],
+        "weight": null
+      },
+      {
+        "item": "minecraft:coal",
+        "count": null,
+        "notes": [
+          "otherwise",
+          "affected by Fortune"
+        ],
+        "weight": null
+      }
+    ],
+    "recipes": [],
+    "usedIn": [],
+    "foundIn": []
+  },
+  {
+    "id": "hemastone_iron_ore",
+    "slug": "hemastone_iron_ore",
+    "name": "Hemastone Iron Ore",
+    "group": "ore",
+    "since": "0.0.2",
+    "hardness": 4.5,
+    "blastResistance": 4.5,
+    "requiresTool": true,
+    "xp": [
+      0,
+      0
+    ],
+    "sound": "Deepslate",
+    "hasItem": true,
+    "drops": [
+      {
+        "item": "prolinsuniverse:hemastone_iron_ore",
+        "count": null,
+        "notes": [
+          "Silk Touch"
+        ],
+        "weight": null
+      },
+      {
+        "item": "minecraft:raw_iron",
+        "count": null,
+        "notes": [
+          "otherwise",
+          "affected by Fortune"
+        ],
+        "weight": null
+      }
+    ],
+    "recipes": [],
+    "usedIn": [],
+    "foundIn": []
+  },
+  {
+    "id": "hemastone_copper_ore",
+    "slug": "hemastone_copper_ore",
+    "name": "Hemastone Copper Ore",
+    "group": "ore",
+    "since": "0.0.2",
+    "hardness": 4.5,
+    "blastResistance": 4.5,
+    "requiresTool": true,
+    "xp": [
+      0,
+      0
+    ],
+    "sound": "Deepslate",
+    "hasItem": true,
+    "drops": [
+      {
+        "item": "prolinsuniverse:hemastone_copper_ore",
+        "count": null,
+        "notes": [
+          "Silk Touch"
+        ],
+        "weight": null
+      },
+      {
+        "item": "minecraft:raw_copper",
+        "count": [
+          2,
+          5
+        ],
+        "notes": [
+          "otherwise",
+          "affected by Fortune"
+        ],
+        "weight": null
+      }
+    ],
+    "recipes": [],
+    "usedIn": [],
+    "foundIn": []
+  },
+  {
+    "id": "hemastone_gold_ore",
+    "slug": "hemastone_gold_ore",
+    "name": "Hemastone Gold Ore",
+    "group": "ore",
+    "since": "0.0.2",
+    "hardness": 4.5,
+    "blastResistance": 4.5,
+    "requiresTool": true,
+    "xp": [
+      0,
+      0
+    ],
+    "sound": "Deepslate",
+    "hasItem": true,
+    "drops": [
+      {
+        "item": "prolinsuniverse:hemastone_gold_ore",
+        "count": null,
+        "notes": [
+          "Silk Touch"
+        ],
+        "weight": null
+      },
+      {
+        "item": "minecraft:raw_gold",
+        "count": null,
+        "notes": [
+          "otherwise",
+          "affected by Fortune"
+        ],
+        "weight": null
+      }
+    ],
+    "recipes": [],
+    "usedIn": [],
+    "foundIn": []
+  },
+  {
+    "id": "hemastone_redstone_ore",
+    "slug": "hemastone_redstone_ore",
+    "name": "Hemastone Redstone Ore",
+    "group": "ore",
+    "since": "0.0.2",
+    "hardness": 4.5,
+    "blastResistance": 4.5,
+    "requiresTool": true,
+    "sound": "Deepslate",
+    "hasItem": true,
+    "drops": [
+      {
+        "item": "prolinsuniverse:hemastone_redstone_ore",
+        "count": null,
+        "notes": [
+          "Silk Touch"
+        ],
+        "weight": null
+      },
+      {
+        "item": "minecraft:redstone",
+        "count": [
+          4,
+          5
+        ],
+        "notes": [
+          "otherwise",
+          "affected by Fortune"
+        ],
+        "weight": null
+      }
+    ],
+    "recipes": [],
+    "usedIn": [],
+    "foundIn": []
+  },
+  {
+    "id": "hemastone_lapis_ore",
+    "slug": "hemastone_lapis_ore",
+    "name": "Hemastone Lapis Ore",
+    "group": "ore",
+    "since": "0.0.2",
+    "hardness": 4.5,
+    "blastResistance": 4.5,
+    "requiresTool": true,
+    "xp": [
+      2,
+      5
+    ],
+    "sound": "Deepslate",
+    "hasItem": true,
+    "drops": [
+      {
+        "item": "prolinsuniverse:hemastone_lapis_ore",
+        "count": null,
+        "notes": [
+          "Silk Touch"
+        ],
+        "weight": null
+      },
+      {
+        "item": "minecraft:lapis_lazuli",
+        "count": [
+          4,
+          9
+        ],
+        "notes": [
+          "otherwise",
+          "affected by Fortune"
+        ],
+        "weight": null
+      }
+    ],
+    "recipes": [],
+    "usedIn": [],
+    "foundIn": []
+  },
+  {
+    "id": "hemastone_diamond_ore",
+    "slug": "hemastone_diamond_ore",
+    "name": "Hemastone Diamond Ore",
+    "group": "ore",
+    "since": "0.0.2",
+    "hardness": 4.5,
+    "blastResistance": 4.5,
+    "requiresTool": true,
+    "xp": [
+      3,
+      7
+    ],
+    "sound": "Deepslate",
+    "hasItem": true,
+    "drops": [
+      {
+        "item": "prolinsuniverse:hemastone_diamond_ore",
+        "count": null,
+        "notes": [
+          "Silk Touch"
+        ],
+        "weight": null
+      },
+      {
+        "item": "minecraft:diamond",
+        "count": null,
+        "notes": [
+          "otherwise",
+          "affected by Fortune"
+        ],
+        "weight": null
+      }
+    ],
+    "recipes": [],
+    "usedIn": [],
+    "foundIn": []
+  },
+  {
+    "id": "hemastone_emerald_ore",
+    "slug": "hemastone_emerald_ore",
+    "name": "Hemastone Emerald Ore",
+    "group": "ore",
+    "since": "0.0.2",
+    "hardness": 4.5,
+    "blastResistance": 4.5,
+    "requiresTool": true,
+    "xp": [
+      3,
+      7
+    ],
+    "sound": "Deepslate",
+    "hasItem": true,
+    "drops": [
+      {
+        "item": "prolinsuniverse:hemastone_emerald_ore",
+        "count": null,
+        "notes": [
+          "Silk Touch"
+        ],
+        "weight": null
+      },
+      {
+        "item": "minecraft:emerald",
+        "count": null,
+        "notes": [
+          "otherwise",
+          "affected by Fortune"
+        ],
+        "weight": null
+      }
+    ],
+    "recipes": [],
+    "usedIn": [],
+    "foundIn": []
+  },
+  {
+    "id": "hemastone_radonite_ore",
+    "slug": "hemastone_radonite_ore",
+    "name": "Hemastone Radonite Ore",
+    "group": "ore",
+    "since": "0.0.2",
+    "hardness": 4.5,
+    "blastResistance": 4.5,
+    "requiresTool": true,
+    "xp": [
+      2,
+      5
+    ],
+    "sound": "Deepslate",
+    "hasItem": true,
+    "drops": [
+      {
+        "item": "prolinsuniverse:hemastone_radonite_ore",
+        "count": null,
+        "notes": [
+          "Silk Touch"
+        ],
+        "weight": null
+      },
+      {
+        "item": "prolinsuniverse:raw_radonite",
+        "count": null,
+        "notes": [
+          "otherwise",
+          "affected by Fortune"
+        ],
+        "weight": null
+      }
+    ],
+    "recipes": [],
+    "usedIn": [],
+    "foundIn": []
+  },
+  {
+    "id": "hemastone_xenonite_ore",
+    "slug": "hemastone_xenonite_ore",
+    "name": "Hemastone Xenonite Ore",
+    "group": "ore",
+    "since": "0.0.2",
+    "hardness": 4.5,
+    "blastResistance": 4.5,
+    "requiresTool": true,
+    "xp": [
+      2,
+      5
+    ],
+    "sound": "Deepslate",
+    "hasItem": true,
+    "drops": [
+      {
+        "item": "prolinsuniverse:hemastone_xenonite_ore",
+        "count": null,
+        "notes": [
+          "Silk Touch"
+        ],
+        "weight": null
+      },
+      {
+        "item": "prolinsuniverse:raw_xenonite",
+        "count": null,
+        "notes": [
+          "otherwise",
+          "affected by Fortune"
+        ],
+        "weight": null
+      }
+    ],
+    "recipes": [],
+    "usedIn": [],
+    "foundIn": []
+  },
+  {
+    "id": "kyrion_ore",
+    "slug": "kyrion_ore",
+    "name": "Kyrion Ore",
+    "group": "ore",
+    "since": "0.0.2",
+    "hardness": 4.5,
+    "blastResistance": 4.5,
+    "requiresTool": true,
+    "xp": [
+      0,
+      2
+    ],
+    "sound": "Deepslate",
+    "hasItem": true,
+    "drops": [
+      {
+        "item": "prolinsuniverse:kyrion_ore",
+        "count": null,
+        "notes": [
+          "Silk Touch"
+        ],
+        "weight": null
+      },
+      {
+        "item": "prolinsuniverse:raw_kyrion",
+        "count": null,
+        "notes": [
+          "otherwise",
+          "affected by Fortune"
+        ],
+        "weight": null
+      }
+    ],
+    "recipes": [],
+    "usedIn": [
+      "kyrion_ingot_from_blasting_kyrion_ore",
+      "kyrion_ingot_from_smelting_kyrion_ore"
+    ],
+    "foundIn": []
+  },
+  {
+    "id": "noctyrite_ore",
+    "slug": "noctyrite_ore",
+    "name": "Noctyrite Ore",
+    "group": "ore",
+    "since": "0.0.2",
+    "hardness": 4.5,
+    "blastResistance": 4.5,
+    "requiresTool": true,
+    "xp": [
+      0,
+      2
+    ],
+    "sound": "Deepslate",
+    "hasItem": true,
+    "drops": [
+      {
+        "item": "prolinsuniverse:noctyrite_ore",
+        "count": null,
+        "notes": [
+          "Silk Touch"
+        ],
+        "weight": null
+      },
+      {
+        "item": "prolinsuniverse:noctyrite_nugget",
+        "count": [
+          4,
+          8
+        ],
+        "notes": [
+          "otherwise",
+          "affected by Fortune"
+        ],
+        "weight": null
+      }
+    ],
+    "recipes": [],
+    "usedIn": [],
+    "foundIn": []
+  },
+  {
+    "id": "solaris_ore",
+    "slug": "solaris_ore",
+    "name": "Solaris Ore",
+    "group": "ore",
+    "since": "0.0.2",
+    "hardness": 4.5,
+    "blastResistance": 4.5,
+    "requiresTool": true,
+    "xp": [
+      0,
+      2
+    ],
+    "sound": "Deepslate",
+    "hasItem": true,
+    "drops": [
+      {
+        "item": "prolinsuniverse:solaris_ore",
+        "count": null,
+        "notes": [
+          "Silk Touch"
+        ],
+        "weight": null
+      },
+      {
+        "item": "prolinsuniverse:solaris_cluster",
+        "count": null,
+        "notes": [
+          "otherwise",
+          "affected by Fortune"
+        ],
+        "weight": null
+      }
+    ],
+    "recipes": [],
+    "usedIn": [
+      "solaris_ingot_from_blasting_solaris_ore",
+      "solaris_ingot_from_smelting_solaris_ore"
+    ],
+    "foundIn": []
+  },
+  {
+    "id": "solaris_block",
+    "slug": "solaris_block",
+    "name": "Block of Solaris",
+    "group": "storage",
+    "since": "0.0.2",
+    "hardness": 2,
+    "blastResistance": 2,
+    "requiresTool": true,
+    "sound": "Metal",
+    "hasItem": true,
+    "drops": [
+      {
+        "item": "prolinsuniverse:solaris_block",
+        "count": null,
+        "notes": [],
+        "weight": null
+      }
+    ],
+    "recipes": [],
+    "usedIn": [],
+    "foundIn": []
+  },
+  {
+    "id": "kyrion_block",
+    "slug": "kyrion_block",
+    "name": "Block of Kyrion",
+    "group": "storage",
+    "since": "0.0.2",
+    "hardness": 2,
+    "blastResistance": 2,
+    "requiresTool": true,
+    "sound": "Metal",
+    "hasItem": true,
+    "drops": [
+      {
+        "item": "prolinsuniverse:kyrion_block",
+        "count": null,
+        "notes": [],
+        "weight": null
+      }
+    ],
+    "recipes": [
+      "kyrion_ingot_to_kyrion_block"
+    ],
+    "usedIn": [
+      "kyrion_block_to_kyrion_ingot"
+    ],
+    "foundIn": []
+  },
+  {
+    "id": "noctyrite_block",
+    "slug": "noctyrite_block",
+    "name": "Block of Noctyrite",
+    "group": "storage",
+    "since": "0.0.2",
+    "hardness": 2,
+    "blastResistance": 2,
+    "requiresTool": true,
+    "sound": "Metal",
+    "hasItem": true,
+    "drops": [
+      {
+        "item": "prolinsuniverse:noctyrite_block",
+        "count": null,
+        "notes": [],
+        "weight": null
+      }
+    ],
+    "recipes": [],
+    "usedIn": [],
+    "foundIn": []
+  },
+  {
+    "id": "ender_pearl_block",
+    "slug": "ender_pearl_block",
+    "name": "Block of Ender Pearls",
+    "group": "storage",
+    "since": "0.0.2",
+    "hardness": 1.5,
+    "blastResistance": 6,
+    "sound": "Amethyst",
+    "hasItem": true,
+    "drops": [
+      {
+        "item": "prolinsuniverse:ender_pearl_block",
+        "count": null,
+        "notes": [],
+        "weight": null
+      }
+    ],
+    "recipes": [
+      "ender_pearls_to_ender_pearl_block"
+    ],
+    "usedIn": [
+      "ender_pearl_block_to_ender_pearls"
+    ],
+    "foundIn": []
+  },
+  {
+    "id": "eye_of_ender_block",
+    "slug": "eye_of_ender_block",
+    "name": "Block of Eyes of Ender",
+    "group": "storage",
+    "since": "0.0.2",
+    "hardness": 1.5,
+    "blastResistance": 6,
+    "lightLevel": 4,
+    "sound": "Amethyst",
+    "hasItem": true,
+    "drops": [
+      {
+        "item": "prolinsuniverse:eye_of_ender_block",
+        "count": null,
+        "notes": [],
+        "weight": null
+      }
+    ],
+    "recipes": [
+      "eyes_of_ender_to_eye_of_ender_block"
+    ],
+    "usedIn": [
+      "eye_of_ender_block_to_eyes_of_ender"
+    ],
+    "foundIn": []
+  },
+  {
+    "id": "strengthened_bookshelf",
+    "slug": "strengthened_bookshelf",
+    "name": "Strengthened Bookshelf",
+    "group": "functional",
+    "since": "0.0.2",
+    "hasItem": true,
+    "drops": [
+      {
+        "item": "prolinsuniverse:strengthened_bookshelf",
+        "count": null,
+        "notes": [
+          "Silk Touch"
+        ],
+        "weight": null
+      },
+      {
+        "item": "prolinsuniverse:strengthened_book",
+        "count": [
+          3,
+          3
+        ],
+        "notes": [
+          "otherwise"
+        ],
+        "weight": null
+      }
+    ],
+    "recipes": [
+      "strengthened_bookshelf_recipe"
+    ],
+    "usedIn": [],
+    "foundIn": []
+  },
+  {
+    "id": "strengthened_enchanting_table",
+    "slug": "strengthened_enchanting_table",
+    "name": "Strengthened Enchanting Table",
+    "group": "functional",
+    "since": "0.0.2",
+    "hasItem": true,
+    "drops": [
+      {
+        "item": "prolinsuniverse:strengthened_enchanting_table",
+        "count": null,
+        "notes": [],
+        "weight": null
+      }
+    ],
+    "recipes": [
+      "strengthened_enchanting_table_recipe"
+    ],
+    "usedIn": [],
+    "foundIn": []
+  },
+  {
+    "id": "riftsteel_block",
+    "slug": "riftsteel_block",
+    "name": "Block of Riftsteel",
+    "group": "storage",
+    "since": "0.0.2",
+    "hardness": 5,
+    "blastResistance": 9,
+    "requiresTool": true,
+    "sound": "Netherite Block",
+    "hasItem": true,
+    "drops": [
+      {
+        "item": "prolinsuniverse:riftsteel_block",
+        "count": null,
+        "notes": [],
+        "weight": null
+      }
+    ],
+    "recipes": [
+      "riftsteel_ingot_to_riftsteel_block"
+    ],
+    "usedIn": [
+      "riftsteel_block_to_ingot"
+    ],
+    "foundIn": []
+  },
+  {
+    "id": "random_teleport_block",
+    "slug": "random_teleport_block",
+    "name": "Random Teleport Block",
+    "group": "storage",
+    "since": "0.0.2",
+    "hardness": 50,
+    "blastResistance": 1200,
+    "lightLevel": 5,
+    "requiresTool": true,
+    "sound": "Stone",
+    "hasItem": true,
+    "drops": [
+      {
+        "item": "prolinsuniverse:random_teleport_block",
+        "count": null,
+        "notes": [],
+        "weight": null
+      }
+    ],
+    "recipes": [
+      "random_teleport_block_recipe"
+    ],
+    "usedIn": [],
+    "foundIn": []
+  },
+  {
+    "id": "test_fluid_block",
+    "slug": "ichor",
+    "name": "Ichor",
+    "group": "storage",
+    "since": "0.0.2",
+    "hardness": 0.8,
+    "blastResistance": 0.8,
+    "hasItem": false,
+    "drops": [],
+    "recipes": [],
+    "usedIn": [],
+    "foundIn": []
+  },
+  {
+    "id": "urubithian_sentinel_spawner_block",
+    "slug": "urubithian_sentinel_spawner_block",
+    "name": "Urubithian Sentinel Spawner Block",
+    "group": "storage",
+    "since": "0.0.2",
+    "hardness": -1,
+    "blastResistance": 3600000,
+    "lightLevel": 7,
+    "hasItem": true,
+    "drops": [],
+    "recipes": [],
+    "usedIn": [],
+    "foundIn": []
+  },
+  {
+    "id": "ender_skeleton_spawner_block",
+    "slug": "ender_skeleton_spawner_block",
+    "name": "Ender Skeleton Spawner Block",
+    "group": "storage",
+    "since": "0.0.2",
+    "hardness": -1,
+    "blastResistance": 3600000,
+    "lightLevel": 7,
+    "hasItem": true,
+    "drops": [],
+    "recipes": [],
+    "usedIn": [],
+    "foundIn": []
+  },
+  {
+    "id": "foxfire",
+    "slug": "foxfire",
+    "name": "Foxfire",
+    "group": "functional",
+    "since": "0.0.2",
+    "lightLevel": 15,
+    "hasItem": false,
+    "drops": [],
+    "recipes": [],
+    "usedIn": [],
+    "foundIn": []
+  },
+  {
+    "id": "cragcane",
+    "slug": "cragcane",
+    "name": "Cragcane",
+    "group": "natural",
+    "since": "0.0.2",
+    "hasItem": false,
+    "drops": [
+      {
+        "item": "prolinsuniverse:cragberries",
+        "count": [
+          1,
+          2
+        ],
+        "notes": [],
+        "weight": null
+      }
+    ],
+    "recipes": [],
+    "usedIn": [],
+    "foundIn": []
+  },
+  {
+    "id": "scither_nest",
+    "slug": "scither_nest",
+    "name": "Scither Nest",
+    "group": "natural",
+    "since": "0.0.2",
+    "hasItem": true,
+    "drops": [
+      {
+        "item": "prolinsuniverse:scither_nest",
+        "count": null,
+        "notes": [],
+        "weight": null
+      }
+    ],
+    "recipes": [],
+    "usedIn": [],
+    "foundIn": []
+  },
+  {
+    "id": "brown_scither_nest",
+    "slug": "brown_scither_nest",
+    "name": "Brown Scither Nest",
+    "group": "natural",
+    "since": "0.0.2",
+    "hasItem": true,
+    "drops": [
+      {
+        "item": "prolinsuniverse:brown_scither_nest",
+        "count": null,
+        "notes": [],
+        "weight": null
+      }
+    ],
+    "recipes": [],
+    "usedIn": [],
+    "foundIn": []
+  },
+  {
+    "id": "purple_scither_nest",
+    "slug": "purple_scither_nest",
+    "name": "Purple Scither Nest",
+    "group": "natural",
+    "since": "0.0.2",
+    "hasItem": true,
+    "drops": [
+      {
+        "item": "prolinsuniverse:purple_scither_nest",
+        "count": null,
+        "notes": [],
+        "weight": null
+      }
+    ],
+    "recipes": [],
+    "usedIn": [],
+    "foundIn": []
+  },
+  {
+    "id": "red_scither_nest",
+    "slug": "red_scither_nest",
+    "name": "Red Scither Nest",
+    "group": "natural",
+    "since": "0.0.2",
+    "hasItem": true,
+    "drops": [
+      {
+        "item": "prolinsuniverse:red_scither_nest",
+        "count": null,
+        "notes": [],
+        "weight": null
+      }
+    ],
+    "recipes": [],
+    "usedIn": [],
+    "foundIn": []
+  },
+  {
+    "id": "scither_nest_dirt",
+    "slug": "scither_nest_dirt",
+    "name": "Scither Nest Dirt",
+    "group": "natural",
+    "since": "0.0.2",
+    "hasItem": true,
+    "drops": [
+      {
+        "item": "prolinsuniverse:scither_nest_dirt",
+        "count": null,
+        "notes": [],
+        "weight": null
+      }
+    ],
+    "recipes": [],
+    "usedIn": [],
+    "foundIn": []
+  },
+  {
+    "id": "brown_scither_nest_dirt",
+    "slug": "brown_scither_nest_dirt",
+    "name": "Brown Scither Nest Dirt",
+    "group": "natural",
+    "since": "0.0.2",
+    "hasItem": true,
+    "drops": [
+      {
+        "item": "prolinsuniverse:brown_scither_nest_dirt",
+        "count": null,
+        "notes": [],
+        "weight": null
+      }
+    ],
+    "recipes": [],
+    "usedIn": [],
+    "foundIn": []
+  },
+  {
+    "id": "purple_scither_nest_dirt",
+    "slug": "purple_scither_nest_dirt",
+    "name": "Purple Scither Nest Dirt",
+    "group": "natural",
+    "since": "0.0.2",
+    "hasItem": true,
+    "drops": [
+      {
+        "item": "prolinsuniverse:purple_scither_nest_dirt",
+        "count": null,
+        "notes": [],
+        "weight": null
+      }
+    ],
+    "recipes": [],
+    "usedIn": [],
+    "foundIn": []
+  },
+  {
+    "id": "red_scither_nest_dirt",
+    "slug": "red_scither_nest_dirt",
+    "name": "Red Scither Nest Dirt",
+    "group": "natural",
+    "since": "0.0.2",
+    "hasItem": true,
+    "drops": [
+      {
+        "item": "prolinsuniverse:red_scither_nest_dirt",
+        "count": null,
+        "notes": [],
+        "weight": null
+      }
+    ],
+    "recipes": [],
+    "usedIn": [],
+    "foundIn": []
+  }
+]

@@ -1,0 +1,65 @@
+/* Wiki-wide styling on top of Starlight. Keep component-specific CSS inside the components. */
+:root {
+  --sl-color-accent-low: #3a1414;
+  --sl-color-accent: #e0554a;
+  --sl-color-accent-high: #ffb0a8;
+  --tier-1: #6aa84f;
+  --tier-2: #3d85c6;
+  --tier-3: #8e63c9;
+  --tier-4: #e69138;
+  --tier-5: #d6453d;
+}
+:root[data-theme='light'] {
+  --sl-color-accent-low: #fdd9d5;
+  --sl-color-accent: #b3261e;
+  --sl-color-accent-high: #7a1510;
+}
+
+/* Cards used by the index pages */
+.wiki-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(9.5rem, 1fr));
+  gap: 0.75rem;
+  margin: 1rem 0 2rem;
+  padding: 0;
+  list-style: none;
+}
+.wiki-grid > li {
+  margin: 0;
+}
+.wiki-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  height: 100%;
+  padding: 0.6rem;
+  border: 1px solid var(--sl-color-hairline);
+  border-radius: 0.5rem;
+  background: var(--sl-color-bg-nav);
+  color: var(--sl-color-text);
+  text-decoration: none;
+  transition: border-color 0.15s;
+}
+.wiki-card:hover {
+  border-color: var(--sl-color-accent);
+}
+.wiki-card__name {
+  font-weight: 600;
+  font-size: var(--sl-text-sm);
+  line-height: 1.25;
+}
+.wiki-card__meta {
+  color: var(--sl-color-gray-2);
+  font-size: var(--sl-text-xs);
+}
+
+.wiki-muted {
+  color: var(--sl-color-gray-2);
+}
+
+/* Tables rendered by components should not stretch full width needlessly */
+.sl-markdown-content table.wiki-table {
+  display: table;
+  width: auto;
+  min-width: 50%;
+}

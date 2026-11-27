@@ -1,0 +1,60 @@
+---
+// Version history. The version list comes from src/data/changelog.json; "added in this version" counts are
+// computed from the `since` field of every documented entry, so nothing is invented.
+import changelog from '../data/changelog.json';
+import { mobs, items, blocks, biomes, href } from '../lib/data';
+
+const entries = [...(changelog as any[])].sort((a, b) => {
+  const x = a.version.split('.').map(Number), y = b.version.split('.').map(Number);
+  for (let i = 0; i < 3; i++) if ((x[i] ?? 0) !== (y[i] ?? 0)) return (y[i] ?? 0) - (x[i] ?? 0);
+  return 0;
+});
+
+const countFor = (v: string) => {
+  const mobN = mobs.filter((m) => m.since === v && !m.boss).length;
+  const bossN = mobs.filter((m) => m.since === v && m.boss).length;
+  return [
+    { label: 'mobs', path: 'mobs', n: mobN },
+    { label: 'bosses', path: 'bosses', n: bossN },
+    { label: 'items', path: 'items', n: items.filter((i) => i.since === v).length },
+    { label: 'blocks', path: 'blocks', n: blocks.filter((b) => b.since === v).length },
+    { label: 'biomes', path: 'biomes', n: biomes.filter((b) => b.since === v).length },
+  ].filter((c) => c.n > 0);
+};
+---
+
+{
+  entries.map((e) => {
+    const counts = countFor(e.version);
+    return (
+      <section>
+        <h2 id={`v${e.version.replaceAll('.', '-')}`}>
+          v{e.version} {e.released && <small class="wiki-muted">· {e.released}</small>}
+        </h2>
+        {e.summary && <p>{e.summary}</p>}
+        {counts.length > 0 && (
+          <>
+            <p>
+              <strong>Documented on this wiki:</strong>{' '}
+              {counts.map((c, i) => (
+                <>
+                  {i > 0 && ', '}
+                  <a href={href(c.path)}>
+                    {c.n} {c.label}
+                  </a>
+                </>
+              ))}
+            </p>
+          </>
+        )}
+        {e.notes?.length > 0 && (
+          <ul>
+            {e.notes.map((n: string) => (
+              <li>{n}</li>
+            ))}
+          </ul>
+        )}
+      </section>
+    );
+  })
+}

@@ -1,0 +1,41 @@
+---
+import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+import ImagePlaceholder from '../../components/ImagePlaceholder.astro';
+import { items, href } from '../../lib/data';
+
+const GROUPS: [string, string][] = [
+  ['weapon', 'Weapons'],
+  ['tool', 'Tools'],
+  ['armor', 'Armor'],
+  ['food', 'Food'],
+  ['material', 'Materials'],
+  ['misc', 'Other items'],
+];
+const byKind = GROUPS.map(([kind, label]) => ({
+  kind,
+  label,
+  list: items.filter((i) => i.kind === kind).sort((a, b) => a.name.localeCompare(b.name)),
+})).filter((g) => g.list.length);
+const headings = byKind.map((g) => ({ depth: 2, slug: g.kind, text: g.label }));
+---
+
+<StarlightPage frontmatter={{ title: 'Items', description: 'Every item added by Prolins Universe.' }} headings={headings}>
+  <p>{items.length} items. Select one for its stats, recipes and where to find it.</p>
+  {
+    byKind.map((g) => (
+      <>
+        <h2 id={g.kind}>{g.label}</h2>
+        <ul class="wiki-grid">
+          {g.list.map((i) => (
+            <li>
+              <a class="wiki-card" href={href(`items/${i.slug}`)}>
+                <ImagePlaceholder kind="items" id={i.id} alt={i.name} ratio="1 / 1" width={128} pixelated small />
+                <span class="wiki-card__name">{i.name}</span>
+              </a>
+            </li>
+          ))}
+        </ul>
+      </>
+    ))
+  }
+</StarlightPage>

@@ -1,0 +1,129 @@
+---
+// Landing page body. Counts are computed from the data so they never go stale.
+import { site, CURRENT, mobs, items, blocks, biomes, href } from '../lib/data';
+
+const bossCount = mobs.filter((m) => m.boss).length;
+const sections = [
+  { label: 'Mobs', count: mobs.length - bossCount, path: 'mobs', blurb: 'Creatures and monsters, with health, drops and where they spawn.' },
+  { label: 'Bosses', count: bossCount, path: 'bosses', blurb: 'The big fights, and what they drop.' },
+  { label: 'Items', count: items.length, path: 'items', blurb: 'Weapons, tools, armor, food and materials, with recipes.' },
+  { label: 'Blocks', count: blocks.length, path: 'blocks', blurb: 'Ores, building blocks and functional blocks.' },
+  { label: 'Biomes', count: biomes.length, path: 'biomes', blurb: 'The Broken Vein and its biomes, structures and inhabitants.' },
+];
+const modrinth = site.modrinthUrl;
+---
+
+<div class="home">
+  <p class="eyebrow">Version {CURRENT}</p>
+  <h1>{site.modName} Wiki</h1>
+  <p class="lead">
+    A reference for the {site.modName} NeoForge mod. This wiki documents <strong>v{CURRENT}</strong> only.
+  </p>
+  <p class="actions">
+    <a class="btn primary" href={href('mobs')}>Browse mobs</a>
+    <a class="btn" href={href('items')}>Browse items</a>
+    {modrinth && <a class="btn" href={modrinth} rel="noopener">Download on Modrinth</a>}
+  </p>
+
+  <ul class="cards">
+    {
+      sections.map((s) => (
+        <li>
+          <a href={href(s.path)}>
+            <span class="count">{s.count}</span>
+            <span class="label">{s.label}</span>
+            <span class="blurb">{s.blurb}</span>
+          </a>
+        </li>
+      ))
+    }
+  </ul>
+
+  <p class="wiki-muted note">
+    This is an unofficial reference. Facts are read from the mod itself; anything not in v{CURRENT} is deliberately left out. See the <a href={href('changelog')}>changelog</a> for version history.
+  </p>
+</div>
+
+<style>
+  .home {
+    max-width: 60rem;
+    margin: 0 auto;
+    padding: 1rem 0 3rem;
+  }
+  .eyebrow {
+    margin: 0;
+    color: var(--sl-color-accent-high);
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    font-size: var(--sl-text-sm);
+  }
+  h1 {
+    margin: 0.25rem 0 0.5rem;
+    font-size: clamp(2rem, 6vw, 3.2rem);
+    line-height: 1.1;
+  }
+  .lead {
+    font-size: var(--sl-text-lg);
+    color: var(--sl-color-gray-2);
+    max-width: 40rem;
+  }
+  .actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+    margin: 1.25rem 0 2rem;
+  }
+  .btn {
+    padding: 0.55rem 1.1rem;
+    border: 1px solid var(--sl-color-accent);
+    border-radius: 0.5rem;
+    color: var(--sl-color-text-accent);
+    text-decoration: none;
+    font-weight: 600;
+  }
+  .btn.primary {
+    background: var(--sl-color-accent);
+    color: var(--sl-color-black);
+  }
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(11rem, 1fr));
+    gap: 0.8rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  .cards a {
+    display: flex;
+    flex-direction: column;
+    gap: 0.15rem;
+    height: 100%;
+    padding: 1rem;
+    border: 1px solid var(--sl-color-hairline);
+    border-radius: 0.6rem;
+    background: var(--sl-color-bg-nav);
+    color: var(--sl-color-text);
+    text-decoration: none;
+  }
+  .cards a:hover {
+    border-color: var(--sl-color-accent);
+  }
+  .count {
+    font-size: 2rem;
+    font-weight: 800;
+    line-height: 1;
+    color: var(--sl-color-accent-high);
+  }
+  .label {
+    font-weight: 700;
+  }
+  .blurb {
+    color: var(--sl-color-gray-2);
+    font-size: var(--sl-text-sm);
+  }
+  .note {
+    margin-top: 2rem;
+    font-size: var(--sl-text-sm);
+  }
+</style>

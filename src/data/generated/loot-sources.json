@@ -1,0 +1,1509 @@
+[
+  {
+    "id": "broken_vein_tier1",
+    "name": "Broken Vein dungeon chest (tier 1)",
+    "pools": [
+      {
+        "rolls": [
+          3,
+          6
+        ],
+        "entries": [
+          {
+            "item": "minecraft:string",
+            "count": [
+              1,
+              4
+            ],
+            "weight": 15,
+            "chance": 15.5
+          },
+          {
+            "item": "minecraft:leather",
+            "count": [
+              1,
+              3
+            ],
+            "weight": 12,
+            "chance": 12.4
+          },
+          {
+            "item": "minecraft:flint",
+            "count": [
+              1,
+              5
+            ],
+            "weight": 15,
+            "chance": 15.5
+          },
+          {
+            "item": "minecraft:bone",
+            "count": [
+              2,
+              6
+            ],
+            "weight": 15,
+            "chance": 15.5
+          },
+          {
+            "item": "minecraft:netherite_scrap",
+            "count": [
+              1,
+              2
+            ],
+            "weight": 3,
+            "chance": 3.1
+          },
+          {
+            "item": "prolinsuniverse:tynite_nugget",
+            "count": [
+              3,
+              7
+            ],
+            "weight": 12,
+            "chance": 12.4
+          },
+          {
+            "item": "prolinsuniverse:raw_tynite",
+            "count": [
+              1,
+              3
+            ],
+            "weight": 10,
+            "chance": 10.3
+          },
+          {
+            "item": "prolinsuniverse:urubithium_fragment",
+            "count": [
+              1,
+              3
+            ],
+            "weight": 8,
+            "chance": 8.2
+          },
+          {
+            "item": "prolinsuniverse:urubithium_ingot",
+            "count": [
+              1,
+              2
+            ],
+            "weight": 5,
+            "chance": 5.2
+          },
+          {
+            "item": "prolinsuniverse:urubithium_shard",
+            "count": [
+              1,
+              1
+            ],
+            "weight": 2,
+            "chance": 2.1
+          }
+        ]
+      },
+      {
+        "rolls": [
+          0,
+          1
+        ],
+        "entries": [
+          {
+            "item": "minecraft:music_disc_13",
+            "count": null,
+            "weight": 1,
+            "chance": 4.2
+          },
+          {
+            "item": "minecraft:music_disc_cat",
+            "count": null,
+            "weight": 1,
+            "chance": 4.2
+          },
+          {
+            "item": "minecraft:music_disc_blocks",
+            "count": null,
+            "weight": 1,
+            "chance": 4.2
+          },
+          {
+            "item": "minecraft:music_disc_chirp",
+            "count": null,
+            "weight": 1,
+            "chance": 4.2
+          },
+          {
+            "item": "minecraft:music_disc_far",
+            "count": null,
+            "weight": 1,
+            "chance": 4.2
+          },
+          {
+            "item": "minecraft:music_disc_mall",
+            "count": null,
+            "weight": 1,
+            "chance": 4.2
+          },
+          {
+            "item": "minecraft:music_disc_mellohi",
+            "count": null,
+            "weight": 1,
+            "chance": 4.2
+          },
+          {
+            "item": "minecraft:music_disc_stal",
+            "count": null,
+            "weight": 1,
+            "chance": 4.2
+          },
+          {
+            "item": "minecraft:music_disc_strad",
+            "count": null,
+            "weight": 1,
+            "chance": 4.2
+          },
+          {
+            "item": "minecraft:music_disc_ward",
+            "count": null,
+            "weight": 1,
+            "chance": 4.2
+          },
+          {
+            "item": "minecraft:music_disc_11",
+            "count": null,
+            "weight": 1,
+            "chance": 4.2
+          },
+          {
+            "item": "minecraft:music_disc_wait",
+            "count": null,
+            "weight": 1,
+            "chance": 4.2
+          },
+          {
+            "item": "minecraft:music_disc_otherside",
+            "count": null,
+            "weight": 1,
+            "chance": 4.2
+          },
+          {
+            "item": "minecraft:music_disc_pigstep",
+            "count": null,
+            "weight": 1,
+            "chance": 4.2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "broken_vein_tier2",
+    "name": "Broken Vein dungeon chest (tier 2)",
+    "pools": [
+      {
+        "rolls": [
+          4,
+          7
+        ],
+        "entries": [
+          {
+            "item": "minecraft:string",
+            "count": [
+              1,
+              4
+            ],
+            "weight": 12,
+            "chance": 11.5
+          },
+          {
+            "item": "minecraft:leather",
+            "count": [
+              1,
+              3
+            ],
+            "weight": 10,
+            "chance": 9.6
+          },
+          {
+            "item": "minecraft:flint",
+            "count": [
+              1,
+              5
+            ],
+            "weight": 12,
+            "chance": 11.5
+          },
+          {
+            "item": "minecraft:bone",
+            "count": [
+              2,
+              6
+            ],
+            "weight": 12,
+            "chance": 11.5
+          },
+          {
+            "item": "minecraft:netherite_scrap",
+            "count": [
+              1,
+              2
+            ],
+            "weight": 5,
+            "chance": 4.8
+          },
+          {
+            "item": "minecraft:diamond",
+            "count": [
+              1,
+              3
+            ],
+            "weight": 6,
+            "chance": 5.8
+          },
+          {
+            "item": "minecraft:gold_ingot",
+            "count": [
+              2,
+              5
+            ],
+            "weight": 8,
+            "chance": 7.7
+          },
+          {
+            "item": "prolinsuniverse:tynite_nugget",
+            "count": [
+              3,
+              7
+            ],
+            "weight": 10,
+            "chance": 9.6
+          },
+          {
+            "item": "prolinsuniverse:raw_tynite",
+            "count": [
+              1,
+              3
+            ],
+            "weight": 8,
+            "chance": 7.7
+          },
+          {
+            "item": "prolinsuniverse:urubithium_fragment",
+            "count": [
+              1,
+              4
+            ],
+            "weight": 7,
+            "chance": 6.7
+          },
+          {
+            "item": "prolinsuniverse:urubithium_ingot",
+            "count": [
+              1,
+              2
+            ],
+            "weight": 5,
+            "chance": 4.8
+          },
+          {
+            "item": "prolinsuniverse:urubithium_shard",
+            "count": [
+              1,
+              1
+            ],
+            "weight": 3,
+            "chance": 2.9
+          },
+          {
+            "item": "prolinsuniverse:radonite_nugget",
+            "count": [
+              3,
+              7
+            ],
+            "weight": 2,
+            "chance": 1.9
+          },
+          {
+            "item": "prolinsuniverse:xenonite_nugget",
+            "count": [
+              3,
+              7
+            ],
+            "weight": 2,
+            "chance": 1.9
+          },
+          {
+            "item": "prolinsuniverse:raw_radonite",
+            "count": [
+              1,
+              2
+            ],
+            "weight": 1,
+            "chance": 1
+          },
+          {
+            "item": "prolinsuniverse:raw_xenonite",
+            "count": [
+              1,
+              2
+            ],
+            "weight": 1,
+            "chance": 1
+          }
+        ]
+      },
+      {
+        "rolls": [
+          0,
+          1
+        ],
+        "entries": [
+          {
+            "item": "minecraft:music_disc_13",
+            "count": null,
+            "weight": 1,
+            "chance": 4.5
+          },
+          {
+            "item": "minecraft:music_disc_cat",
+            "count": null,
+            "weight": 1,
+            "chance": 4.5
+          },
+          {
+            "item": "minecraft:music_disc_blocks",
+            "count": null,
+            "weight": 1,
+            "chance": 4.5
+          },
+          {
+            "item": "minecraft:music_disc_chirp",
+            "count": null,
+            "weight": 1,
+            "chance": 4.5
+          },
+          {
+            "item": "minecraft:music_disc_far",
+            "count": null,
+            "weight": 1,
+            "chance": 4.5
+          },
+          {
+            "item": "minecraft:music_disc_mall",
+            "count": null,
+            "weight": 1,
+            "chance": 4.5
+          },
+          {
+            "item": "minecraft:music_disc_mellohi",
+            "count": null,
+            "weight": 1,
+            "chance": 4.5
+          },
+          {
+            "item": "minecraft:music_disc_stal",
+            "count": null,
+            "weight": 1,
+            "chance": 4.5
+          },
+          {
+            "item": "minecraft:music_disc_strad",
+            "count": null,
+            "weight": 1,
+            "chance": 4.5
+          },
+          {
+            "item": "minecraft:music_disc_ward",
+            "count": null,
+            "weight": 1,
+            "chance": 4.5
+          },
+          {
+            "item": "minecraft:music_disc_11",
+            "count": null,
+            "weight": 1,
+            "chance": 4.5
+          },
+          {
+            "item": "minecraft:music_disc_wait",
+            "count": null,
+            "weight": 1,
+            "chance": 4.5
+          },
+          {
+            "item": "minecraft:music_disc_otherside",
+            "count": null,
+            "weight": 1,
+            "chance": 4.5
+          },
+          {
+            "item": "minecraft:music_disc_pigstep",
+            "count": null,
+            "weight": 1,
+            "chance": 4.5
+          }
+        ]
+      },
+      {
+        "rolls": [
+          1,
+          1
+        ],
+        "entries": [
+          {
+            "item": "prolinsuniverse:xerion_alloy_sword",
+            "count": null,
+            "weight": 1,
+            "chance": 100
+          }
+        ]
+      },
+      {
+        "rolls": [
+          1,
+          1
+        ],
+        "entries": [
+          {
+            "item": "prolinsuniverse:xerion_alloy_bow",
+            "count": null,
+            "weight": 1,
+            "chance": 100
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "broken_vein_tier3",
+    "name": "Broken Vein dungeon chest (tier 3)",
+    "pools": [
+      {
+        "rolls": [
+          5,
+          8
+        ],
+        "entries": [
+          {
+            "item": "minecraft:string",
+            "count": [
+              1,
+              4
+            ],
+            "weight": 10,
+            "chance": 9.9
+          },
+          {
+            "item": "minecraft:leather",
+            "count": [
+              1,
+              3
+            ],
+            "weight": 8,
+            "chance": 7.9
+          },
+          {
+            "item": "minecraft:flint",
+            "count": [
+              1,
+              5
+            ],
+            "weight": 10,
+            "chance": 9.9
+          },
+          {
+            "item": "minecraft:bone",
+            "count": [
+              2,
+              6
+            ],
+            "weight": 10,
+            "chance": 9.9
+          },
+          {
+            "item": "minecraft:netherite_scrap",
+            "count": [
+              1,
+              3
+            ],
+            "weight": 6,
+            "chance": 5.9
+          },
+          {
+            "item": "minecraft:diamond",
+            "count": [
+              1,
+              4
+            ],
+            "weight": 8,
+            "chance": 7.9
+          },
+          {
+            "item": "minecraft:gold_ingot",
+            "count": [
+              2,
+              6
+            ],
+            "weight": 10,
+            "chance": 9.9
+          },
+          {
+            "item": "prolinsuniverse:tynite_nugget",
+            "count": [
+              3,
+              7
+            ],
+            "weight": 8,
+            "chance": 7.9
+          },
+          {
+            "item": "prolinsuniverse:raw_tynite",
+            "count": [
+              1,
+              4
+            ],
+            "weight": 6,
+            "chance": 5.9
+          },
+          {
+            "item": "prolinsuniverse:urubithium_fragment",
+            "count": [
+              2,
+              5
+            ],
+            "weight": 6,
+            "chance": 5.9
+          },
+          {
+            "item": "prolinsuniverse:urubithium_ingot",
+            "count": [
+              1,
+              3
+            ],
+            "weight": 5,
+            "chance": 5
+          },
+          {
+            "item": "prolinsuniverse:urubithium_shard",
+            "count": [
+              1,
+              2
+            ],
+            "weight": 4,
+            "chance": 4
+          },
+          {
+            "item": "prolinsuniverse:radonite_nugget",
+            "count": [
+              3,
+              7
+            ],
+            "weight": 3,
+            "chance": 3
+          },
+          {
+            "item": "prolinsuniverse:xenonite_nugget",
+            "count": [
+              3,
+              7
+            ],
+            "weight": 3,
+            "chance": 3
+          },
+          {
+            "item": "prolinsuniverse:raw_radonite",
+            "count": [
+              1,
+              3
+            ],
+            "weight": 2,
+            "chance": 2
+          },
+          {
+            "item": "prolinsuniverse:raw_xenonite",
+            "count": [
+              1,
+              3
+            ],
+            "weight": 2,
+            "chance": 2
+          }
+        ]
+      },
+      {
+        "rolls": [
+          0,
+          1
+        ],
+        "entries": [
+          {
+            "item": "minecraft:music_disc_13",
+            "count": null,
+            "weight": 1,
+            "chance": 5
+          },
+          {
+            "item": "minecraft:music_disc_cat",
+            "count": null,
+            "weight": 1,
+            "chance": 5
+          },
+          {
+            "item": "minecraft:music_disc_blocks",
+            "count": null,
+            "weight": 1,
+            "chance": 5
+          },
+          {
+            "item": "minecraft:music_disc_chirp",
+            "count": null,
+            "weight": 1,
+            "chance": 5
+          },
+          {
+            "item": "minecraft:music_disc_far",
+            "count": null,
+            "weight": 1,
+            "chance": 5
+          },
+          {
+            "item": "minecraft:music_disc_mall",
+            "count": null,
+            "weight": 1,
+            "chance": 5
+          },
+          {
+            "item": "minecraft:music_disc_mellohi",
+            "count": null,
+            "weight": 1,
+            "chance": 5
+          },
+          {
+            "item": "minecraft:music_disc_stal",
+            "count": null,
+            "weight": 1,
+            "chance": 5
+          },
+          {
+            "item": "minecraft:music_disc_strad",
+            "count": null,
+            "weight": 1,
+            "chance": 5
+          },
+          {
+            "item": "minecraft:music_disc_ward",
+            "count": null,
+            "weight": 1,
+            "chance": 5
+          },
+          {
+            "item": "minecraft:music_disc_11",
+            "count": null,
+            "weight": 1,
+            "chance": 5
+          },
+          {
+            "item": "minecraft:music_disc_wait",
+            "count": null,
+            "weight": 1,
+            "chance": 5
+          },
+          {
+            "item": "minecraft:music_disc_otherside",
+            "count": null,
+            "weight": 1,
+            "chance": 5
+          },
+          {
+            "item": "minecraft:music_disc_pigstep",
+            "count": null,
+            "weight": 1,
+            "chance": 5
+          }
+        ]
+      },
+      {
+        "rolls": [
+          1,
+          1
+        ],
+        "entries": [
+          {
+            "item": "prolinsuniverse:xerion_alloy_helmet",
+            "count": null,
+            "weight": 1,
+            "chance": 25
+          },
+          {
+            "item": "prolinsuniverse:xerion_alloy_chestplate",
+            "count": null,
+            "weight": 1,
+            "chance": 25
+          },
+          {
+            "item": "prolinsuniverse:xerion_alloy_leggings",
+            "count": null,
+            "weight": 1,
+            "chance": 25
+          },
+          {
+            "item": "prolinsuniverse:xerion_alloy_boots",
+            "count": null,
+            "weight": 1,
+            "chance": 25
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "skarn_dungeon_island",
+    "name": "Skarn Dungeon Island chest",
+    "pools": [
+      {
+        "rolls": [
+          4,
+          8
+        ],
+        "entries": [
+          {
+            "item": "minecraft:magma_block",
+            "count": [
+              2,
+              6
+            ],
+            "weight": 20,
+            "chance": 23.8
+          },
+          {
+            "item": "minecraft:blaze_powder",
+            "count": [
+              1,
+              4
+            ],
+            "weight": 14,
+            "chance": 16.7
+          },
+          {
+            "item": "minecraft:blaze_rod",
+            "count": [
+              1,
+              3
+            ],
+            "weight": 11,
+            "chance": 13.1
+          },
+          {
+            "item": "prolinsuniverse:raw_vein_skitter_meat",
+            "count": [
+              1,
+              3
+            ],
+            "weight": 10,
+            "chance": 11.9
+          },
+          {
+            "item": "prolinsuniverse:raw_vein_stalker_meat",
+            "count": [
+              1,
+              3
+            ],
+            "weight": 10,
+            "chance": 11.9
+          },
+          {
+            "item": "minecraft:rotten_flesh",
+            "count": [
+              1,
+              3
+            ],
+            "weight": 7,
+            "chance": 8.3
+          },
+          {
+            "item": "prolinsuniverse:xenonite_ingot",
+            "count": [
+              1,
+              2
+            ],
+            "weight": 6,
+            "chance": 7.1
+          },
+          {
+            "item": "prolinsuniverse:radonite_ingot",
+            "count": [
+              1,
+              2
+            ],
+            "weight": 6,
+            "chance": 7.1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "werebear_den",
+    "name": "Werebear Den chest",
+    "pools": [
+      {
+        "rolls": [
+          4,
+          7
+        ],
+        "entries": [
+          {
+            "item": "minecraft:bone",
+            "count": [
+              2,
+              6
+            ],
+            "weight": 20,
+            "chance": 19.6
+          },
+          {
+            "item": "minecraft:rotten_flesh",
+            "count": [
+              1,
+              4
+            ],
+            "weight": 16,
+            "chance": 15.7
+          },
+          {
+            "item": "minecraft:leather",
+            "count": [
+              1,
+              3
+            ],
+            "weight": 12,
+            "chance": 11.8
+          },
+          {
+            "item": "minecraft:beef",
+            "count": [
+              1,
+              3
+            ],
+            "weight": 8,
+            "chance": 7.8
+          },
+          {
+            "item": "minecraft:sweet_berries",
+            "count": [
+              2,
+              6
+            ],
+            "weight": 8,
+            "chance": 7.8
+          },
+          {
+            "item": "minecraft:honeycomb",
+            "count": [
+              1,
+              3
+            ],
+            "weight": 5,
+            "chance": 4.9
+          },
+          {
+            "item": "prolinsuniverse:werebear_fur",
+            "count": [
+              1,
+              2
+            ],
+            "weight": 10,
+            "chance": 9.8
+          },
+          {
+            "item": "minecraft:iron_nugget",
+            "count": [
+              2,
+              8
+            ],
+            "weight": 10,
+            "chance": 9.8
+          },
+          {
+            "item": "minecraft:gold_nugget",
+            "count": [
+              2,
+              7
+            ],
+            "weight": 7,
+            "chance": 6.9
+          },
+          {
+            "item": "minecraft:arrow",
+            "count": [
+              2,
+              8
+            ],
+            "weight": 6,
+            "chance": 5.9
+          }
+        ]
+      },
+      {
+        "rolls": [
+          1,
+          1
+        ],
+        "entries": [
+          {
+            "item": "minecraft:iron_axe",
+            "count": null,
+            "weight": 4,
+            "chance": 16
+          },
+          {
+            "item": "minecraft:iron_sword",
+            "count": null,
+            "weight": 3,
+            "chance": 12
+          },
+          {
+            "item": "minecraft:leather_chestplate",
+            "count": null,
+            "weight": 3,
+            "chance": 12
+          },
+          {
+            "item": "minecraft:saddle",
+            "count": null,
+            "weight": 2,
+            "chance": 8
+          },
+          {
+            "item": "minecraft:name_tag",
+            "count": null,
+            "weight": 2,
+            "chance": 8
+          },
+          {
+            "item": "minecraft:golden_apple",
+            "count": null,
+            "weight": 1,
+            "chance": 4
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "xerion_dungeon_room_1_loot",
+    "name": "Xerion Dungeon chest (room 1)",
+    "pools": [
+      {
+        "rolls": [
+          2,
+          4
+        ],
+        "entries": [
+          {
+            "item": "prolinsuniverse:radonite_nugget",
+            "count": [
+              2,
+              6
+            ],
+            "weight": 15,
+            "chance": 33.3
+          },
+          {
+            "item": "prolinsuniverse:xenonite_nugget",
+            "count": [
+              2,
+              6
+            ],
+            "weight": 15,
+            "chance": 33.3
+          },
+          {
+            "item": "minecraft:diamond",
+            "count": [
+              1,
+              2
+            ],
+            "weight": 5,
+            "chance": 11.1
+          },
+          {
+            "item": "minecraft:emerald",
+            "count": [
+              1,
+              4
+            ],
+            "weight": 8,
+            "chance": 17.8
+          },
+          {
+            "item": "prolinsuniverse:hemacite_ingot",
+            "count": null,
+            "weight": 2,
+            "chance": 4.4
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "xerion_dungeon_room_2_loot",
+    "name": "Xerion Dungeon chest (room 2)",
+    "pools": [
+      {
+        "rolls": [
+          2,
+          5
+        ],
+        "entries": [
+          {
+            "item": "prolinsuniverse:radonite_nugget",
+            "count": [
+              3,
+              8
+            ],
+            "weight": 15,
+            "chance": 22.4
+          },
+          {
+            "item": "prolinsuniverse:xenonite_nugget",
+            "count": [
+              3,
+              8
+            ],
+            "weight": 15,
+            "chance": 22.4
+          },
+          {
+            "item": "prolinsuniverse:radonite_ingot",
+            "count": [
+              1,
+              3
+            ],
+            "weight": 8,
+            "chance": 11.9
+          },
+          {
+            "item": "prolinsuniverse:xenonite_ingot",
+            "count": [
+              1,
+              3
+            ],
+            "weight": 8,
+            "chance": 11.9
+          },
+          {
+            "item": "minecraft:diamond",
+            "count": [
+              1,
+              3
+            ],
+            "weight": 6,
+            "chance": 9
+          },
+          {
+            "item": "minecraft:emerald",
+            "count": [
+              2,
+              6
+            ],
+            "weight": 10,
+            "chance": 14.9
+          },
+          {
+            "item": "prolinsuniverse:xerion_alloy_sword",
+            "count": null,
+            "weight": 1,
+            "chance": 1.5
+          },
+          {
+            "item": "prolinsuniverse:xerion_alloy_pickaxe",
+            "count": null,
+            "weight": 1,
+            "chance": 1.5
+          },
+          {
+            "item": "prolinsuniverse:hemacite_ingot",
+            "count": null,
+            "weight": 3,
+            "chance": 4.5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "xerion_dungeon_room_3_loot",
+    "name": "Xerion Dungeon chest (room 3)",
+    "pools": [
+      {
+        "rolls": [
+          3,
+          5
+        ],
+        "entries": [
+          {
+            "item": "prolinsuniverse:radonite_ingot",
+            "count": [
+              2,
+              5
+            ],
+            "weight": 12,
+            "chance": 19.7
+          },
+          {
+            "item": "prolinsuniverse:xenonite_ingot",
+            "count": [
+              2,
+              5
+            ],
+            "weight": 12,
+            "chance": 19.7
+          },
+          {
+            "item": "minecraft:diamond",
+            "count": [
+              2,
+              4
+            ],
+            "weight": 10,
+            "chance": 16.4
+          },
+          {
+            "item": "minecraft:emerald",
+            "count": [
+              3,
+              8
+            ],
+            "weight": 12,
+            "chance": 19.7
+          },
+          {
+            "item": "prolinsuniverse:xerion_alloy_sword",
+            "count": null,
+            "weight": 1,
+            "chance": 1.6
+          },
+          {
+            "item": "prolinsuniverse:xerion_alloy_pickaxe",
+            "count": null,
+            "weight": 1,
+            "chance": 1.6
+          },
+          {
+            "item": "prolinsuniverse:xerion_alloy_axe",
+            "count": null,
+            "weight": 1,
+            "chance": 1.6
+          },
+          {
+            "item": "prolinsuniverse:xerion_alloy_shovel",
+            "count": null,
+            "weight": 1,
+            "chance": 1.6
+          },
+          {
+            "item": "prolinsuniverse:xerion_alloy_hoe",
+            "count": null,
+            "weight": 1,
+            "chance": 1.6
+          },
+          {
+            "item": "prolinsuniverse:xerion_alloy_bow",
+            "count": null,
+            "weight": 1,
+            "chance": 1.6
+          },
+          {
+            "item": "prolinsuniverse:xerion_alloy_helmet",
+            "count": null,
+            "weight": 1,
+            "chance": 1.6
+          },
+          {
+            "item": "prolinsuniverse:xerion_alloy_chestplate",
+            "count": null,
+            "weight": 1,
+            "chance": 1.6
+          },
+          {
+            "item": "prolinsuniverse:xerion_alloy_leggings",
+            "count": null,
+            "weight": 1,
+            "chance": 1.6
+          },
+          {
+            "item": "prolinsuniverse:xerion_alloy_boots",
+            "count": null,
+            "weight": 1,
+            "chance": 1.6
+          },
+          {
+            "item": "prolinsuniverse:hemacite_ingot",
+            "count": [
+              1,
+              2
+            ],
+            "weight": 5,
+            "chance": 8.2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "xerion_dungeon_room_final_1_loot",
+    "name": "Xerion Dungeon chest (final room)",
+    "pools": [
+      {
+        "rolls": [
+          1,
+          1
+        ],
+        "entries": [
+          {
+            "item": "prolinsuniverse:hemacite_boots",
+            "count": null,
+            "weight": 1,
+            "chance": 100
+          }
+        ]
+      },
+      {
+        "rolls": [
+          2,
+          4
+        ],
+        "entries": [
+          {
+            "item": "prolinsuniverse:hemacite_ingot",
+            "count": [
+              1,
+              3
+            ],
+            "weight": 10,
+            "chance": 31.3
+          },
+          {
+            "item": "prolinsuniverse:radonite_ingot",
+            "count": [
+              2,
+              5
+            ],
+            "weight": 8,
+            "chance": 25
+          },
+          {
+            "item": "prolinsuniverse:xenonite_ingot",
+            "count": [
+              2,
+              5
+            ],
+            "weight": 8,
+            "chance": 25
+          },
+          {
+            "item": "minecraft:diamond",
+            "count": [
+              2,
+              5
+            ],
+            "weight": 6,
+            "chance": 18.8
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "xerion_dungeon_room_final_2_loot",
+    "name": "Xerion Dungeon chest (final room)",
+    "pools": [
+      {
+        "rolls": [
+          1,
+          1
+        ],
+        "entries": [
+          {
+            "item": "prolinsuniverse:hemacite_leggings",
+            "count": null,
+            "weight": 1,
+            "chance": 100
+          }
+        ]
+      },
+      {
+        "rolls": [
+          2,
+          4
+        ],
+        "entries": [
+          {
+            "item": "prolinsuniverse:hemacite_ingot",
+            "count": [
+              1,
+              3
+            ],
+            "weight": 10,
+            "chance": 31.3
+          },
+          {
+            "item": "prolinsuniverse:radonite_ingot",
+            "count": [
+              2,
+              5
+            ],
+            "weight": 8,
+            "chance": 25
+          },
+          {
+            "item": "prolinsuniverse:xenonite_ingot",
+            "count": [
+              2,
+              5
+            ],
+            "weight": 8,
+            "chance": 25
+          },
+          {
+            "item": "minecraft:diamond",
+            "count": [
+              2,
+              5
+            ],
+            "weight": 6,
+            "chance": 18.8
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "xerion_dungeon_room_final_3_loot",
+    "name": "Xerion Dungeon chest (final room)",
+    "pools": [
+      {
+        "rolls": [
+          1,
+          1
+        ],
+        "entries": [
+          {
+            "item": "prolinsuniverse:hemacite_chestplate",
+            "count": null,
+            "weight": 1,
+            "chance": 100
+          }
+        ]
+      },
+      {
+        "rolls": [
+          2,
+          4
+        ],
+        "entries": [
+          {
+            "item": "prolinsuniverse:hemacite_ingot",
+            "count": [
+              1,
+              3
+            ],
+            "weight": 10,
+            "chance": 31.3
+          },
+          {
+            "item": "prolinsuniverse:radonite_ingot",
+            "count": [
+              2,
+              5
+            ],
+            "weight": 8,
+            "chance": 25
+          },
+          {
+            "item": "prolinsuniverse:xenonite_ingot",
+            "count": [
+              2,
+              5
+            ],
+            "weight": 8,
+            "chance": 25
+          },
+          {
+            "item": "minecraft:diamond",
+            "count": [
+              2,
+              5
+            ],
+            "weight": 6,
+            "chance": 18.8
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "xerion_dungeon_room_final_4_loot",
+    "name": "Xerion Dungeon chest (final room)",
+    "pools": [
+      {
+        "rolls": [
+          1,
+          1
+        ],
+        "entries": [
+          {
+            "item": "prolinsuniverse:hemacite_helmet",
+            "count": null,
+            "weight": 1,
+            "chance": 100
+          }
+        ]
+      },
+      {
+        "rolls": [
+          2,
+          4
+        ],
+        "entries": [
+          {
+            "item": "prolinsuniverse:hemacite_ingot",
+            "count": [
+              1,
+              3
+            ],
+            "weight": 10,
+            "chance": 31.3
+          },
+          {
+            "item": "prolinsuniverse:radonite_ingot",
+            "count": [
+              2,
+              5
+            ],
+            "weight": 8,
+            "chance": 25
+          },
+          {
+            "item": "prolinsuniverse:xenonite_ingot",
+            "count": [
+              2,
+              5
+            ],
+            "weight": 8,
+            "chance": 25
+          },
+          {
+            "item": "minecraft:diamond",
+            "count": [
+              2,
+              5
+            ],
+            "weight": 6,
+            "chance": 18.8
+          }
+        ]
+      }
+    ]
+  }
+]

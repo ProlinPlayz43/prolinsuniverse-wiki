@@ -1,0 +1,43 @@
+---
+// "Where does it spawn" table, built from the mod's neoforge:add_spawns biome modifiers.
+// If the page sets `mob.spawnText` that text is shown instead (for summoned / structure-only / scripted spawns).
+import { resolveMob } from '../lib/mob';
+import { biomes, href, fmt } from '../lib/data';
+
+const { mob: fm } = Astro.props as { mob: any };
+const m = resolveMob(fm);
+const rows = (m.spawn ?? []).flatMap((s: any) =>
+  (s.biomes ?? []).map((b: any) => {
+    const own = b.biome && biomes.find((x) => x.id === b.biome);
+    return {
+      name: b.name,
+      href: own ? href(`biomes/${own.id}`) : null,
+      weight: s.weight,
+      group: s.min === s.max ? fmt(s.min) : `${fmt(s.min)}–${fmt(s.max)}`,
+    };
+  })
+);
+---
+
+{
+  m.spawnText ? (
+    <p>{m.spawnText}</p>
+  ) : rows.length ? (
+    <table class="wiki-table">
+      <thead>
+        <tr><th>Biome</th><th>Group size</th><th>Spawn weight</th></tr>
+      </thead>
+      <tbody>
+        {rows.map((r: any) => (
+          <tr>
+            <td>{r.href ? <a href={r.href}>{r.name}</a> : r.name}</td>
+            <td>{r.group}</td>
+            <td>{r.weight}</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  ) : (
+    <p class="wiki-muted">This mob has no natural biome spawn rule.</p>
+  )
+}

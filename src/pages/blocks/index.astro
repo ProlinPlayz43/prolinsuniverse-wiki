@@ -1,0 +1,41 @@
+---
+import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+import ImagePlaceholder from '../../components/ImagePlaceholder.astro';
+import { blocks, href } from '../../lib/data';
+
+const GROUPS: [string, string][] = [
+  ['ore', 'Ores'],
+  ['storage', 'Storage blocks'],
+  ['natural', 'Natural blocks'],
+  ['wood', 'Wood'],
+  ['functional', 'Functional blocks'],
+  ['other', 'Other blocks'],
+];
+const byGroup = GROUPS.map(([group, label]) => ({
+  group,
+  label,
+  list: blocks.filter((b) => b.group === group).sort((a, b) => a.name.localeCompare(b.name)),
+})).filter((g) => g.list.length);
+const headings = byGroup.map((g) => ({ depth: 2, slug: g.group, text: g.label }));
+---
+
+<StarlightPage frontmatter={{ title: 'Blocks', description: 'Every block added by Prolins Universe.' }} headings={headings}>
+  <p>{blocks.length} blocks. Select one for its properties, drops and recipes.</p>
+  {
+    byGroup.map((g) => (
+      <>
+        <h2 id={g.group}>{g.label}</h2>
+        <ul class="wiki-grid">
+          {g.list.map((b) => (
+            <li>
+              <a class="wiki-card" href={href(`blocks/${b.slug}`)}>
+                <ImagePlaceholder kind="blocks" id={b.id} alt={b.name} ratio="1 / 1" width={128} pixelated small />
+                <span class="wiki-card__name">{b.name}</span>
+              </a>
+            </li>
+          ))}
+        </ul>
+      </>
+    ))
+  }
+</StarlightPage>

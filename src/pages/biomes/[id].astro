@@ -1,0 +1,105 @@
+---
+import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+import Infobox from '../../components/Infobox.astro';
+import { biomes, mobById, mobHref, fmt } from '../../lib/data';
+
+export function getStaticPaths() {
+  return biomes.map((biome) => ({ params: { id: biome.id }, props: { biome } }));
+}
+const { biome } = Astro.props;
+
+const COLORS: [string, string][] = [
+  ['Sky', 'sky'],
+  ['Fog', 'fog'],
+  ['Water', 'water'],
+  ['Grass', 'grass'],
+  ['Foliage', 'foliage'],
+];
+const swatches = COLORS.filter(([, k]) => biome.colors?.[k]).map(([label, k]) => ({ label, color: biome.colors[k] as string }));
+const spawnMobs = (biome.mobs ?? []).map((id: string) => mobById(id)).filter(Boolean);
+
+const rows = [
+  { label: 'Dimension', value: biome.dimension },
+  { label: 'Temperature', value: biome.temperature != null ? fmt(biome.temperature) : null },
+  { label: 'Downfall', value: biome.downfall != null ? fmt(biome.downfall) : null },
+  { label: 'Precipitation', value: biome.precipitation === false ? 'None' : biome.precipitation ? 'Yes' : null },
+  { label: 'Clouds', value: biome.clouds === false ? 'None' : null },
+  { label: 'Structures', value: biome.structures?.length ? biome.structures.map((s: any) => s.name).join(', ') : null },
+];
+---
+
+<StarlightPage
+  frontmatter={{
+    title: biome.name,
+    description: `${biome.name}: a biome in the ${biome.dimension ?? 'Prolins Universe'} dimension, with its mobs and structures.`,
+    tableOfContents: false,
+  }}
+>
+  <Infobox title={biome.name} kind="biomes" id={biome.id} ratio="16 / 9" rows={rows} since={biome.since} />
+  <p>
+    {biome.name} is a biome of the <strong>{biome.dimension}</strong> dimension.
+  </p>
+
+  {
+    spawnMobs.length > 0 && (
+      <>
+        <h2 id="mobs">Mobs</h2>
+        <p>These mobs spawn naturally here:</p>
+        <ul>
+          {spawnMobs.map((m: any) => (
+            <li>
+              <a href={mobHref(m.id)}>{m.name}</a>
+            </li>
+          ))}
+        </ul>
+      </>
+    )
+  }
+
+  {
+    biome.structures?.length > 0 && (
+      <>
+        <h2 id="structures">Structures</h2>
+        <ul>
+          {biome.structures.map((s: any) => (
+            <li>{s.name}</li>
+          ))}
+        </ul>
+      </>
+    )
+  }
+
+  {
+    swatches.length > 0 && (
+      <>
+        <h2 id="colours">Colours</h2>
+        <ul class="swatches">
+          {swatches.map((s) => (
+            <li>
+              <span class="chip" style={`background:${s.color}`}></span> {s.label} <code>{s.color}</code>
+            </li>
+          ))}
+        </ul>
+      </>
+    )
+  }
+</StarlightPage>
+
+<style>
+  .swatches {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem 1.25rem;
+  }
+  .chip {
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    margin-right: 0.25rem;
+    vertical-align: -0.15rem;
+    border: 1px solid var(--sl-color-gray-4);
+    border-radius: 0.2rem;
+  }
+</style>

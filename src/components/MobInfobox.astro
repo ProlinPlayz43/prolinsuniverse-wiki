@@ -1,0 +1,54 @@
+---
+// The reusable mob infobox: image, tier, health, damage, spawn biomes, drops. Reads the generated data by `mob.id`
+// and applies any overrides written in the page frontmatter. Missing facts are simply skipped.
+import Infobox from './Infobox.astro';
+import TierBadge from './TierBadge.astro';
+import { resolveMob } from '../lib/mob';
+import { biomes, ref, fmt, hearts, href } from '../lib/data';
+
+const { mob: fm, title } = Astro.props as { mob: any; title: string };
+const m = resolveMob(fm);
+
+const spawnBiomes = new Map<string, { name: string; href: string | null }>();
+for (const s of m.spawn ?? []) {
+  for (const b of s.biomes ?? []) {
+    const own = b.biome && biomes.find((x) => x.id === b.biome);
+    spawnBiomes.set(b.id, { name: b.name, href: own ? href(`biomes/${own.id}`) : null });
+  }
+}
+const spawnLinks = [...spawnBiomes.values()];
+
+const dropIds = [...new Set((m.drops ?? []).flatMap((d: any) => [...d.items, d.cooked].filter(Boolean)))] as string[];
+const dropLinks = dropIds.map((id) => ({ name: ref(id).name, href: ref(id).href }));
+
+const rows = [
+  { label: 'Type', value: m.boss ? 'Boss' : null },
+  { label: 'Health', value: m.health != null ? `${fmt(m.health)} (${hearts(m.health)})` : null },
+  { label: 'Attack damage', value: m.attackDamage != null ? `${fmt(m.attackDamage)} (${hearts(m.attackDamage)})` : null },
+  { label: 'Armor', value: m.armor != null && m.armor !== 0 ? fmt(m.armor) : null },
+  { label: 'Knockback resistance', value: m.knockbackResistance ? fmt(m.knockbackResistance) : null },
+  { label: 'Speed', value: m.movementSpeed != null ? fmt(m.movementSpeed) : null },
+  { label: 'Flying speed', value: m.flyingSpeed != null ? fmt(m.flyingSpeed) : null },
+  { label: 'Size', value: m.width && m.height ? `${fmt(m.width)} × ${fmt(m.height)} blocks` : null },
+  { label: 'Fire immune', value: m.fireImmune ? 'Yes' : null },
+  { label: 'Tameable', value: m.tameable ? 'Yes' : null },
+  { label: 'Rideable', value: m.rideable ? 'Yes' : null },
+  m.spawnText
+    ? { label: 'Spawns', value: m.spawnText }
+    : { label: 'Spawns in', links: spawnLinks },
+  { label: 'Drops', links: dropLinks },
+  ...(m.extra ?? []).map((e: any) => ({ label: e.label, value: e.value })),
+];
+---
+
+<Infobox title={title} kind={m.boss ? 'bosses' : 'mobs'} id={m.id} rows={rows} since={m.since}>
+  <div slot="badges" class="badges"><TierBadge tier={m.tier} boss={m.boss} /></div>
+</Infobox>
+
+<style>
+  .badges {
+    display: flex;
+    justify-content: center;
+    padding: 0 0.7rem 0.7rem;
+  }
+</style>
